@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+tensorflow
+transformers
+fastapi
+uvicorn
+pydantic
+requests
