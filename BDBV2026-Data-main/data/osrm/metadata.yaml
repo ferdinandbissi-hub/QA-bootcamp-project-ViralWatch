@@ -1,0 +1,17 @@
+source: "OSRM road-network routing (OpenStreetMap) applied to DRC health-zone polygons"
+citation: "OpenStreetMap contributors (2026). Routing via Project OSRM. Health-zone geometry: DRC_Health_zones.shp (see data/shapefiles/)."
+source_url: "http://project-osrm.org/"
+retrieved_on: "2026-03-17"
+license: "OpenStreetMap data © OpenStreetMap contributors, ODbL 1.0 (https://www.openstreetmap.org/copyright). OSRM routing engine: BSD-2-Clause."
+contact: "https://github.com/Project-OSRM/osrm-backend/issues"
+runtime: R
+period: "2026-03"
+notes: |
+  Pairwise car travel-time (minutes) and road-distance (km) matrices for all 519
+  DRC health zones. Built by data/osrm/process.R: zone polygons from
+  data/shapefiles/DRC_Health_zones.shp, representative points via st_point_on_surface(),
+  routed with osrm::osrmTable() (car profile, public OSRM API). Outputs:
+  processed/osrm__travel_time__static.csv, processed/osrm__road_distance__static.csv
+  (square OD matrices; zone labels from shapefile field Nom). Coverage: national.
+  Known issues: Idjwi largely NA (island not connected in car network).
+  See README.md for format, regeneration, and limitations.

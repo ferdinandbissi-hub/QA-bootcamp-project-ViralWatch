@@ -1,0 +1,160 @@
+See all DONs related to this event
+Read more about Ebola disease
+Situation at a glance
+On 5 May 2026, the World Health Organization (WHO) was alerted of a high-mortality outbreak of unknown illness in Mongbwalu Health Zone, Ituri Province, Democratic Republic of the Congo (DRC), including deaths among health workers. 
+On 14 May 2026, the Institut national de recherche biomédicale (INRB) Kinshasa analyzed 13 blood samples from Rwampara Health Zone, Ituri Province. Laboratory analysis confirmed Bundibugyo virus disease (BVD) in eight of these samples on 15 May, a species of Ebola.
+The case fatality rates in the past two BVD outbreaks have ranged from 30% to 50%. Unlike Ebola virus disease, there is no licensed vaccine or specific therapeutics against Bundibugyo virus, though early supportive care is lifesaving. 
+On 15 May 2026, the Ministry of Public Health, Hygiene and Social Welfare, DRC, officially declared the 17th Ebola Disease outbreak in DRC. Concurrently, the Uganda Ministry of Health confirmed an outbreak of BVD following the identification of one imported case from DRC, a Congolese man who died in the capital city of Kampala. 
+On 17 May 2026, WHO Director-General, after having consulted the States Parties where the event is known to be currently occurring, determined that the Ebola disease caused by Bundibugyo virus in DRC and Uganda constitutes a public health emergency of international concern (PHEIC), as defined in the provisions of IHR.
+Response measures include deployment of rapid response teams, delivery of medical supplies, strengthened surveillance, laboratory confirmation, infection prevention and control assessments, the set-up of safe treatment centers, and community engagement. WHO is supporting the coordination of the response, case management, and cross-border preparedness. WHO advice has been issued to countries.
+Description of the situation
+On 5 May 2026, WHO received an alert regarding an unknown illness with high mortality reported in Mongbwalu Health Zone, Ituri Province, including four health workers who died within four days. Following an in-depth investigation by the rapid response team in Mongbwalu and Rwampara health zones (HZ) on 13 May, the outbreak was subsequently confirmed as Bundibugyo virus disease (BVD) due to Bundibugyo virus (BDBV) (
+Orthoebolavirus bundibugyoense,
+species) on 15 May.
+On 15 May 2026, the Ministry of Public Health, Hygiene and Social Welfare officially declared the 17
+th
+Ebola Disease outbreak in the DRC, occurring in Rwampara, Mongwalu and Bunia HZ.
+The first currently known suspected case, a health worker, reported onset of symptoms including fever, hemorrhaging, vomiting and intense malaise on 24 April 2026. The case died at a medical centre in Bunia.
+As of 15 May, a total of 246 suspected cases and 80 deaths (four deaths among confirmed cases) have been reported from three HZ: Rwampara (six health areas affected), Mongbwalu (three health areas affected), and Bunia .  Twenty four suspected cases are currently in isolation facilities across the three HZ.  In addition, unusual clusters of community deaths with symptoms compatible with Bundibugyo virus disease (BVD) are being investigated across other HZ in Ituri and North Kivu.
+A further case reported on 16 May, an individual returning from Ituri to Kinshasa, has tested NEGATIVE for Bundibugyo virus on confirmatory testing by the Institut National de la Recherche Biomédicale (INRB) of DRC, and is therefore not considered a confirmed case.
+Most of the suspected cases are between 20 and 39 years old, with females accounting for over 60%, suggesting significant risks associated with household and caregiver transmission.
+Initial testing of 20 samples collected in Rwampara HZ and analysed at the Provincial Public Health Laboratory in Bunia using standard Ebola Xpert were negative for Ebola virus. Samples were sent to INRB for further analysis, of which eight samples analysed were confirmed as
+Orthoebolavirus
+by polymerase chain reaction (PCR) on 15 May. Genomic sequencing confirmed the virus species as Bundibugyo virus (BDBV).
+As of 15 May, 65 contacts have been listed, with 15 identified as high-risk. However, follow-up remains weak due to insecurity and movement restrictions. Several listed contacts became symptomatic and died before they could be isolated.
+On 15 May 2026, the Ministry of Health of Uganda confirmed an outbreak of BVD following the identification of an imported case from the DRC. The case is an elderly man who was admitted to a private hospital on 11 May with severe symptoms and died on 14 May. The post-mortem transfer of the body to DRC was completed the same day. A clinical sample collected when the case was admitted on 11 May was tested at the Central Emergency Surveillance and Response Support Laboratory, Wandegeya, and was confirmed as Bundibugyo virus on 15 May 2026. A second imported case was confirmed on 16 May in Kampala, in an individual returning from DRC with no apparent links to the first case. At the time of reporting, no local transmission has been identified in Uganda.
+On 17 May 2026, the Director-General of WHO, after having consulted the States Parties where the event is known to be currently occurring as defined in the provisions of the International Health Regulations (2005) (IHR), determined that the Ebola disease caused by Bundibugyo virus in DRC and Uganda constitutes a PHEIC.
+It is currently thought that the event originated in the Mongbwalu HZ, DRC, a high-traffic mining area, with cases subsequently migrating to Rwampara and Bunia to seek medical care. Ituri province borders South Sudan and Uganda (and Bunia HZ is less than 500km from Uganda). A full epidemiological investigation and trace back exercise is ongoing.
+Ituri’s role as a commercial and migratory hub and proximity to Uganda and South Sudan increases the risk of regional exportation and cross-border transmission.
+Figure 1. Health Zones affected by Bundibugyo virus disease in Democratic Republic of Congo, as of 16 May 2026
+Epidemiology
+Bundibugyo virus disease (BVD) is a severe and often fatal form of Ebola disease caused by the Bundibugyo virus, one of the
+Orthoebolavirus
+species. It is a zoonotic disease, with fruit bats suspected to be the natural reservoir. Human infection occurs through close contact with the blood or secretions of infected wildlife, such as bats or non-human primates, and subsequently spreads from person to person through direct contact with the blood, secretions, organs, or other bodily fluids of infected individuals or contaminated surfaces. Transmission is particularly amplified in health-care settings when infection prevention and control (IPC) measures are inadequate, and during unsafe burial practices involving direct contact with the deceased.
+The incubation period for BVD ranges from 2 to 21 days, and individuals are usually not infectious until symptom onset. Early symptoms are non-specific, including fever, fatigue, muscle pain, headache, and sore throat, which complicates clinical diagnosis and can delay detection. These progress to gastrointestinal symptoms, organ dysfunction, and in some cases haemorrhagic manifestations. Case fatality rates in the past two BVD outbreaks, reported in Uganda and in DRC in 2007 and 2012, have ranged from approximately 30% to 50%.
+Differentiating BVD from other endemic febrile illnesses such as malaria is challenging without laboratory confirmation using PCR or antigen/antibody-based assays. Control relies on rapid case identification, isolation and care, contact tracing, safe burials, and strong community engagement, as no approved vaccines or specific treatments currently exist for BVD.
+Public health response
+Health authorities in DRC are implementing public health measures, including but not limited to the following:
+Coordination
+Rapid response teams have been deployed to Rwampara and Mongbwalu HZ.
+Provincial coordination and
+emergency meetings by le centre d’operation des urgences en sante publique (COUSP) have been held.
+Surveillance and Laboratory
+Surveillance for suspected and probable cases is ongoing (including at relevant Points of Entry and borders).
+Operational case definitions have been elaborated in Ituri.
+Sequencing confirmed Bundibugyo virus in positive RT-PCR samples.
+Risk Communication and Community Engagement (RCCE)
+Social mobilization meeting was held with community leaders in the Rural commune of Mongbwalu under the leadership of the Mayor.
+Infection Prevention and Control (IPC)
+IPC assessment in key health facilities is ongoing: Bunia Hospital Centre of the Evangelical Medical Centre (CME), Mongbwalu General Referral Hospital and Abelkozo Health Centre.
+CME Bunia is maintaining isolation protocols. Healthcare workers have been briefed on the specific diagnostic profile of this strain.
+Logistics
+Logistical support has been provided for investigations in Mongbwalu and Rwampara Health Zones.
+Support has been provided for the transportation of samples to INRB Kinshasa.
+Health authorities in Uganda are implementing public health measures, including but not limited to the following:
+Activating national and district-level emergency measures, including enhanced surveillance, screening at borders, deployment of rapid response teams, isolation of a high-risk contact, and quarantine of all identified contacts.
+Strengthening of preparedness activities such as mobile laboratory deployment, infection prevention, and risk communication.
+Rapid response readiness teams have been deployed at all official and informal points of entry along the western border, major transit routes, and pilgrimage corridors.
+Advising health workers to remain vigilant and adhere strictly to infection prevention measures.
+WHO is supporting the national authorities, including through:
+Deployment of technical expertise and rapid response teams to support response efforts.
+Deployment of IPC, clinical management and sample collection kits.
+Identification of isolation facilities for case management in Bunia, Rwampara, and Mongbwalu HZ .
+Dissemination of WHO case management protocol.
+In-depth investigations and listing of contacts of suspected/probable cases.
+Strengthening epidemiological surveillance, IPC and RCCE at all points of entry.
+Strengthening Point of Entry (PoE) screening and cross border coordination, including mass gatherings.
+Supporting the Ministry of Health in implementation of the Response Plan and WHO internal Response Plan.
+Following up with the IHR National Focal Points (IHR NFP) in DRC and Uganda on the official IHR notification while concurrently managing communication across the IHR NFP network to ensure timely coordination.
+Coordinating the delivery of key supplies.
+Engaging experts on research and development priorities.
+WHO risk assessment
+On 17 May 2026, WHO Director-General, after having consulted the States Parties where the event is known to be currently occurring, determined that the Ebola disease caused by Bundibugyo virus in the Democratic Republic of the Congo and Uganda constitutes a public health emergency of international concern (PHEIC), as per the provisions of the IHR. Temporary recommendations for State Parties will be issued.  In the meantime, WHO issued advice to countries, as stated below.
+This is the 17th Ebola disease outbreak in the DRC since 1976. The last Ebola disease outbreak in the country was declared on 4 September 2025 with total of 64 cases (53 confirmed, 11 probable), including 45 deaths (CFR 70.3%), reported from six health areas in Bulape Health Zone, Kasai Province. The end of outbreak was declared on 1 December 2025. The last BVD outbreak was reported on 17 August 2012 by the DRC Ministry of Health in Province Orientale.  A total of 59 cases, 38 confirmed and 21 probable cases, including 34 deaths were reported. The outbreak was declared over on 26 November 2012 by the MOH.
+This outbreak is occurring in a complex epidemiological and humanitarian context. A critical four-week detection gap between the onset of symptoms of the presumed index case (25 April 2026) and the laboratory confirmation of the outbreak (14 May 2025) suggests a low clinical index of suspicion among healthcare providers. This is compounded by the presence of co-circulating arboviruses and influenza-like illnesses, masking the initial index of suspicion for Ebola disease and exacerbating community transmission. Furthermore, the infection and death of four healthcare workers within a four-day span at Mongbwalu General Referral Hospital underscores critical breaches in IPC protocols. A large number of community deaths has been reported potentially associated with unsafe burial practices.
+Ongoing conflict in Ituri province restricts the movement of surveillance teams, limits the deployment of Rapid Response Teams, and hinders the secure transport of laboratory samples. Contact tracing is challenging due to difficult access and highly mobile populations, increasing the risk of high-risk contacts being lost to follow up or never identified.
+Ituri’s role as a commercial and migratory hub increases the risk of regional exportation. The proximity to Uganda and South Sudan increases the risk of cross-border transmission if PoE screening and cross border coordination and information sharing are not immediately reinforced. On 15 May 2026, the Ministry of Health of Uganda reported an imported case of BVD.
+Humanitarian needs in the area are dire. Ituri has 273 403 displaced people, with a total of 1.9 million people in need according to the Humanitarian Response Plan 2026 for DRC. From January to March 2026, 32 600 newly displaced and 30 200 returnees were recorded. The province recorded 5800 protection incidents and 11 incidents against humanitarian actors.
+Unlike Ebola virus disease, there is no licensed vaccine or specific therapeutics against BDBV. Research and development activities are activated to coordinate efforts to advance potential candidate medical countermeasures. Response and outbreak control relies entirely on a range of interventions and public health measures that will need to be thoroughly implemented, including supportive care, early detection, adequate IPC, rigorous contact tracing, safe burials, and community engagement.
+WHO advice
+For countries where the event is occurring (the Democratic Republic of the Congo and Uganda)
+Coordination and high-level engagement
+Activate their national disaster/emergency management mechanisms and establish an emergency operation centre, under the authority of the Head of State and relevant government authority, to coordinate response activities across partners and sectors to ensure efficient and effective implementation and monitoring of comprehensive Bundibugyo virus disease control measures. These measures must include enhanced surveillance including contact tracing, infection prevention and control (IPC), risk communication and community engagement, laboratory diagnostic testing, and case management. Coordination and response mechanisms should be established at national level, as well as at subnational level in affected areas and at-risk areas.
+Should national capacities be overwhelmed, collaboration with partners should be enhanced to strengthen operations and ensure the ability to implement control measures in all affected and neighbouring areas.
+Risk communication and community engagement
+Ensure that there is a large-scale and sustained effort to fully engage the community – through local, religious and traditional leaders and healers – so communities play a central role in case identification, contact tracing and risk education; the population should be made fully aware of the benefits of early treatment.
+Strengthen community awareness, engagement, and participation in particular to identify and address cultural norms and beliefs that serve as barriers to their full participation in the response, and integrate the response within the wider response required to address the needs of the population, particularly in contexts of the protracted humanitarian crisis in Eastern DRC.
+Surveillance and laboratory
+Strengthening surveillance and laboratory capacity across affected provinces and neighbouring provinces, through the establishment of (1) dedicated surveillance and response cells within affected health zones and across key at-risk neighbouring health zones; (2) enhanced community surveillance, particularly focused on community deaths; and (3) decentralized laboratory capacity for testing of Bundibugyo virus.
+Infection prevention and control in health facilities and in the context of care
+Strengthen measures to prevent nosocomial infections, including systematic mapping of health facilities, triage, targeted IPC interventions and sustained monitoring and sustained supervision.
+Ensure healthcare workers receive adequate training on IPC, including the proper use of PPE, and that health facilities have appropriate equipment to ensure the safety and protection of their staff, their timely payment of salaries and, as appropriate, hazard pay.
+Patients’ referral pathway and access to safe and optimized intensive care.
+Ensure that suspected cases can be safely transferred to specialized clinical units for their isolation and management in a human and patient-centred approach.
+Establish specialized treatment centers or units, located close to outbreak epicenter(s), with staff trained and equipped to implement optimized intensive supportive care.
+Research and development of medical countermeasures
+Implement clinical trials to advance the development and use of candidate therapeutics and vaccine, supported by partners.
+Border health, travels and mass-gathering events
+Undertake cross-border screening and screening at main internal roads to ensure that no suspected case is missed and enhance the quality of screening through improved sharing of information with surveillance teams.
+There should be no international travel of Bundibugyo virus disease contacts or cases, unless the travel is part of an appropriate medical evacuation. To minimize the risk of international spread of Bundibugyo virus disease:
+Confirmed cases should immediately be isolated and treated in a Bundibugyo virus disease Treatment Centre with no national or international travel until two Bundibugyo virus-specific diagnostic tests conducted at least 48 hours apart are negative;
+Contacts (which do not include properly protected health workers and laboratory staff who have had no unprotected exposure) should be monitored daily, with restricted national travel and no international travel until 21 days after exposure;
+Probable and suspect cases should immediately be isolated and their travel should be restricted in accordance with their classification as either a confirmed case or contact.
+Implement exit screening of all persons at international airports, seaports and major land crossings, for unexplained febrile illness consistent with potential Bundibugyo virus disease. The exit screening should consist of, at a minimum, a questionnaire, a temperature measurement and, if there is a fever, an assessment of the risk that the fever is caused by Bundibugyo virus disease. Any person with an illness consistent with Bundibugyo virus disease should not be allowed to travel unless the travel is part of an appropriate medical evacuation.
+Consider postponing mass gatherings until BVD transmission is interrupted.
+Safe and dignified burials
+Ensure funerals and burials are conducted by well-trained personnel, with provision made for the presence of the family and cultural practices, and in accordance with national health regulations, to reduce the risk of Bundibugyo virus infection. The cross-border movement of the human remains of deceased suspect, probable or confirmed Bundibugyo virus disease cases should be prohibited unless authorized in accordance with recognized international biosafety provisions.
+Operations, supplies and logistics
+Strong supply pipeline needs to be established to ensure that sufficient medical and laboratory commodities and other critical items, especially personal protective equipment (PPE), are available to those who appropriately need them. WHO advises against any restrictions on travel and/or trade to DRC or Uganda based on available information for the current outbreak.
+For countries with land borders adjoining countries with documented Bundibugyo virus disease
+Unaffected States Parties with land borders adjoining States Parties with documented Bundibugyo virus disease  transmission should urgently enhance their preparedness and readiness capacity, including active surveillance across health facilities with active zero reporting, enhancement of community surveillance for clusters of unexplained deaths; establish access to a qualified diagnostic laboratory; ensure that health workers are aware of and trained in appropriate IPC procedures; and establish rapid response teams with the capacity to investigate and manage BVD cases and their contacts.
+Dedicated coordination mechanisms should be in place at national and subnational level in all Unaffected States Parties with land borders adjoining States Parties with documented cases of Bundibugyo virus disease. States should be prepared to detect, investigate, and manage Bundibugyo virus disease cases; this should include assured access to a qualified diagnostic laboratory for Bundibugyo virus disease, isolation and case management capacity and activation of rapid response teams.
+Any State Parties newly detecting a suspected or confirmed Bundibugyo virus disease case or contact, or clusters of unexplained deaths should treat this as a health emergency, take immediate steps in the first 24 hours to investigate and stop a potential outbreak by instituting case isolation, case management, establishing a definitive diagnosis, and undertaking contact tracing and monitoring as required.
+If Bundibugyo virus disease is confirmed to be occurring in the State Party, the full recommendations for State Parties with Bundibugyo virus disease transmission should be implemented, on either a national or subnational level, depending on the epidemiologic and risk context. State Parties should immediately report the confirmation of Bundibugyo virus disease to WHO.
+Risk communications and community engagement, especially at points of entry, should be increased.
+At-risk countries should put in place approvals for investigational therapeutics as an immediate priority for preparedness.
+For all other countries
+No country should close its borders or place any restrictions on travel and trade. Such measures are usually implemented out of fear and have no basis in science. They push the movement of people and goods to informal border crossings that are not monitored, thus increasing the chances of the spread of disease. Most critically, these restrictions can also compromise local economies and negatively affect response operations from a security and logistics perspective.
+National authorities should work with airlines and other transport and tourism industries to ensure that they do not exceed WHO’s advice on international traffic.
+States Parties should provide travelers to Bundibugyo virus disease affected and at-risk areas with relevant information on risks, measures to minimize those risks, and advice for managing a potential exposure.
+The general public should be provided with accurate and relevant information on the Bundibugyo virus disease outbreak and measures to reduce the risk of exposure.
+State Parties should be prepared to facilitate the evacuation and repatriation of nationals (e.g. health workers) who have been exposed to Bundibugyo virus disease.
+Entry screening at airports or other ports of entry outside the affected region are not considered needed for passengers returning from areas at risk.
+Further information
+Epidemic of Ebola      Disease caused by Bundibugyo virus in the Democratic Republic of the Congo      and Uganda determined a public health emergency of international concern.
+https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern
+The Ministry of Public Health, Hygiene      and Social Welfare, DRC, officially declares the 17
+th
+Ebola      Disease outbreak.
+https://administration.sante.gouv.cd/wp-content/uploads/2026/05/Declaration-de-la-17e-Epidemie-de-la-maladie-a-virus-Ebola-dans-les-zones-de-sante-de-Rwampara-Mongwalu-et-Bunia-dans-la-province-dIturi.pdf
+WHO Democratic Republic      of Congo confirms new Ebola outbreak.
+https://www.afro.who.int/countries/democratic-republic-of-congo/news/democratic-republic-congo-confirms-new-ebola-outbreak-who-scales-upsupport
+Ebola  disease fact sheet:
+http://www.who.int/en/news-room/fact-sheets/detail/ebola-virus-disease
+Disease Outbreak      News. Ebola outbreak in Democratic Republic of Congo – update. WHO. 14      September 2012:
+Ebola outbreak in Democratic Republic of Congo – update
+Disease Outbreak      News. Ebola outbreak in Democratic Republic of Congo – update. WHO. 26      October 2012:
+Ebola outbreak in Democratic Republic of Congo – update
+WHO Launches Online      Training to Strengthen Filovirus Outbreak Response.
+https://www.who.int/news/item/26-03-2025-who-launches-online-training-to-strengthen-filovirus-outbreak-response#
+Infection prevention and      control guideline for Ebola and Marburg disease. WHO. August 2023:
+https://www.who.int/publications/i/item/WHO-WPE-CRS-HCR-2023.1
+Infection prevention and      control and water, sanitation and hygiene in health facilities during      Ebola or Marburg disease outbreaks: rapid assessment tool, user guide
+https://www.who.int/publications/i/item/9789240107205
+Assessment and management      of health and care workers with possible occupational exposures to      Orthoebolavirus or Orthomarburgvirus: implementation guidance
+https://www.who.int/publications/i/item/9789240107328
+Optimized Supportive Care      for Ebola Virus Disease. Clinical management standard operating      procedures. WHO. 2019.
+https://www.who.int/publi
+cations/i/item/9789241515894
+Ebola clinical management.
+https://www.who.int/teams/health-care-readiness/ebola-clinical-management
+Framework and      toolkit for infection prevention and control in outbreak preparedness,      readiness and response at the national level.
+https://www.who.int/publications/i/item/framework-and-toolkit-for-infection-prevention-and-control-in-outbreak-preparedness--readiness-and-response-at-the-health-care-facility-level
+Considerations for border health and points of entry      for filovirus disease outbreaks:
+https://www.who.int/publications/m/item/considerations-for-border-health-and-points-of-entry-for-filovirus-disease-outbreaks
+Diagnostic testing for Ebola and Marburg virus      diseases: interim guidance, 20 December 2024:
+https://www.who.int/publications/i/item/B09221
+Citable reference:
+World Health Organization (17 May 2026). Disease Outbreak News; Bundibugyo Virus Disease, Democratic Republic of the Congo (The) and Uganda. Available at:
+https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602
+Corrigendum: This Disease Outbreak News was revised on 26 May 2026 to amend the declaration date of the public health emergency of international concern (PHEIC) to 17 May 2026.

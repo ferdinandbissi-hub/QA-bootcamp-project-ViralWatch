@@ -1,0 +1,322 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21223302.svg)](https://doi.org/10.5281/zenodo.21223302)
+
+# Bundibugyo Ebola virus outbreak 2026
+
+### Data for the 2026 Bundibugyo Ebolavirus (BDBV) outbreak.
+
+![Logos for Project Lead Organizations: Institute National de Recherche Biomedicale (INRB), One Health Institute for Africa (INOHA), Institut National de Santé Publique (INSP), and Unité de Modélisation et Intelligence Epidémique (UMIE)](https://github.com/INRB-UMIE/BDBV2026-Epidemic_Dashboard/blob/main/Data/Branding/all_logos.png)
+
+This work is led by the Institut National de Recherche Biomédicale (INRB) Kinshasa/One Health Institute for Africa (INOHA) Kinshasa (Dav Ebengo, Placide Mbala-Kingebeni and Tania Bishola), and the Institut National de Santé Publique (INSP) (Pierre Akilimali, Adelard Lofungola).
+
+**Collaborating institutions and agencies**
+- Institut National de Santé Publique (INSP)
+- National Institute of Biomedical Research (INRB)
+- Africa Centres for Disease Control and Prevention, Addis Ababa, Ethiopia
+- World Health Organization, Geneva, Switzerland
+- World Health Organization Country Office, Kinshasa, Democratic Republic of the Congo
+- Northeastern University, United States
+- University of Oxford, United Kingdom
+
+### Statement on continuing work and analyses before publication
+Please note that the epidemiological data presented here is based on work in progress and should be considered preliminary. Our analyses are ongoing, and a publication communicating our findings is in preparation. Contextual data are publicly accessible; please refer to the original license when re-using these data. If you intend to use the epidemiological data prior to our publication, or have other enquiries, please contact [Prof. Placide Mbala-Kingebeni](mailto:placide.mbala@inrb.cd) (INRB, DRC), [Prof. Dav Ebengo](mailto:dav.ebengo@umie-inrb.org) (INRB, DRC), and [Pierre Akilimali](mailto:pierre.akilimali@insp.cd) (INSP).
+
+Last successful build: **12 August 2026, 10:15:28 (UTC)** — `build/` on `main` at commit [`f88b09d`](https://github.com/INRB-UMIE/Ebola_DRC_2026/commit/f88b09dbbf826d3686d62021f26313baf5d5e62c) (data snapshot [`f88b09d`](https://github.com/INRB-UMIE/Ebola_DRC_2026/commit/f88b09d), see `build/manifest.json`).
+
+# Data sources
+### Geospatial
+-   **DRC health zones:** [Humanitarian Data Exchange](https://data.humdata.org/dataset/drc-health-data) (MoH zones de santé shapefile)
+
+### Epidemiological
+-   **Epidemiological data (INSP):** [Institut National de Santé Publique (INSP)](https://insp.cd/) SitRep MVE PDF series (`data/insp_sitrep/`) — daily case, death, and contact-tracing indicators by health zone **manually transcribed from the sitreps**
+-   **Processed Linelists:** Following establishment of an epi data collection pipeline by INSP and INRB, aggregated linelist data will be housed in (`data/epi/`)
+-   **Operational data (INSP):** [Institut National de Santé Publique (INSP)](https://insp.cd/) Contextual data on the public health response transcribed from SitRep MVE PDF series (`data/insp_sitrep/`) (`data/public_health_response`)
+-   **Testing Capacity (AfricaCDC):** data on PCR machine and reagent availability (`data/testing_capacity`)
+
+### Mobility
+-   **Road travel times:** [OSRM](http://project-osrm.org/) public demo (`data/osrm/`, matrix outputs)
+-   **Cross-border travel:** [Imperial College Report](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/research-themes/preparedness-and-response-to-emerging-threats/report-ebola-18-05-2026/)
+-   **Internal relocations:** International Organisation for Migrants ([IOM](https://dtm.iom.int))
+-   **Mobile phone-based internal relocation estimates:** [Flowminder.org](https://www.flowminder.org/resources/publications-reports/drc-reports-publications) (`data/flowminder/` and `data/flowminder_short_trips/`)
+
+### Demographic
+-   **Conflicts and acts of violence:** [ACLED](https://acleddata.com) (`data/ACLED_conflict/`) - Not currently included in build 
+-   **Population counts:** [WorldPop](https://www.worldpop.org/) (`data/worldpop/`)
+-   **Health facilities (GRID3):** [GRID3 COD Health Facilities v8.0](https://data.grid3.org/datasets/GRID3::grid3-cod-health-facilities-v8-0/about) (`data/grid3_healthsites/`)
+-   **Health facilities (OSM / crowdsourced):** [Healthsites.io](https://healthsites.io/) (`data/healthsites_io/`)
+-   **Socioeconomic deprivation and inequality:** [Climate-Conflict Vulnerability Index](https://climate-conflict.org/www) (`data/ccvi/`)
+-   **Degree of Urbanisation:** [FAO Land Classification System](https://cds.climate.copernicus.eu/datasets/satellite-land-cover?tab=overview) (`data/fao_lccs/`)
+-   **GPD per capita:** [Kummu et. al](https://www.nature.com/articles/s41597-025-04487-x) (`data/gdp_pc/`)
+
+For the latest BDBV genomic data, please visit [Pathoplexus](https://pathoplexus.org/ebola-bdbv/search).
+
+## Pending data sources
+
+We are tracking pending data sources over on the [issues tab](https://github.com/kraemer-lab/Ebola_DRC_2026/issues). If you want to request a specific publicly available dataset, raise an issue (although raising an issue does not guarantee that we will incorporate a dataset).
+
+# Current build (2026-08-12)
+
+The current build is committed on `main` and refreshed automatically by CI on every merge that touches `data/**` — see [Release internals](#release-internals). Run `python -m tools.build_geojson` locally only if you're working on a branch with un-merged data changes.
+
+### What's New
+
+<!-- whats-new:start -->
+Add sitRep 87
+<!-- whats-new:end -->
+
+### Build contents
+
+Per-layer catalogue for the current build:
+
+- [Embedded in the GeoJSON](data/README.md#embedded-in-the-geojson) — vector layers merged into `build/drc_health_zones.geojson`
+- [Matrix outputs](data/README.md#matrix-outputs) — origin–destination tables (not in the GeoJSON)
+
+Full tables live in [`data/README.md`](data/README.md#current-build-outputs). Machine-readable index: `build/manifest.json`.
+
+**Not in build:** `ACLED_conflict` — province-grain placeholder, no QA-passing output yet.
+
+## Past releases
+
+<!-- past-releases:start -->
+| Tag | Date | Summary | Download |
+|-----|------|---------|----------|
+| [`build-2026-08-12-f88b09d`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-12-f88b09d) | 2026-08-12 | Add sitRep 87 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-12-f88b09d) |
+| [`build-2026-08-11-57bae32`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-11-57bae32) | 2026-08-11 | Add sitRep 86 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-11-57bae32) |
+| [`build-2026-08-10-e2fd7cb`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-10-e2fd7cb) | 2026-08-10 | Adding Sitrep 83 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-10-e2fd7cb) |
+| [`build-2026-08-06-fc16b52`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-06-fc16b52) | 2026-08-06 | add sitRep 82 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-06-fc16b52) |
+| [`build-2026-08-05-5e9266d`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-05-5e9266d) | 2026-08-05 | Add sitRep 81 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-05-5e9266d) |
+| [`build-2026-08-04-c5a83ae`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-04-c5a83ae) | 2026-08-04 | fixing errors with province in health zone | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-04-c5a83ae) |
+| [`build-2026-08-04-7406777`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-04-7406777) | 2026-08-04 | Add sitRep 80 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-04-7406777) |
+| [`build-2026-08-03-2781e01`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-03-2781e01) | 2026-08-03 | Add sitrep 79 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-03-2781e01) |
+| [`build-2026-08-02-e9ab918`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-02-e9ab918) | 2026-08-02 | Adding Sitrep 78 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-02-e9ab918) |
+| [`build-2026-08-01-dcb25d3`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-01-dcb25d3) | 2026-08-01 | Adding sitrep 77 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-08-01-dcb25d3) |
+| [`build-2026-07-29-ac9834e`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-29-ac9834e) | 2026-07-29 | add sitRep 74 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-29-ac9834e) |
+| [`build-2026-07-28-d84bd5c`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-28-d84bd5c) | 2026-07-28 | add-sitRep-73 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-28-d84bd5c) |
+| [`build-2026-07-27-a027813`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-27-a027813) | 2026-07-27 | add sitRep 72 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-27-a027813) |
+| [`build-2026-07-25-fe2c943`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-25-fe2c943) | 2026-07-25 | Add sitRep 70 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-25-fe2c943) |
+| [`build-2026-07-24-4abd294`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-24-4abd294) | 2026-07-24 | Add sitRep 69 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-24-4abd294) |
+| [`build-2026-07-22-f28db82`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-22-f28db82) | 2026-07-22 | Add sit Rep 67 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-22-f28db82) |
+| [`build-2026-07-21-8e2e7e4`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-21-8e2e7e4) | 2026-07-21 | Adding Sitrep 66 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-21-8e2e7e4) |
+| [`build-2026-07-20-6735586`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-20-6735586) | 2026-07-20 | Add sitRep 65 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-20-6735586) |
+| [`build-2026-07-20-d8382f0`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-20-d8382f0) | 2026-07-20 | add sitrep 64 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-20-d8382f0) |
+| [`build-2026-07-17-b00847b`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-17-b00847b) | 2026-07-17 | add sitrep 62 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-17-b00847b) |
+| [`build-2026-07-16-a44e864`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-16-a44e864) | 2026-07-16 | add sitRep 60 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-16-a44e864) |
+| [`build-2026-07-14-bee2a54`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-14-bee2a54) | 2026-07-14 | Added Flowminder relocation data for April and prepared the geoJSON to display all relocation layers. Some build functions have minor tweaks. | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-14-bee2a54) |
+| [`build-2026-07-13-f4aa1e8`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-13-f4aa1e8) | 2026-07-13 | Adding Sitrep 58 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-13-f4aa1e8) |
+| [`build-2026-07-13-3e8de4f`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-13-3e8de4f) | 2026-07-13 | #MAJOR UPDATE | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-13-3e8de4f) |
+| [`build-2026-07-13-957b5ad`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-13-957b5ad) | 2026-07-13 | Adding sitrep 57 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-13-957b5ad) |
+| [`build-2026-07-12-93e2735`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-12-93e2735) | 2026-07-12 | Adding sitrep 56 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-12-93e2735) |
+| [`build-2026-07-10-d73768c`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-10-d73768c) | 2026-07-10 | update with data from sitRep 55 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-10-d73768c) |
+| [`build-2026-07-09-ab13b02`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-09-ab13b02) | 2026-07-09 | Add_sitrep_54 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-09-ab13b02) |
+| [`build-2026-07-08-5ba894f`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-08-5ba894f) | 2026-07-08 | Including and processing Flowminder data for May-June 2026. | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-08-5ba894f) |
+| [`build-2026-07-08-332b133`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-08-332b133) | 2026-07-08 | Included new genomic surveillance data folder which contains numbers of sequences collected by health zone | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-08-332b133) |
+| [`build-2026-07-08-5c8c1fc`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-08-5c8c1fc) | 2026-07-08 | Update with data from sitRep 53 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-08-5c8c1fc) |
+| [`build-2026-07-08-62a00e5`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-08-62a00e5) | 2026-07-08 | Update SitRep with data from SitRep 52 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-08-62a00e5) |
+| [`build-2026-07-06-fb3eca2`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-06-fb3eca2) | 2026-07-06 | Adding sitrep 51 data | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-06-fb3eca2) |
+| [`build-2026-07-05-ee24b53`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-05-ee24b53) | 2026-07-05 | Adding Sitrep 50 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-05-ee24b53) |
+| [`build-2026-07-04-df8b775`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-04-df8b775) | 2026-07-04 | Adding sitrep 49 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-04-df8b775) |
+| [`build-2026-07-03-bf2ecd6`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-03-bf2ecd6) | 2026-07-03 | Update from sitRep 48 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-03-bf2ecd6) |
+| [`build-2026-07-02-7836cba`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-02-7836cba) | 2026-07-02 | Adding Sitrep 47 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-02-7836cba) |
+| [`build-2026-07-01-9f409b2`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-01-9f409b2) | 2026-07-01 | Adding Sitrep 46 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-07-01-9f409b2) |
+| [`build-2026-06-29-45c07bc`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-29-45c07bc) | 2026-06-29 | Adding Sitrep 44 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-29-45c07bc) |
+| [`build-2026-06-27-fe31989`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-27-fe31989) | 2026-06-27 | Adding sitrep 42 data | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-27-fe31989) |
+| [`build-2026-06-26-db6470f`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-26-db6470f) | 2026-06-26 | Adding sitrep 41 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-26-db6470f) |
+| [`build-2026-06-26-22ae1a1`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-26-22ae1a1) | 2026-06-26 | Zenodo ID link-up. | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-26-22ae1a1) |
+| [`build-2026-06-25-9243cc1`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-25-9243cc1) | 2026-06-25 | Adding Sitrep 40 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-25-9243cc1) |
+| [`build-2026-06-25-d02fc55`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-25-d02fc55) | 2026-06-25 | This version incorporates bilingual (EN/FR) entries for the public health response data layer. | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-25-d02fc55) |
+| [`build-2026-06-24-6e84828`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-24-6e84828) | 2026-06-24 | Adding Sitrep_39 data to the different Files | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-24-6e84828) |
+| [`build-2026-06-23-e163f05`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-23-e163f05) | 2026-06-23 | update with data from sitrep 38 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-23-e163f05) |
+| [`build-2026-06-23-93c7a1d`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-23-93c7a1d) | 2026-06-23 | update with datas from sitRep 37 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-23-93c7a1d) |
+| [`build-2026-06-21-de19d3b`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-21-de19d3b) | 2026-06-21 | Adding Sitrep 36 data to different files | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-21-de19d3b) |
+| [`build-2026-06-20-3aad5cd`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-20-3aad5cd) | 2026-06-20 | Adding new sitrep_035 data in differents files | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-20-3aad5cd) |
+| [`build-2026-06-19-368aa8b`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-19-368aa8b) | 2026-06-19 | Add data from Sitrep 34 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-19-368aa8b) |
+| [`build-2026-06-18-747cf00`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-18-747cf00) | 2026-06-18 | Addition of Sitrep 33 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-18-747cf00) |
+| [`build-2026-06-18-3334944`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-18-3334944) | 2026-06-18 | Add recored cases file | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-18-3334944) |
+| [`build-2026-06-16-5a37aa7`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-16-5a37aa7) | 2026-06-16 | Fixes on report nomenclature and date typo. | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-16-5a37aa7) |
+| [`build-2026-06-16-1228f3c`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-16-1228f3c) | 2026-06-16 | Adding sitrep 032 for cummulatives data and pillars | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-16-1228f3c) |
+| [`build-2026-06-16-4c30cd1`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-16-4c30cd1) | 2026-06-16 | update dashbord with datas from sitRep 31 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-16-4c30cd1) |
+| [`build-2026-06-14-69477ea`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-14-69477ea) | 2026-06-14 | updating data from sitRep 30 in insp_sitrep folder | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-14-69477ea) |
+| [`build-2026-06-12-1dfdf1e`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-12-1dfdf1e) | 2026-06-12 | Adding sitrep 28 data | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-12-1dfdf1e) |
+| [`build-2026-06-11-37f84e5`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-11-37f84e5) | 2026-06-11 | updating data with sitRep 27 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-11-37f84e5) |
+| [`build-2026-06-11-e1e67f3`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-11-e1e67f3) | 2026-06-11 | Removed aggregated linelist data | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-11-e1e67f3) |
+| [`build-2026-06-11-1499e80`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-11-1499e80) | 2026-06-11 | Decomposed and summarized information from different pillars based on the previous version in order to make the pillar information more concise. | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-11-1499e80) |
+| [`build-2026-06-10-8645bde`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-10-8645bde) | 2026-06-10 | Adding New sitrep_026 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-10-8645bde) |
+| [`build-2026-06-10-1b71e8e`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-10-1b71e8e) | 2026-06-10 | Aggregated confirmed positives from the INSP linelist are now included in data/aggregated_insp_linelist. At present these are aggregated to the province level. | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-10-1b71e8e) |
+| [`build-2026-06-10-10d11cb`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-10-10d11cb) | 2026-06-10 | - Create a folder for archived weekly WHO reports (unprocessed) to serve as a digital record | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-10-10d11cb) |
+| [`build-2026-06-10-690016b`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-10-690016b) | 2026-06-10 | New sitrep Adding | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-10-690016b) |
+| [`build-2026-06-09-6bc4479`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-09-6bc4479) | 2026-06-09 | Update to the public health context section, where province level actions are now stored separately. In general, we have adjusted the QA and build process to allow province level info, which just gets broadcast to each included healthzone during the build. This will be relevant for many datasets, but should obviously be used carefully (e.g. a numeric metric such as total hospitalised on the province level, broadcast to health zone level, may be misinterpreted as overreporting that metric for the healthzone). | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-09-6bc4479) |
+| [`build-2026-06-09-60230f8`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-09-60230f8) | 2026-06-09 | Integration of SITREP 24 data | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-09-60230f8) |
+| [`build-2026-06-08-979a344`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-08-979a344) | 2026-06-08 | Adding Pillars od sitrep 21 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-08-979a344) |
+| [`build-2026-06-07-df291a5`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-07-df291a5) | 2026-06-07 | Update data of sitRep 23 from June 6, published on June 7 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-07-df291a5) |
+| [`build-2026-06-06-39fc6f0`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-06-39fc6f0) | 2026-06-06 | Addition of new data according to SitRep 22 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-06-39fc6f0) |
+| [`build-2026-06-05-628c054`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-05-628c054) | 2026-06-05 | Sitrep 21 Adding | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-05-628c054) |
+| [`build-2026-06-04-169614d`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-04-169614d) | 2026-06-04 | Data sitrep020, updating for cumulative_confirme_cases, cumulative_confirme_deaths, Nation_cumulative_confirme_cases, Nation_cumulative_confirme_death, Nation_cumulative_isolation | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-04-169614d) |
+| [`build-2026-06-03-8d24ff8`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-03-8d24ff8) | 2026-06-03 | Revised numbers of national cumulative suspected cases given latest reporting (see `data/insp_sitrep/reports/SitRep_MVE_019-2026.md`). | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-03-8d24ff8) |
+| [`build-2026-06-03-06ffe1a`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-03-06ffe1a) | 2026-06-03 | SitRep 19 data added and digitisation report updated. | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-03-06ffe1a) |
+| [`build-2026-06-03-ea78c16`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-03-ea78c16) | 2026-06-03 | Added public health pillar data | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-03-ea78c16) |
+| [`build-2026-06-02-32e9ebd`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-02-32e9ebd) | 2026-06-02 | Sitrep 18 added, national counts updated and healthzone level counts where reported. | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-02-32e9ebd) |
+| [`build-2026-06-02-f3b3051`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-02-f3b3051) | 2026-06-02 | Flowminder short trip data is now formatted to be visualised in the dashboard. | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-02-f3b3051) |
+| [`build-2026-06-02-125e4e0`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-02-125e4e0) | 2026-06-02 | Report added for Sitrep 17 describing digitisation process | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-02-125e4e0) |
+| [`build-2026-06-02-d1ceb9c`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-02-d1ceb9c) | 2026-06-02 | Sitrep 17 Added | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-02-d1ceb9c) |
+| [`build-2026-06-01-b4cafc9`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-01-b4cafc9) | 2026-06-01 | Updates to SitReps 15 and 16 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-01-b4cafc9) |
+| [`build-2026-06-01-0a87d65`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-01-0a87d65) | 2026-06-01 | \- National level tables now just take the nom 'DRC' | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-06-01-0a87d65) |
+| [`build-2026-05-30-507a2a2`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-30-507a2a2) | 2026-05-30 | \- Added sitrep 14 (in reality fix some issues with sitrep 14, but those issues aborted the earlier release so this is the first release with sitrep 14 anyway | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-30-507a2a2) |
+| [`build-2026-05-30-e125835`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-30-e125835) | 2026-05-30 | Latest release fixing a number of minor processing issues in past sitreps. | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-30-e125835) |
+| [`build-2026-05-30-5a34b18`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-30-5a34b18) | 2026-05-30 | An additional data folder `flowminder_short_trips/` is created. This contains updated Flowminder data for short trips for April 2026 (see report in `data/raw/` for details). QA tests show warnings in unrelated `data/**` folders. | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-30-5a34b18) |
+| [`build-2026-05-29-ff1e796`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-29-ff1e796) | 2026-05-29 | Sitrep 13 added. | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-29-ff1e796) |
+| [`build-2026-05-28-bb8b7d5`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-28-bb8b7d5) | 2026-05-28 | Updated to allocate a new suspected case from Mabanga (not a healthzone) to the Mambasa healthzone. Team at INRB reviewed and decided this is the most accurate place to put it for now, but let's note that there may also be a place called Mabanga in Mangala | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-28-bb8b7d5) |
+| [`build-2026-05-27-e40bc9e`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-27-e40bc9e) | 2026-05-27 | \- Healthzone level wpi data up to 26th May from INSP (The public sitrep did not have this data) | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-27-e40bc9e) |
+| [`build-2026-05-27-059661a`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-27-059661a) | 2026-05-27 | \- Updated INSP Sitrep data with the new version of Sitrep 12 (Updated national suspected deaths) | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-27-059661a) |
+| [`build-2026-05-27-af1f2b5`](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-27-af1f2b5) | 2026-05-27 | \- Added the updated DRC totals from SitRep 12 to a new metric for that dataset with prefix national\_\* | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-27-af1f2b5) |
+| build-2026-05-26-683a564 | 2026-05-26 | INSP Sitrep data through report 010 | [release](https://github.com/INRB-UMIE/Ebola_DRC_2026/releases/tag/build-2026-05-26-683a564) |
+| [`build-2026-05-22-12db0c2`](https://github.com/kraemer-lab/Ebola_DRC_2026/releases/tag/build-2026-05-22-12db0c2) | 2026-05-22 | 25 vector layers; INSP through SitRep 007 + GRID3 health facilities | [release](https://github.com/kraemer-lab/Ebola_DRC_2026/releases/tag/build-2026-05-22-12db0c2) |
+| [`build-2026-05-22-9694d10`](https://github.com/kraemer-lab/Ebola_DRC_2026/releases/tag/build-2026-05-22-9694d10) | 2026-05-22 | First GitHub release (11 vector layers; pre-INSP / pre-GRID3) | [release](https://github.com/kraemer-lab/Ebola_DRC_2026/releases/tag/build-2026-05-22-9694d10) |
+<!-- past-releases:end -->
+
+# Repository layout
+
+```         
+data/
+  README.md                  index of all dataset folders
+  shapefiles/                source of truth for health-zone boundaries
+  aliases.csv                observed_name -> canonical_nom mappings
+  <dataset>/                 one folder per source
+    raw/                     untouched source files
+    process.{py,R}           script that produces files in processed/
+    processed/               standardized contract-conformant outputs
+    metadata.yaml            source, citation, retrieved_on, license, contact, runtime
+    README.md                optional human notes
+tools/
+  lib/schema.py              canonical Noms, alias resolver, filename contract
+  qa.py                      walks data/, validates, writes qa/qa_log.csv & qa/matrix_log.csv
+  build_geojson.py           merges passing non-matrix outputs into build/drc_health_zones.geojson
+  requirements.txt           pyshp, pyyaml, shapely
+qa/
+  qa_log.csv                 per-artifact QA results (all statuses)
+  matrix_log.csv             catalog of QA-passing matrices
+  reports/<dataset>.md       per-folder human-readable report
+build/
+  drc_health_zones.geojson   shapefile + latest per-zone values
+  long/<dataset>__<metric>.csv  full long-format copy of each vector file
+  manifest.json              sources + build timestamp
+```
+
+# Data contract
+
+**Join key:** the canonical `Nom` from `data/shapefiles/DRC_Health_zones.shp`. The two natural collisions (`Bili`, `Lubunga`) are disambiguated with a province suffix, e.g. `Lubunga (Tshopo)`. Observed spellings that differ are listed in `data/aliases.csv`. Province roll-ups use `nom` = shapefile `PROVINCE` (aliases in `data/province_aliases.csv`); national roll-ups use `nom = DRC`.
+
+**Processed-file naming:** `<dataset>__<metric>__<resolution>.{csv|matrix.csv}` - `<dataset>` and `<metric>` are lower_snake_case. - `<resolution>` ∈ {`static`, `daily`, `weekly`, `monthly`, `yearly`}. - Suffix is `.matrix.csv` for matrix outputs, `.csv` for vector (one-row-per-zone) outputs.
+
+**Vector files** carry a `nom` column. Non-static resolutions also carry a `date` column (ISO 8601).
+
+**Matrix files** (`.matrix.csv`): snapshot matrices have header `nom, <dest_nom_1>, ...`; time-series matrices have `date, nom, <dest_nom_1>, ...`. Present cells must be non-negative numeric; missing values may be empty or `NA` (e.g. unroutable OSRM pairs).
+
+# Contributor flow
+
+Contributors add or update data. PRs touch `data/**` (and `tests/**` and unrelated docs only) — never `build/`, `qa/`, `dist/`, or `README.md`'s build/release sections.
+
+0.  One-time setup (anyone cloning):
+
+    ```         
+    git lfs install
+    python -m venv .venv && .venv/bin/pip install -r tools/requirements.txt
+    ```
+
+    LFS is required because binary raw blobs (`*.xlsx`, `*.zip`, `*.pdf`, `*.tif`, etc.) under `data/*/raw/` are stored via Git LFS — see `.gitattributes`.
+
+1.  Locally sync with main to ensure files are up to date:
+
+    ```         
+    git pull origin main
+    ```
+
+2.  Create `data/<your_dataset>/` with `raw/`, `metadata.yaml`, and (when you have outputs) `process.{py,R}` + `processed/`.
+
+3.  Make sure your processed filenames match the contract above. Add zone aliases to `data/aliases.csv` and province aliases to `data/province_aliases.csv` when needed.
+
+4.  Run unit tests + QA locally:
+
+    ```         
+    .venv/bin/python -m pytest tests/
+    .venv/bin/python -m tools.qa
+    ```
+
+5.  *(Optional)* Rebuild the merged GeoJSON locally to sanity-check your changes:
+
+    ```         
+    .venv/bin/python -m tools.build_geojson --skip-readme
+    ```
+
+    **Do not commit the resulting `build/`, `qa/qa_log.csv`, `qa/matrix_log.csv`, `qa/reports/`, or `README.md` updates.** Those land on `main` automatically when an admin merges your PR; including them in your PR causes merge conflicts and gets flagged in review.
+
+6.  Push your edits to a new branch (label the branch in relation to the changes being proposed):
+
+    ```         
+    git switch -c name-of-your-branch
+    git add .
+    git commit -m "Message for your edits"
+    git push origin name-of-your-branch
+    ```
+
+7.  Open a PR. **Fill in the `## What's new` section** in the PR body (template provided) — that text becomes the GitHub Release description and the README "what's new" block when this PR is released. CI runs `pytest` + `tools.qa` and blocks merge on any failures.
+
+8.  Wait for admin review and merge. You don't run a release — CI does that automatically.
+
+# Admin flow
+
+Admins (maintainers with write access to `main`) review PRs and merge.
+
+1.  Review the PR: data diff, CI green, `## What's new` section populated and accurate, contributor checklist ticked.
+
+2.  Merge to `main`. **That's it for the common case** — the release workflow takes over.
+
+Escape hatches:
+
+-   **Suppress release for a trivial change** (e.g. typo fix in a metadata file): include `[skip release]` in the merge commit message. CI will skip the release step.
+
+-   **Force a release without a data change** (e.g. after fixing `tools/build_geojson.py`): go to the Actions tab → "Release on data merge" → "Run workflow", and supply a description via the manual input.
+
+-   **Emergency local release** (CI is down): pull `main`, then run the same sequence the CI workflow runs:
+
+    ```         
+    .venv/bin/python -m tools.qa
+    .venv/bin/python -m tools.build_geojson
+    .venv/bin/python -m tools.release                   # interactive; packs dist/<tag>.tar.gz + updates README
+    git add build/ qa/qa_log.csv qa/matrix_log.csv qa/reports/ README.md
+    git commit -m "New build YYYY-MM-DD"
+    git push
+    .venv/bin/python -m tools.publish                   # creates the GitHub Release pointing at HEAD
+    ```
+
+    The publish step is separate from the pack step so the GitHub Release tag points at the commit that contains the build artifacts (the push above), not the pre-build merge commit.
+
+Maintainers who will cut emergency local releases also need:
+
+-   `gh` CLI installed and authenticated (`gh auth login`) — required by `tools.publish`, not by `tools.release`.
+-   `$EDITOR` set (used by `tools.release` for the interactive description prompt).
+
+# Release internals {#release-internals}
+
+The release workflow (`.github/workflows/release.yml`) runs on `push` to `main` when `data/**` changes (and on manual `workflow_dispatch`).
+
+What it does, in order:
+
+1.  Bails if the HEAD commit message contains `[skip release]`.
+2.  Extracts the `## What's new` section from the merge commit's PR body (via `gh api`).
+3.  Runs `python -m tools.qa`.
+4.  Runs `python -m tools.build_geojson`.
+5.  Runs `python -m tools.release --description-file <tmp> --non-interactive`, which packs `build/` as `dist/<tag>.tar.gz`, persists the description as `dist/<tag>.description.md`, and updates the README. This step does NOT publish anything.
+6.  Commits and pushes the resulting `build/`, `qa/`, and `README.md` back to `main` with `[skip release][skip ci]` in the commit message to prevent recursive triggering.
+7.  Runs `python -m tools.publish`, which calls `gh release create <tag> dist/<tag>.tar.gz --target $(git rev-parse HEAD) ...`. Because this runs *after* the commit-back, the release tag points at the commit that contains the build artifacts in its tree — not at the pre-build merge commit. The release URL is determined by `<tag>` and matches what `tools.release` wrote into the README in step 5.
+8.  Dispatches a dashboard rebuild to `BDBV2026-Epidemic_Dashboard` on `main`, using the commit SHA from step 6 (the build-artifact commit). Requires `DASHBOARD_DISPATCH_TOKEN` on this repo; skips with a warning if unset.
+
+The pre-existing `qa.yml` workflow runs `pytest` + `tools.qa` on PRs as the merge gate; it does not trigger on `build/`, `qa/`, or `README.md` changes, so the release workflow's commit-back does not retrigger it. The separate *Trigger dashboard rebuild* workflow is manual-only (escape hatch); production dashboard updates come from step 8 above.
+
+# Citation
+
+You can reference this repository by its [Zenodo DOI](https://doi.org/10.5281/zenodo.20922946) and the accompannying publication on [Lancet Infectious Diseases by Mbulayi et al](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00330-0/fulltext). Please cite the original data providers (links above) if any code or derived data is reused.
+
+# License and warranty
+
+The repository code is licensed under the terms in LICENSE. We do not claim ownership of or the right to license the third-party data or software tools used. Please pass forward any existing license/warranty/copyright information when redistributing.
+
+*THE DATA AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.*

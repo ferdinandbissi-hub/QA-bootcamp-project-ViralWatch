@@ -1,0 +1,17 @@
+source: "GRID3 COD Health Facilities v8.0, aggregated to DRC health zones"
+citation: "Center for Integrated Earth System Information (CIESIN), Columbia University; Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo; GRID3 (2025). GRID3 COD — Health Facilities v8.0. https://doi.org/10.7916/f1ft-y872. Health-zone geometry: DRC_Health_zones.shp (see data/shapefiles/)."
+source_url: "https://data.grid3.org/datasets/GRID3::grid3-cod-health-facilities-v8-0/about"
+retrieved_on: "2026-05-20"
+license: "Creative Commons Attribution 4.0 International (CC BY 4.0); Copyright 2025 The Trustees of Columbia University in the City of New York"
+contact: "info@ciesin.columbia.edu"
+runtime: R
+period: "2025"
+notes: |
+  National GRID3 health-facility points (~38k) intersected with 519 DRC health zones; no
+  facility-type filter. data/grid3_healthsites/process.R unzips
+  raw/COD_GRID3_health_facilities_v8_0_*.zip, joins to
+  data/shapefiles/DRC_Health_zones.shp, exports
+  processed/grid3_healthsites__healthsite_count__static.csv and
+  processed/grid3_healthsites__healthsite_density__static.csv (nom with province suffix
+  for Bili/Lubunga). Maps: raw_point_data_plot.png, healthsite_density_data_plot.png.
+  Complements data/healthsites_io/ (OSM/Healthsites.io, filtered subset). See README.md.

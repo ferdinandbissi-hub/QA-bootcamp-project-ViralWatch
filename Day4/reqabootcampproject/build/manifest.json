@@ -1,0 +1,1568 @@
+{
+  "shapefile": "data/shapefiles/DRC_Health_zones.shp",
+  "n_features": 519,
+  "built_at": "2026-08-12T10:15:28+00:00",
+  "commit": "f88b09d",
+  "datasets": [
+    {
+      "folder": "ACLED_conflict",
+      "source": "Armed Conflict Location & Event Data (ACLED)",
+      "citation": "Raleigh, C., Linke, A., Hegre, H., & Karlsen, J. (2010). Introducing ACLED: An Armed Conflict Location and Event Dataset. Journal of Peace Research.",
+      "source_url": "https://acleddata.com",
+      "retrieved_on": "2026-05-02",
+      "license": "ACLED Terms of Use (academic / non-commercial). See https://acleddata.com/terms-of-use/",
+      "contact": "access@acleddata.com",
+      "status": "placeholder",
+      "outputs": []
+    },
+    {
+      "folder": "IDP",
+      "source": "International Organisation for Migration (IOM) Displacement Tracking Matrix (DTM) \u2014 DRC",
+      "citation": "IOM DTM (2026). Mobility Tracking Round 14 - Ituri (IOM_DRC_MT_BLA_Ituri_R14_Jan2026, public version 3).",
+      "source_url": "https://dtm.iom.int/drc",
+      "retrieved_on": "2026-01-31",
+      "license": "IOM DTM public release. Reuse with attribution per IOM data sharing terms.",
+      "contact": "DTMDRC@iom.int",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "idp__individuals__monthly.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "idp",
+          "metric": "individuals",
+          "resolution": "monthly",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/idp__individuals__monthly.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        },
+        {
+          "file": "idp__individuals__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "idp",
+          "metric": "individuals",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/idp__individuals__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        },
+        {
+          "file": "idp__individuals__weekly.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "idp",
+          "metric": "individuals",
+          "resolution": "weekly",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/idp__individuals__weekly.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        }
+      ]
+    },
+    {
+      "folder": "aggregated_insp_linelist",
+      "source": "INSP/DHIS2 MVE epidemic line list \u2014 province-level onset aggregates",
+      "citation": "Institut National de Sant\u00e9 Publique (INSP) and Institut National de Recherche Biomedicale (INRB), Democratic Republic of the Congo. Aggregated confirmed cases by province and date of symptom onset from the DHIS2 MVE line list export.",
+      "source_url": "internal://insp-dhis2-linelist-aggregate",
+      "retrieved_on": "2026-06-09",
+      "license": "Internal operational data; redistribution subject to INSP/INRB approval.",
+      "contact": "pierre.akilimali@insp.cd",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "aggregated_insp_linelist__national_confirmed_cases_onset__daily.csv",
+          "type": "vector",
+          "dataset_token": "aggregated_insp_linelist",
+          "metric": "national_confirmed_cases_onset",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/aggregated_insp_linelist__national_confirmed_cases_onset.csv"
+        },
+        {
+          "file": "aggregated_insp_linelist__provincial_confirmed_cases_onset__daily.csv",
+          "type": "vector",
+          "dataset_token": "aggregated_insp_linelist",
+          "metric": "provincial_confirmed_cases_onset",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 36,
+          "long_csv": "build/long/aggregated_insp_linelist__provincial_confirmed_cases_onset.csv"
+        }
+      ]
+    },
+    {
+      "folder": "archive",
+      "source": "World Health Organization \u2014 Weekly External Situation Reports (2026 Bundibugyo Ebola virus outbreak, DRC)",
+      "citation": "World Health Organization. Bundibugyo Ebola virus outbreak, Democratic Republic of the Congo: Weekly External Situation Reports (SitRep 01\u201304, May\u2013June 2026).",
+      "source_url": "https://www.who.int",
+      "retrieved_on": "2026-06-07",
+      "license": "WHO open access. Reuse with attribution per https://www.who.int/about/policies/publishing/copyright",
+      "contact": "outbreak@who.int",
+      "status": "archive",
+      "outputs": []
+    },
+    {
+      "folder": "ccvi",
+      "source": "Climate Conflict Vulnerability Index (CCVI) \u2014 socio-economic vulnerability indicators aggregated to DRC health zones",
+      "citation": "Climate Conflict Vulnerability Index (2024). climate-conflict.org. Commissioned by German Federal Foreign Office; University of the Bundeswehr Munich and Potsdam Institute for Climate Impact Research (PIK). Health-zone geometry: DRC_Health_zones.shp (see data/shapefiles/). Methodology: https://climate-conflict.org/www/index/methodology",
+      "source_url": "https://climate-conflict.org/www",
+      "retrieved_on": "2026-05-20",
+      "license": "CCVI data and documentation subject to terms at climate-conflict.org; processing code open source at https://github.com/ccew-unibw/ccvi-data",
+      "contact": "https://climate-conflict.org/www",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "ccvi__socioeconomic_deprivation__static.csv",
+          "type": "vector",
+          "dataset_token": "ccvi",
+          "metric": "socioeconomic_deprivation",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/ccvi__socioeconomic_deprivation.csv"
+        },
+        {
+          "file": "ccvi__socioeconomic_inequality__static.csv",
+          "type": "vector",
+          "dataset_token": "ccvi",
+          "metric": "socioeconomic_inequality",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/ccvi__socioeconomic_inequality.csv"
+        }
+      ]
+    },
+    {
+      "folder": "cross-border-movements",
+      "source": "Cross-border passenger volumes from sitreps cited in Imperial College report on the 2026 DRC Ebola outbreak",
+      "citation": "Imperial College London MRC GIDA. Report on the DRC Ebola outbreak, 18 May 2026.",
+      "source_url": "https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/research-themes/preparedness-and-response-to-emerging-threats/report-ebola-18-05-2026/",
+      "retrieved_on": "2026-05-18",
+      "license": "Imperial College report citing public sitrep data; reuse with attribution to the report and underlying observations.",
+      "contact": "mrc-gida@imperial.ac.uk",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "cross_border__poe_passengers__static.csv",
+          "type": "vector",
+          "dataset_token": "cross_border",
+          "metric": "poe_passengers",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 7,
+          "long_csv": "build/long/cross_border__poe_passengers.csv"
+        }
+      ]
+    },
+    {
+      "folder": "epi",
+      "source": "WHO Weekly External Situation Report 01",
+      "citation": "World Health Organization. Bundibugyo Ebola virus outbreak, DRC: Weekly External Situation Report 01, data as of 18 May 2026.",
+      "source_url": "https://iris.who.int/server/api/core/bitstreams/bb1d4668-04e0-4563-b7c4-d1bdefbc9f05/content",
+      "retrieved_on": "2026-05-18",
+      "license": "WHO open access. Reuse with attribution per https://www.who.int/about/policies/publishing/copyright",
+      "contact": "outbreak@who.int",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "epi__cases__weekly.csv",
+          "type": "vector",
+          "dataset_token": "epi",
+          "metric": "cases",
+          "resolution": "weekly",
+          "in_geojson": true,
+          "zones_with_values": 7,
+          "long_csv": "build/long/epi__cases.csv"
+        }
+      ]
+    },
+    {
+      "folder": "epi_mve_inrb_app",
+      "source": "INRB MVE app line-list export (test extract)",
+      "citation": "Institut National de Recherche Biomedicale (INRB), MVE surveillance app line-list export shared for Ebola DRC 2026 analytics.",
+      "source_url": "internal://inrb-mve-app-export",
+      "retrieved_on": "2026-05-28",
+      "license": "Internal operational data; redistribution subject to INRB approval.",
+      "contact": "inrb-surveillance@inrb.cd",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "epi_mve_inrb_app__recorded_cases__daily.csv",
+          "type": "vector",
+          "dataset_token": "epi_mve_inrb_app",
+          "metric": "recorded_cases",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 2,
+          "long_csv": "build/long/epi_mve_inrb_app__recorded_cases.csv"
+        }
+      ]
+    },
+    {
+      "folder": "fao_lccs",
+      "source": "Copernicus CDS satellite-land-cover (UN FAO LCCS); urban class 190 aggregated to DRC health zones",
+      "citation": "Copernicus Climate Change Service (C3S) (2022). Land cover classification gridded maps from 1992 to present derived from satellite observations. Copernicus Climate Data Store (CDS). Health-zone geometry: DRC_Health_zones.shp (see data/shapefiles/).",
+      "source_url": "https://cds.climate.copernicus.eu/datasets/satellite-land-cover",
+      "retrieved_on": "2026-05-20",
+      "license": "Copernicus Licence; see https://cds.climate.copernicus.eu/datasets/satellite-land-cover?tab=licence",
+      "contact": "https://cds.climate.copernicus.eu",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "fao_lccs__urban_fraction__static.csv",
+          "type": "vector",
+          "dataset_token": "fao_lccs",
+          "metric": "urban_fraction",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/fao_lccs__urban_fraction.csv"
+        }
+      ]
+    },
+    {
+      "folder": "flowminder",
+      "source": "Flowminder.org mobility / population-relocation estimates from Vodacom RDC CDR data",
+      "citation": "Flowminder Foundation (2026). DRC estimated relocations between health zones, March 2020\u2013April 2026 (v2.0 external); plus March 2026 provincial PDF mobility extracts for Ituri, Nord-Kivu, Haut-Uele, Tshopo. https://www.flowminder.org",
+      "source_url": "https://www.flowminder.org/resources/publications-reports/drc-reports-publications",
+      "retrieved_on": "2026-07-14",
+      "license": "Flowminder external data release; cite the source organisation. See https://www.flowminder.org",
+      "contact": "rdc@flowminder.org",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "flowminder__inflow_202604__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "flowminder",
+          "metric": "inflow_202604",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/flowminder__inflow_202604__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        },
+        {
+          "file": "flowminder__inflow__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "flowminder",
+          "metric": "inflow",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/flowminder__inflow__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        },
+        {
+          "file": "flowminder__outflow_202604__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "flowminder",
+          "metric": "outflow_202604",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/flowminder__outflow_202604__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        },
+        {
+          "file": "flowminder__outflow__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "flowminder",
+          "metric": "outflow",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/flowminder__outflow__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        }
+      ]
+    },
+    {
+      "folder": "flowminder_short_trips",
+      "source": "Flowminder Foundation \u2014 DRC Ebola Bundibugyo short-trip cohort (May\u2013June 2026)",
+      "citation": "Flowminder Foundation (2026). Population movements from Bunia, Mongbwalu and Rwampara \u2014 Annex A ranked destination proportions. Report: Population_movements_Ebola_28_May_2026_Flowminder_Final.pdf; HDX cohort subscriber-day extracts (Ituri and Nord-Kivu, v1.0, 8 Jun 2026).",
+      "source_url": "https://www.flowminder.org/resources/publications-reports/drc-reports-publications",
+      "retrieved_on": "2026-06-08",
+      "license": "Flowminder reports are publicly released; cite the source organisation.",
+      "contact": "rdc@flowminder.org",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "flowminder_short_trips__ituri_subscriber_days_followup_20260608__static.csv",
+          "type": "vector",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "ituri_subscriber_days_followup_20260608",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 428,
+          "long_csv": "build/long/flowminder_short_trips__ituri_subscriber_days_followup_20260608.csv"
+        },
+        {
+          "file": "flowminder_short_trips__ituri_subscriber_days_followup_20260608__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "ituri_subscriber_days_followup_20260608",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/flowminder_short_trips__ituri_subscriber_days_followup_20260608__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        },
+        {
+          "file": "flowminder_short_trips__ituri_subscriber_days_prior_20260503__static.csv",
+          "type": "vector",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "ituri_subscriber_days_prior_20260503",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 428,
+          "long_csv": "build/long/flowminder_short_trips__ituri_subscriber_days_prior_20260503.csv"
+        },
+        {
+          "file": "flowminder_short_trips__ituri_subscriber_days_prior_20260503__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "ituri_subscriber_days_prior_20260503",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/flowminder_short_trips__ituri_subscriber_days_prior_20260503__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        },
+        {
+          "file": "flowminder_short_trips__nk_subscriber_days_followup_20260608__static.csv",
+          "type": "vector",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "nk_subscriber_days_followup_20260608",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 429,
+          "long_csv": "build/long/flowminder_short_trips__nk_subscriber_days_followup_20260608.csv"
+        },
+        {
+          "file": "flowminder_short_trips__nk_subscriber_days_followup_20260608__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "nk_subscriber_days_followup_20260608",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/flowminder_short_trips__nk_subscriber_days_followup_20260608__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        },
+        {
+          "file": "flowminder_short_trips__nk_subscriber_days_prior_20260503__static.csv",
+          "type": "vector",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "nk_subscriber_days_prior_20260503",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 429,
+          "long_csv": "build/long/flowminder_short_trips__nk_subscriber_days_prior_20260503.csv"
+        },
+        {
+          "file": "flowminder_short_trips__nk_subscriber_days_prior_20260503__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "nk_subscriber_days_prior_20260503",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/flowminder_short_trips__nk_subscriber_days_prior_20260503__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        },
+        {
+          "file": "flowminder_short_trips__outflow_20260430__static.csv",
+          "type": "vector",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "outflow_20260430",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 130,
+          "long_csv": "build/long/flowminder_short_trips__outflow_20260430.csv"
+        },
+        {
+          "file": "flowminder_short_trips__outflow_20260430__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "outflow_20260430",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/flowminder_short_trips__outflow_20260430__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        },
+        {
+          "file": "flowminder_short_trips__outflow_20260507__static.csv",
+          "type": "vector",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "outflow_20260507",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 130,
+          "long_csv": "build/long/flowminder_short_trips__outflow_20260507.csv"
+        },
+        {
+          "file": "flowminder_short_trips__outflow_20260507__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "outflow_20260507",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/flowminder_short_trips__outflow_20260507__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        },
+        {
+          "file": "flowminder_short_trips__outflow_20260514__static.csv",
+          "type": "vector",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "outflow_20260514",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 130,
+          "long_csv": "build/long/flowminder_short_trips__outflow_20260514.csv"
+        },
+        {
+          "file": "flowminder_short_trips__outflow_20260514__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "outflow_20260514",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/flowminder_short_trips__outflow_20260514__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        },
+        {
+          "file": "flowminder_short_trips__outflow_20260521__static.csv",
+          "type": "vector",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "outflow_20260521",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 130,
+          "long_csv": "build/long/flowminder_short_trips__outflow_20260521.csv"
+        },
+        {
+          "file": "flowminder_short_trips__outflow_20260521__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "outflow_20260521",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/flowminder_short_trips__outflow_20260521__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        },
+        {
+          "file": "flowminder_short_trips__outflow_20260524__static.csv",
+          "type": "vector",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "outflow_20260524",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 130,
+          "long_csv": "build/long/flowminder_short_trips__outflow_20260524.csv"
+        },
+        {
+          "file": "flowminder_short_trips__outflow_20260524__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "flowminder_short_trips",
+          "metric": "outflow_20260524",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/flowminder_short_trips__outflow_20260524__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        }
+      ]
+    },
+    {
+      "folder": "gdp_pc",
+      "source": "Kummu et al. (2025) downscaled global GDP per capita (PPP), aggregated to DRC health zones",
+      "citation": "Kummu, M., Kosonen, M. & Masoumzadeh Sayyar, S. (2025). Downscaled gridded global dataset for gross domestic product (GDP) per capita PPP over 1990\u20132022. Scientific Data 12, 178. https://doi.org/10.1038/s41597-025-04487-x. Data: https://doi.org/10.5281/zenodo.10976733. Health-zone geometry: DRC_Health_zones.shp (see data/shapefiles/).",
+      "source_url": "https://doi.org/10.5281/zenodo.10976733",
+      "retrieved_on": "2026-05-20",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0); see Nature Scientific Data and Zenodo record terms",
+      "contact": "matti.kummu@aalto.fi",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "gdp_pc__gdp_pc__static.csv",
+          "type": "vector",
+          "dataset_token": "gdp_pc",
+          "metric": "gdp_pc",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/gdp_pc__gdp_pc.csv"
+        }
+      ]
+    },
+    {
+      "folder": "genomic_surveillance",
+      "source": "INRB/INOHA BDBV 2026 genomic surveillance (whole-genome sequencing consensus metadata)",
+      "citation": "Institut National de Recherche Biom\u00e9dicale (INRB) / One Health Institute for Africa (INOHA), Kinshasa. Bundibugyo ebolavirus (BDBV) 2026 genomic surveillance. Consensus sequence metadata reconciled from FASTA headers, laboratory linelists (Bunia, Kinshasa) and the DHIS2 alert linelist (BDBV2026-Phylogenetic-analyses). Health-zone geometry: DRC_Health_zones.shp (see data/shapefiles/).",
+      "source_url": "https://pathoplexus.org/ebola-bdbv/search",
+      "retrieved_on": "2026-07-07",
+      "license": "Preliminary outbreak data \u2014 see repository root README statement on continuing work before publication; contact INRB before reuse.",
+      "contact": "placide.mbala@inrb.cd",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "genomic_surveillance__sequence_count__static.csv",
+          "type": "vector",
+          "dataset_token": "genomic_surveillance",
+          "metric": "sequence_count",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 16,
+          "long_csv": "build/long/genomic_surveillance__sequence_count.csv"
+        }
+      ]
+    },
+    {
+      "folder": "grid3_healthsites",
+      "source": "GRID3 COD Health Facilities v8.0, aggregated to DRC health zones",
+      "citation": "Center for Integrated Earth System Information (CIESIN), Columbia University; Minist\u00e8re de la Sant\u00e9 Publique, Hygi\u00e8ne et Pr\u00e9vention, Democratic Republic of the Congo; GRID3 (2025). GRID3 COD \u2014 Health Facilities v8.0. https://doi.org/10.7916/f1ft-y872. Health-zone geometry: DRC_Health_zones.shp (see data/shapefiles/).",
+      "source_url": "https://data.grid3.org/datasets/GRID3::grid3-cod-health-facilities-v8-0/about",
+      "retrieved_on": "2026-05-20",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0); Copyright 2025 The Trustees of Columbia University in the City of New York",
+      "contact": "info@ciesin.columbia.edu",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "grid3_healthsites__healthsite_count__static.csv",
+          "type": "vector",
+          "dataset_token": "grid3_healthsites",
+          "metric": "healthsite_count",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/grid3_healthsites__healthsite_count.csv"
+        },
+        {
+          "file": "grid3_healthsites__healthsite_density__static.csv",
+          "type": "vector",
+          "dataset_token": "grid3_healthsites",
+          "metric": "healthsite_density",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/grid3_healthsites__healthsite_density.csv"
+        }
+      ]
+    },
+    {
+      "folder": "healthsites_io",
+      "source": "Healthsites.io OpenStreetMap health-facility extract (DRC), aggregated to health zones",
+      "citation": "OpenStreetMap contributors; Healthsites.io (https://healthsites.io). Democratic Republic of the Congo node extract. Health-zone geometry: DRC_Health_zones.shp (see data/shapefiles/).",
+      "source_url": "https://healthsites.io/",
+      "retrieved_on": "2026-05-20",
+      "license": "Open Database License (ODbL) 1.0; \u00a9 OpenStreetMap contributors \u2014 see raw/LICENSE.txt and raw/README.md",
+      "contact": "https://healthsites.io/contact",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "healthsites_io__healthsite_count__static.csv",
+          "type": "vector",
+          "dataset_token": "healthsites_io",
+          "metric": "healthsite_count",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/healthsites_io__healthsite_count.csv"
+        },
+        {
+          "file": "healthsites_io__healthsite_density__static.csv",
+          "type": "vector",
+          "dataset_token": "healthsites_io",
+          "metric": "healthsite_density",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/healthsites_io__healthsite_density.csv"
+        }
+      ]
+    },
+    {
+      "folder": "insp_sitrep",
+      "source": "Institut National de Sant\u00e9 Publique (INSP) Situation Reports \u2014 SitRep MVE series (2026 Bundibugyo Ebolavirus outbreak)",
+      "citation": "Institut National de Sant\u00e9 Publique (INSP), Democratic Republic of the Congo. Situation reports on the 2026 Bundibugyo Ebolavirus outbreak (SitRep MVE 001, 002, 004\u2013012, 2026; report 003 not committed). Health-zone geometry: DRC_Health_zones.shp (see data/shapefiles/).",
+      "source_url": "https://insp.cd/",
+      "retrieved_on": "2026-08-10",
+      "license": "INSP outbreak sitreps; reuse with attribution to INSP and citation of the specific report number and date. Confirm distribution terms with INSP before external republication.",
+      "contact": "pierre.akilimali@insp.cd",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "insp_sitrep__contacts_seen__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "contacts_seen",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 10,
+          "long_csv": "build/long/insp_sitrep__contacts_seen.csv"
+        },
+        {
+          "file": "insp_sitrep__cumulative_confirmed_cases__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "cumulative_confirmed_cases",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 54,
+          "long_csv": "build/long/insp_sitrep__cumulative_confirmed_cases.csv"
+        },
+        {
+          "file": "insp_sitrep__cumulative_confirmed_deaths__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "cumulative_confirmed_deaths",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 53,
+          "long_csv": "build/long/insp_sitrep__cumulative_confirmed_deaths.csv"
+        },
+        {
+          "file": "insp_sitrep__cumulative_contacts_isolated__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "cumulative_contacts_isolated",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 12,
+          "long_csv": "build/long/insp_sitrep__cumulative_contacts_isolated.csv"
+        },
+        {
+          "file": "insp_sitrep__cumulative_contacts_traced__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "cumulative_contacts_traced",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 15,
+          "long_csv": "build/long/insp_sitrep__cumulative_contacts_traced.csv"
+        },
+        {
+          "file": "insp_sitrep__cumulative_suspected_cases__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "cumulative_suspected_cases",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 22,
+          "long_csv": "build/long/insp_sitrep__cumulative_suspected_cases.csv"
+        },
+        {
+          "file": "insp_sitrep__cumulative_suspected_deaths__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "cumulative_suspected_deaths",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 20,
+          "long_csv": "build/long/insp_sitrep__cumulative_suspected_deaths.csv"
+        },
+        {
+          "file": "insp_sitrep__hosp_escaped__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "hosp_escaped",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 6,
+          "long_csv": "build/long/insp_sitrep__hosp_escaped.csv"
+        },
+        {
+          "file": "insp_sitrep__hospitalised__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "hospitalised",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 6,
+          "long_csv": "build/long/insp_sitrep__hospitalised.csv"
+        },
+        {
+          "file": "insp_sitrep__in_bed_previous_day__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "in_bed_previous_day",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 6,
+          "long_csv": "build/long/insp_sitrep__in_bed_previous_day.csv"
+        },
+        {
+          "file": "insp_sitrep__national_cumulative_confirmed_cases__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "national_cumulative_confirmed_cases",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/insp_sitrep__national_cumulative_confirmed_cases.csv"
+        },
+        {
+          "file": "insp_sitrep__national_cumulative_confirmed_deaths__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "national_cumulative_confirmed_deaths",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/insp_sitrep__national_cumulative_confirmed_deaths.csv"
+        },
+        {
+          "file": "insp_sitrep__national_cumulative_recovered_cases__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "national_cumulative_recovered_cases",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/insp_sitrep__national_cumulative_recovered_cases.csv"
+        },
+        {
+          "file": "insp_sitrep__national_cumulative_suspected_cases__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "national_cumulative_suspected_cases",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/insp_sitrep__national_cumulative_suspected_cases.csv"
+        },
+        {
+          "file": "insp_sitrep__national_cumulative_suspected_deaths__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "national_cumulative_suspected_deaths",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/insp_sitrep__national_cumulative_suspected_deaths.csv"
+        },
+        {
+          "file": "insp_sitrep__national_suspected_cases_in_isolation__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "national_suspected_cases_in_isolation",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/insp_sitrep__national_suspected_cases_in_isolation.csv"
+        },
+        {
+          "file": "insp_sitrep__national_suspected_cases_under_investigation__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "national_suspected_cases_under_investigation",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/insp_sitrep__national_suspected_cases_under_investigation.csv"
+        },
+        {
+          "file": "insp_sitrep__new_confirmed_cases__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "new_confirmed_cases",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 37,
+          "long_csv": "build/long/insp_sitrep__new_confirmed_cases.csv"
+        },
+        {
+          "file": "insp_sitrep__new_contacts_isolated__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "new_contacts_isolated",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 12,
+          "long_csv": "build/long/insp_sitrep__new_contacts_isolated.csv"
+        },
+        {
+          "file": "insp_sitrep__new_contacts_listed__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "new_contacts_listed",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 20,
+          "long_csv": "build/long/insp_sitrep__new_contacts_listed.csv"
+        },
+        {
+          "file": "insp_sitrep__new_hosp_admissions__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "new_hosp_admissions",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 6,
+          "long_csv": "build/long/insp_sitrep__new_hosp_admissions.csv"
+        },
+        {
+          "file": "insp_sitrep__new_hosp_detainees__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "new_hosp_detainees",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 6,
+          "long_csv": "build/long/insp_sitrep__new_hosp_detainees.csv"
+        },
+        {
+          "file": "insp_sitrep__new_hosp_other__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "new_hosp_other",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 6,
+          "long_csv": "build/long/insp_sitrep__new_hosp_other.csv"
+        },
+        {
+          "file": "insp_sitrep__new_suspected_cases__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "new_suspected_cases",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 27,
+          "long_csv": "build/long/insp_sitrep__new_suspected_cases.csv"
+        },
+        {
+          "file": "insp_sitrep__new_suspected_deaths__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "new_suspected_deaths",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 27,
+          "long_csv": "build/long/insp_sitrep__new_suspected_deaths.csv"
+        },
+        {
+          "file": "insp_sitrep__total_poe_hand_washing__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "total_poe_hand_washing",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 8,
+          "long_csv": "build/long/insp_sitrep__total_poe_hand_washing.csv"
+        },
+        {
+          "file": "insp_sitrep__total_poe_passed__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "total_poe_passed",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 8,
+          "long_csv": "build/long/insp_sitrep__total_poe_passed.csv"
+        },
+        {
+          "file": "insp_sitrep__total_poe_refused_hand_washing__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "total_poe_refused_hand_washing",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 8,
+          "long_csv": "build/long/insp_sitrep__total_poe_refused_hand_washing.csv"
+        },
+        {
+          "file": "insp_sitrep__total_poe_refused_screening__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "total_poe_refused_screening",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 8,
+          "long_csv": "build/long/insp_sitrep__total_poe_refused_screening.csv"
+        },
+        {
+          "file": "insp_sitrep__total_poe_sanitised__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "total_poe_sanitised",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 8,
+          "long_csv": "build/long/insp_sitrep__total_poe_sanitised.csv"
+        },
+        {
+          "file": "insp_sitrep__total_poe_screened__daily.csv",
+          "type": "vector",
+          "dataset_token": "insp_sitrep",
+          "metric": "total_poe_screened",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 8,
+          "long_csv": "build/long/insp_sitrep__total_poe_screened.csv"
+        }
+      ]
+    },
+    {
+      "folder": "osrm",
+      "source": "OSRM road-network routing (OpenStreetMap) applied to DRC health-zone polygons",
+      "citation": "OpenStreetMap contributors (2026). Routing via Project OSRM. Health-zone geometry: DRC_Health_zones.shp (see data/shapefiles/).",
+      "source_url": "http://project-osrm.org/",
+      "retrieved_on": "2026-03-17",
+      "license": "OpenStreetMap data \u00a9 OpenStreetMap contributors, ODbL 1.0 (https://www.openstreetmap.org/copyright). OSRM routing engine: BSD-2-Clause.",
+      "contact": "https://github.com/Project-OSRM/osrm-backend/issues",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "osrm__road_distance__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "osrm",
+          "metric": "road_distance",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/osrm__road_distance__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        },
+        {
+          "file": "osrm__travel_time__static.matrix.csv",
+          "type": "matrix",
+          "dataset_token": "osrm",
+          "metric": "travel_time",
+          "resolution": "static",
+          "in_geojson": false,
+          "matrix_csv": "build/matrix/osrm__travel_time__static.matrix.csv",
+          "matrix_log": "qa/matrix_log.csv"
+        }
+      ]
+    },
+    {
+      "folder": "public_health_response",
+      "source": "Institut National de Sant\u00e9 Publique (INSP) Situation Reports \u2014 SitRep MVE series (2026 Bundibugyo Ebolavirus outbreak)",
+      "citation": "Institut National de Sant\u00e9 Publique (INSP), Democratic Republic of the Congo. Situation reports on the 2026 Bundibugyo Ebolavirus outbreak (SitRep MVE 001, 002, 004\u2013012, 2026; report 003 not committed). Health-zone geometry: DRC_Health_zones.shp (see data/shapefiles/).",
+      "source_url": "https://insp.cd/",
+      "retrieved_on": "2026-06-10",
+      "license": "INSP outbreak sitreps; reuse with attribution to INSP and citation of the specific report number and date. Confirm distribution terms with INSP before external republication.",
+      "contact": "pierre.akilimali@insp.cd",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "public_health_response__epidemiological_community_engagement_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_community_engagement_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 15,
+          "long_csv": "build/long/public_health_response__epidemiological_community_engagement_en.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_community_engagement_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_community_engagement_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 15,
+          "long_csv": "build/long/public_health_response__epidemiological_community_engagement_fr.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_coordination_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_coordination_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 21,
+          "long_csv": "build/long/public_health_response__epidemiological_coordination_en.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_coordination_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_coordination_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 21,
+          "long_csv": "build/long/public_health_response__epidemiological_coordination_fr.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_infection_prevention_controle_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_infection_prevention_controle_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 20,
+          "long_csv": "build/long/public_health_response__epidemiological_infection_prevention_controle_en.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_infection_prevention_controle_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_infection_prevention_controle_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 20,
+          "long_csv": "build/long/public_health_response__epidemiological_infection_prevention_controle_fr.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_laboratory_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_laboratory_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 10,
+          "long_csv": "build/long/public_health_response__epidemiological_laboratory_en.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_laboratory_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_laboratory_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 10,
+          "long_csv": "build/long/public_health_response__epidemiological_laboratory_fr.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_logistics_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_logistics_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 25,
+          "long_csv": "build/long/public_health_response__epidemiological_logistics_en.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_logistics_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_logistics_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 25,
+          "long_csv": "build/long/public_health_response__epidemiological_logistics_fr.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_management_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_management_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 26,
+          "long_csv": "build/long/public_health_response__epidemiological_management_en.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_management_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_management_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 26,
+          "long_csv": "build/long/public_health_response__epidemiological_management_fr.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_monitoring_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_monitoring_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 26,
+          "long_csv": "build/long/public_health_response__epidemiological_monitoring_en.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_monitoring_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_monitoring_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 26,
+          "long_csv": "build/long/public_health_response__epidemiological_monitoring_fr.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_protection_sexual_exploitation_abuse_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_protection_sexual_exploitation_abuse_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 55,
+          "long_csv": "build/long/public_health_response__epidemiological_protection_sexual_exploitation_abuse_en.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_protection_sexual_exploitation_abuse_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_protection_sexual_exploitation_abuse_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 89,
+          "long_csv": "build/long/public_health_response__epidemiological_protection_sexual_exploitation_abuse_fr.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_security_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_security_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 14,
+          "long_csv": "build/long/public_health_response__epidemiological_security_en.csv"
+        },
+        {
+          "file": "public_health_response__epidemiological_security_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "epidemiological_security_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 14,
+          "long_csv": "build/long/public_health_response__epidemiological_security_fr.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_community_engagement_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_community_engagement_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_community_engagement_en.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_community_engagement_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_community_engagement_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_community_engagement_fr.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_coordination_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_coordination_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_coordination_en.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_coordination_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_coordination_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_coordination_fr.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_infection_prevention_controle_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_infection_prevention_controle_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_infection_prevention_controle_en.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_infection_prevention_controle_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_infection_prevention_controle_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_infection_prevention_controle_fr.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_laboratory_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_laboratory_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_laboratory_en.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_laboratory_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_laboratory_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_laboratory_fr.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_logistics_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_logistics_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_logistics_en.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_logistics_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_logistics_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_logistics_fr.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_management_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_management_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_management_en.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_management_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_management_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_management_fr.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_monitoring_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_monitoring_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 623,
+          "long_csv": "build/long/public_health_response__national_epidemiological_monitoring_en.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_monitoring_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_monitoring_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_monitoring_fr.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_protection_sexual_exploitation_abuse_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_protection_sexual_exploitation_abuse_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_protection_sexual_exploitation_abuse_en.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_protection_sexual_exploitation_abuse_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_protection_sexual_exploitation_abuse_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_protection_sexual_exploitation_abuse_fr.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_security_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_security_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_security_en.csv"
+        },
+        {
+          "file": "public_health_response__national_epidemiological_security_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "national_epidemiological_security_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/public_health_response__national_epidemiological_security_fr.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_community_engagement_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_community_engagement_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 104,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_community_engagement_en.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_community_engagement_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_community_engagement_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 104,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_community_engagement_fr.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_coordination_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_coordination_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 118,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_coordination_en.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_coordination_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_coordination_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 118,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_coordination_fr.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_infection_prevention_controle_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_infection_prevention_controle_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 104,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_infection_prevention_controle_en.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_infection_prevention_controle_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_infection_prevention_controle_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 104,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_infection_prevention_controle_fr.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_laboratory_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_laboratory_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 117,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_laboratory_en.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_laboratory_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_laboratory_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 117,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_laboratory_fr.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_logistics_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_logistics_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 70,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_logistics_en.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_logistics_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_logistics_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 70,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_logistics_fr.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_management_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_management_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 104,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_management_en.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_management_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_management_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 104,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_management_fr.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_monitoring_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_monitoring_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 117,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_monitoring_en.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_monitoring_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_monitoring_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 117,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_monitoring_fr.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_protection_sexual_exploitation_abuse_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_protection_sexual_exploitation_abuse_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 104,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_protection_sexual_exploitation_abuse_en.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_protection_sexual_exploitation_abuse_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_protection_sexual_exploitation_abuse_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 104,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_protection_sexual_exploitation_abuse_fr.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_security_en__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_security_en",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 104,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_security_en.csv"
+        },
+        {
+          "file": "public_health_response__provincial_epidemiological_security_fr__daily.csv",
+          "type": "vector",
+          "dataset_token": "public_health_response",
+          "metric": "provincial_epidemiological_security_fr",
+          "resolution": "daily",
+          "in_geojson": true,
+          "zones_with_values": 104,
+          "long_csv": "build/long/public_health_response__provincial_epidemiological_security_fr.csv"
+        }
+      ]
+    },
+    {
+      "folder": "refugee_sites",
+      "source": "OpenStreetMap",
+      "citation": "OpenStreetMap contributors",
+      "source_url": "https://www.openstreetmap.org/",
+      "retrieved_on": "2026-05-20",
+      "license": "Open Database License (ODbL) 1.0 \u2014 https://www.openstreetmap.org/copyright",
+      "contact": "team@openstreetmap.us",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "refugee_sites__sites__static.csv",
+          "type": "vector",
+          "dataset_token": "refugee_sites",
+          "metric": "sites",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 23,
+          "long_csv": "build/long/refugee_sites__sites.csv"
+        }
+      ]
+    },
+    {
+      "folder": "testing_capacity",
+      "source": "Africa CDC \u2014 Plan de d\u00e9centralisation des tests Ebola, RDC",
+      "citation": "Africa Centres for Disease Control and Prevention (Africa CDC). Plan de d\u00e9centralisation des tests de laboratoire Ebola en R\u00e9publique d\u00e9mocratique du Congo.",
+      "source_url": "https://africacdc.org/",
+      "retrieved_on": "2026-05-26",
+      "license": "Use with attribution to Africa CDC and INRB/INSP as specified in the source plan; confirm redistribution terms with the data owner.",
+      "contact": "info@africacdc.org",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "testing_capacity__pcr_machines__static.csv",
+          "type": "vector",
+          "dataset_token": "testing_capacity",
+          "metric": "pcr_machines",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 19,
+          "long_csv": "build/long/testing_capacity__pcr_machines.csv"
+        },
+        {
+          "file": "testing_capacity__pcr_tests__static.csv",
+          "type": "vector",
+          "dataset_token": "testing_capacity",
+          "metric": "pcr_tests",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 19,
+          "long_csv": "build/long/testing_capacity__pcr_tests.csv"
+        }
+      ]
+    },
+    {
+      "folder": "worldpop",
+      "source": "WorldPop gridded population estimates aggregated to DRC health zones",
+      "citation": "WorldPop (2025). Population counts and densities for Democratic Republic of the Congo health zones. University of Southampton. https://www.worldpop.org. Health-zone geometry: DRC_Health_zones.shp (see data/shapefiles/).",
+      "source_url": "https://www.worldpop.org/",
+      "retrieved_on": "2026-05-20",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0); see https://www.worldpop.org/geodata/licensing",
+      "contact": "info@worldpop.org",
+      "status": "active",
+      "outputs": [
+        {
+          "file": "worldpop__pop_count__static.csv",
+          "type": "vector",
+          "dataset_token": "worldpop",
+          "metric": "pop_count",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/worldpop__pop_count.csv"
+        },
+        {
+          "file": "worldpop__pop_density__static.csv",
+          "type": "vector",
+          "dataset_token": "worldpop",
+          "metric": "pop_density",
+          "resolution": "static",
+          "in_geojson": true,
+          "zones_with_values": 519,
+          "long_csv": "build/long/worldpop__pop_density.csv"
+        }
+      ]
+    }
+  ]
+}

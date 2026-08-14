@@ -1,0 +1,34 @@
+source: "Institut National de Santé Publique (INSP) Situation Reports — SitRep MVE series (2026 Bundibugyo Ebolavirus outbreak)"
+citation: "Institut National de Santé Publique (INSP), Democratic Republic of the Congo. Situation reports on the 2026 Bundibugyo Ebolavirus outbreak (SitRep MVE 001, 002, 004–012, 2026; report 003 not committed). Health-zone geometry: DRC_Health_zones.shp (see data/shapefiles/)."
+source_url: "https://insp.cd/"
+retrieved_on: "2026-06-10"
+license: "INSP outbreak sitreps; reuse with attribution to INSP and citation of the specific report number and date. Confirm distribution terms with INSP before external republication."
+contact: "pierre.akilimali@insp.cd"
+runtime: none
+period: "2026-06-01 to 2026-08-02 (processed extracts; see README)"
+notes: |
+  Manually extracted from INSP SitRep MVE PDFs in raw/ (SitRep_MVE_001-2026.pdf
+  through SitRep_MVE_012_2026.pdf; 003 not committed).
+  Pillar-specific operational activities were extracted from the SitRep narrative
+  sections. For each pillar, processed vectors are stored as
+  insp_sitrep____daily.csv with nom, date, and a text value column
+  containing the reported activity.
+  Records are assigned to the health zones explicitly mentioned in the SitRep.
+  When an activity is reported at national level without reference to a specific
+  health zone, it is stored in the corresponding national_* file using
+  nom = DRC. National records are subsequently available for country-level
+  analysis and reporting.
+  Province-level pillar narratives use provincial_* files with nom set to the
+  shapefile PROVINCE name (English sitrep spellings may be mapped via
+  data/province_aliases.csv). The GeoJSON build broadcasts each provincial row
+  to every health zone in that province.
+  Kinshasa, Lualaba, and Tshopo are each both a province and a health zone of
+  the same name; zone identity wins on that collision, so a provincial_* row
+  for one of these three must use nom = "<Province> (province)" (e.g.
+  "Tshopo (province)") or it will attach to the health zone instead of
+  broadcasting to the province. See data/README.md, "Province roll-ups".
+  Health zone names are normalised to canonical names during processing.
+  nom may contain NA when no valid geographic assignment can be made.
+  Data complements data/epi/.
+  process.R does not parse PDFs directly; it processes manually extracted data
+  and standardises zone names before export.

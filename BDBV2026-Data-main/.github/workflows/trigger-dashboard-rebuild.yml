@@ -1,0 +1,46 @@
+# Manual escape hatch: dispatch a dashboard rebuild without running a full data release.
+# Production path: release.yml dispatches after a successful release on main.
+
+name: Trigger dashboard rebuild
+
+on:
+  workflow_dispatch:
+    inputs:
+      dashboard_branch:
+        description: "Dashboard repo branch to rebuild"
+        required: false
+        default: "main"
+      data_ref:
+        description: "BDBV2026-Data git ref passed to the dashboard build (default: main)"
+        required: false
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger dashboard workflow
+        env:
+          GH_TOKEN: ${{ secrets.DASHBOARD_DISPATCH_TOKEN }}
+          DASHBOARD_REPO: INRB-UMIE/BDBV2026-Epidemic_Dashboard
+        run: |
+          set -euo pipefail
+          if [ -z "${GH_TOKEN}" ]; then
+            echo "::warning::DASHBOARD_DISPATCH_TOKEN is not set. Add a PAT with contents:write on the dashboard repo."
+            exit 0
+          fi
+          BRANCH="${{ github.event.inputs.dashboard_branch }}"
+          if [ -z "${BRANCH}" ]; then
+            BRANCH="main"
+          fi
+          DATA_REF="${{ github.event.inputs.data_ref }}"
+          if [ -z "${DATA_REF}" ]; then
+            DATA_REF="main"
+          fi
+          echo "Dispatching data-updated to ${DASHBOARD_REPO}"
+          echo "  dashboard_branch=${BRANCH}  data_ref=${DATA_REF}"
+          jq -n \
+            --arg data_ref "${DATA_REF}" \
+            --arg sha "${{ github.sha }}" \
+            --arg dashboard_branch "${BRANCH}" \
+            '{event_type: "data-updated", client_payload: {data_ref: $data_ref, sha: $sha, dashboard_branch: $dashboard_branch}}' \
+            | gh api --method POST "repos/${DASHBOARD_REPO}/dispatches" --input -
