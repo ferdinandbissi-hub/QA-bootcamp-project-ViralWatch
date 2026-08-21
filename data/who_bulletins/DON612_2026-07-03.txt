@@ -1,0 +1,111 @@
+See all DONs related to this event
+Read more about Ebola disease
+Situation at a glance
+The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with sustained transmission and increasing numbers of reported cases. As of 1 July, a cumulative of 1460 confirmed cases, including 452 deaths, have been reported from the Democratic Republic of the Congo. As of 2 July, Uganda has reported 20 confirmed cases including two deaths, as well as one probable case who has died. In addition, on 24 June 2026, French authorities notified WHO of a laboratory-confirmed case of Ebola disease caused by Bundibugyo virus in a medical doctor returning from the Democratic Republic of the Congo.
+In Uganda, the outbreak remains epidemiologically linked to transmission originating in the Democratic Republic of the Congo, with evidence of both imported infections and secondary transmission among contacts and healthcare workers. Uganda has not reported any new cases since 21 June 2026.
+National authorities in the two affected countries, in collaboration with WHO and partners, are implementing an extensive set of response measures. A regional preparedness and prioritization framework continues to guide readiness activities across the African Region.
+Description of the situation
+Since the last
+Disease Outbreak News
+was published on 19 June 2026, the number of confirmed cases and deaths have increased rapidly in the Democratic Republic of the Congo. In total, 1481 confirmed cases; 1460 from the Democratic Republic of the Congo, 20 from Uganda and one from France (linked to DRC); and 454 deaths including two from Uganda, have been reported.  At least 229 patients have recovered from the disease; 213 patients from the Democratic Republic of the Congo and 16 patients from Uganda.
+Figure 1. Distribution of confirmed cases of Bundibugyo virus disease in the Democratic Republic of the Congo as of 1 July and Uganda as of 2 July
+Democratic Republic of the Congo
+Since 19 June when the last Disease Outbreak News was published, an additional 564 confirmed cases, including 220 confirmed deaths, have been reported from the Democratic Republic of the Congo. The increase is in part due to the scale up of surveillance activities, testing and diagnostic capacities.
+As of 1 July 2026, a total of 1460 confirmed cases including 452 deaths (crude case fatality ratio [CFR] 30.9%) have been reported from the Democratic Republic of Congo. So far, 213 patients have recovered. Cases have been reported from 36 health zones (HZ) from Ituri (24/36 HZ), North Kivu (11/35 HZ) and South Kivu provinces (1/34 HZ).[1] To date, 102 confirmed cases including 25 deaths have been reported among health and care workers.
+Of the 36 affected health zones, the outbreak remains active in 21 health zones from where cases have been reported in the past 21 days. The remaining health zones have not reported any new cases during this period. In the past 21 days, 838 confirmed cases, including 314 confirmed deaths, have been reported.
+Ituri Province remains the most affected, accounting for 91.3% (1333/1460) of all confirmed cases and 84% (380/452) of all reported deaths nationwide. Within the province, the highest number of confirmed cases have been reported from Bunia (416 cases), Rwampara (308 cases), Mongbwalu (270 cases), Nyankunde (95 cases), and Nizi (65 cases) health zones. As of 1 July, the outbreak has
+spread to three additional health zones in the province. Following epidemiological investigations, three confirmed cases with travel history from Nia Nia health zone in Ituri province have been reported on 30 June in Wamba health zone in Haut Uele Province and Kisangani in Tshopo province. These cases have been reported under Nia Nia health zone. Response activities, including contact tracing and follow-up, are ongoing in both provinces. Of the total confirmed cases, 17 are yet to be assigned to a specific health zone.
+As of 1 July, 10 821 contacts have been identified and are under follow-up across Ituri (8376), and North Kivu (2445). Of these, 8954 contacts have been followed up, corresponding to follow-up rates of 83.2% in Ituri, and 81% in North Kivu. Previously listed contacts from South Kivu province have completed 21 days of follow up.  In addition, 107 contacts of the case reported in France have been listed and are under follow up in Kinshasa.
+The outbreak is unfolding in a complex humanitarian and conflict-affected environment, characterized by highly mobile and often displaced populations, often lacking access to basic services, including food, clean water, shelter, healthcare and protection which poses an increased risk of transmission to the populations living in overcrowded internally displaced camps. These dynamics, combined with increasing security-related incidents affecting health facilities, have posed additional operational challenges in affected provinces, such as constrained access for response teams, disrupted surveillance and response activities, and heightened risk of undetected transmission. These conditions underscore the need for response efforts to be led by local leaders and anchored in communities.
+Figure 2: Number of confirmed cases (n = 1460), in the Democratic Republic of the Congo, by date of reporting, as of 1 July 2026
+Figure 3: Number of deaths among confirmed cases (n = 452), in the Democratic Republic of the Congo, by date of reporting, as of 1 July 2026.
+NB: Newly reported confirmed cases/deaths may be part of the backlog of samples and therefore not necessarily newly acquired infections.
+Uganda
+The last confirmed case was reported to be identified on 21 June 2026.  As of 2 July 2026, a cumulative of 20 confirmed cases including two deaths in imported cases (reported on 15 May and 5 June), and one probable case who has died, have been reported. Of the confirmed cases, 15 are imported cases, while five are secondary cases among contacts and health workers with links to imported cases from the Democratic Republic of the Congo. The cases have been reported in two districts, Kampala and Wakiso, both part of the Kampala Metropolitan Area. To date, there has been no documented community transmission in Uganda. Exposure risks are associated with healthcare settings and cross-border movements. Following case reclassification, the number of affected healthcare workers was revised from five to four. In total, 16 recoveries have been reported to date.
+Of the 831 contacts listed as of 28 June, 821 contacts have completed their 21-day follow-up period as of 2 July.
+Figure 4: Number of confirmed cases (n = 20), in Uganda by date of reporting, as of 2 July 2026
+France:
+On 24 June 2026, French authorities notified WHO of a laboratory-confirmed case of Ebola disease caused by Bundibugyo virus in a middle-aged male medical doctor returning from the Democratic Republic of the Congo. The patient had been deployed for five weeks in Ituri Province, where he was involved in the care of patients with BVD. Upon arrival at Charles de Gaulle Airport on 23 June 2026, the patient self-reported symptoms to airport health authorities, prompting immediate isolation and referral to a designated high-containment healthcare facility.
+At the time of reporting, the patient was clinically stable and had no fever, with no reported vomiting, diarrhoea, or haemorrhagic manifestations during travel. PCR testing detected Bundibugyo virus. Comprehensive contact tracing has been initiated in the Democratic Republic of the Congo and in France.
+Epidemiology
+Bundibugyo virus disease (BVD) is a severe Ebola disease caused by the Bundibugyo virus, one of the
+Orthoebolavirus
+species. It is a zoonotic disease, with fruit bats suspected to be the natural reservoir. Human infection is thought to occur through close contact with the blood or secretions of infected wildlife, such as bats or non-human primates, and it subsequently spreads from person to person through direct contact with the blood, secretions, organs, or other bodily fluids of infected individuals or contaminated surfaces or items. Transmission is particularly amplified in health-care settings when infection prevention and control (IPC) measures are inadequate, and during unsafe burial practices involving direct contact with the deceased.
+The incubation period for BVD ranges from two to 21 days, and individuals are not infectious until symptom onset. Early symptoms such as fever, fatigue, muscle pain, headache, and sore throat, are non-specific, which complicates clinical diagnosis and can delay detection. These symptoms then progress to gastrointestinal symptoms, organ dysfunction, and in some cases haemorrhagic manifestations. CFRs in the past two BVD outbreaks, reported in Uganda and in the Democratic Republic of the Congo in 2007 and 2012 were 30% and 50%, respectively.
+Differentiating BVD from other endemic febrile illnesses such as malaria is challenging without laboratory confirmation using PCR or antigen/antibody-based assays. Outbreak control relies on rapid case identification, isolation and care, contact tracing, safe burials, and strong community engagement, as no approved vaccines or specific treatments currently exist for BVD.
+Public health response
+Health authorities in the Democratic Republic of the Congo and Uganda, in collaboration with WHO and partners, are implementing extensive public health measures including implementing the continental response plan, engaging donors and mobilizing additional resources to address critical funding gaps and sustain response operations across affected and at-risk areas.
+For further information about public health response actions by the respective Ministry of Health, WHO, and partners, please refer to the latest situation reports published by the WHO Regional Office for Africa
+Ebola Bundibugyo Virus Disease Outbreak Democratic Republic of the Congo | Uganda Weekly External Situation Report | WHO | Regional Office for Africa
+WHO risk assessment
+On 6 June 2026, WHO reassessed the risk of the outbreak of BVD to incorporate newly available information and align with the WHO
+Temporary Recommendations
+. The risk for countries sharing land borders with countries with documented Bundibugyo virus (BVDV) detection, currently the Democratic Republic of the Congo and Uganda, has been separated out from the risk for other countries in the African Region.
+The risk in the Democratic Republic of the Congo remains assessed as very high due to ongoing transmission and the continued expansion of the outbreak into new health zones, increasing the potential for further national and regional spread.
+The risk in Uganda is assessed as high due to confirmed cross-border spread through imported cases and ongoing epidemiological links along the eastern Democratic Republic of the Congo–western Uganda corridor, historically affected by Ebola outbreaks, including Bundibugyo and Sudan virus disease outbreaks.
+The risk for countries with land borders adjoining countries with documented BDBV detection is assessed as high due to sustained population mobility linked to cross-border trade and mining activities, variation in capacities and experience of BVD response, and variable levels of readiness.
+The risk for the rest of the Africa region and at the global level is assessed as low.
+For further information, please see the
+WHO Rapid Risk Assessment – Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Uganda and countries with land borders adjoining countries with documented BDBV detection v3
+.
+WHO advice
+WHO advises against any restriction of travel to, or trade with, the Democratic Republic of the Congo or Uganda based on the currently available information. WHO continues to closely monitor and, where necessary, verify travel and trade measures in relation to this event.
+For further information on the considerations for implementing border health and international travel-related temporary recommendations, please see the relevant
+technical note issued on 26 May 2026
+.
+The
+Temporary Recommendations
+issued to State Parties on 22 May 2026 underscore the importance of coordinated outbreak control, enhanced cross‑border collaboration, and sustained surveillance and preparedness to prevent further regional spread and ensure an effective public health response.
+WHO has convened several technical advisory groups, including the Strategic Advisory Group of Experts on Immunization (SAGE) to assess candidate vaccines and therapeutics for BVD. Key recommendations made are available in the
+news release published on 28 May 2026.
+Regular Information products on the outbreak of BVD in the Democratic Republic of the Congo and Uganda
+Daily update:
+Epidemiological update on BVD outbreak in Democratic Republic of the Congo and Uganda
+Published Weekly:
+Weekly External Situation Report on Ebola Bundibugyo Virus Disease Outbreak, Democratic Republic of the Congo | Uganda
+Published Fortnightly:
+Disease Outbreak News | All Hazards Public Health Events, Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo
+Further information
+Current outbreak: declarations and status
+Africa CDC and WHO launch joint continental Ebola response plan
+Bundibugyo Ebola virus | Continental preparedness and response plan: June-November      2026
+Epidemic of Ebola Disease caused by Bundibugyo virus in the Democratic Republic of      the Congo and Uganda determined a public health emergency of international      concern
+The Ministry of Public Health, Hygiene and Social Welfare, DRC, officially      declares the 17th Ebola Disease outbreak
+WHO Democratic Republic of Congo confirms new Ebola outbreak
+Message by the WHO Director-General to the people of the Democratic Republic of      the Congo
+At the frontline of trust: a day with Julienne Anoko WHO's Ebola Community      Engagement Officer in DRC
+Decentralized testing speeds up Ebola response in the Democratic Republic of the Congo
+Epidemiological updates and situation reports
+Weekly External Situation Report. EBOLA BUNDIBUGYO VIRUS DISEASE OUTBREAK      Democratic Republic of the Congo | Uganda.
+Ebola Outbreak: Current Situation | Ebola | CDC
+Daily situation report, Ministry of Health, Democratic Republic of the Congo.
+Press Statements - Ministry of Health - Uganda
+Ebola updates, Ministry of Health, Uganda
+Published Disease Outbreak News (current outbreak)
+Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo and Uganda 16 May 2026
+Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo. 21 May 2026
+Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo. 29 May 2026
+Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo and Uganda 8 June 2026
+Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo and Uganda 13 June 2026
+Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo and Uganda 19 June 2026
+Clinical management, IPC, and occupational safety
+WHO guidelines for the clinical management of filovirus disease
+Infection prevention and control guideline for Ebola and Marburg disease. WHO.17 May      2026
+Infection prevention and control and water, sanitation and hygiene in health      facilities during Ebola or Marburg disease outbreaks: rapid assessment      tool, user guide.
+Assessment and management of health and care workers with possible occupational      exposures to Orthoebolavirus or Orthomarburgvirus: implementation guidance
+Optimized Supportive Care for Ebola Virus Disease. Clinical management standard      operating procedures. WHO. 2019
+Framework and toolkit for infection prevention and control in outbreak preparedness,      readiness and response at the national level
+Diagnostic testing for Ebola and Marburg virus diseases: interim guidance, 20      December 2024
+Considerations for border health and points of entry for filovirus disease outbreaks
+Training
+WHO Launches Online Training to Strengthen Filovirus Outbreak Response
+Prior Bundibugyo virus disease events, DRC (2012)
+Disease Outbreak News. Ebola outbreak in Democratic Republic of Congo – update.      WHO. 14 September 2012
+Disease Outbreak News. Ebola outbreak in Democratic Republic of Congo – update.      WHO. 26 October 2012
+Background and reference
+Ebola disease fact sheet
+Ebola vaccines
+Citable reference:
+World Health Organization (3 July 2026). Disease Outbreak News; Bundibugyo Virus Disease, Democratic Republic of the Congo and Uganda. Available at
+https://www/who.int/emergencies/disease-outbreak/news/item/2026-DON612
+[1] #Data source: Centre des opérations d'urgences de sante publique (COUSP-DRC)
