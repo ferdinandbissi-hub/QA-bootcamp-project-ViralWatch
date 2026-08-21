@@ -19,7 +19,8 @@ import json
 import pandas as pd
 from pathlib import Path
 
-RAW_DIR = Path("/home/student25/Documents/Coop_program/Quantum Arise/Week1-Bootcamp/ViralWatch/QA-bootcamp-project-ViralWatch/data/raw/Ebola_DRC_2026")
+PROJECT_DIR = Path(__file__).resolve().parent
+RAW_DIR = PROJECT_DIR
 PROCESSED_DIR = Path("data/processed")
 DB_PATH = Path("data/viralwatch.db")
 

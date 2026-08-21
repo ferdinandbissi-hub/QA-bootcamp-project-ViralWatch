@@ -1,0 +1,24 @@
+# ViralWatch — Python dependencies
+#
+# Pinned to versions confirmed working together during Day 2-5 testing.
+# If your local `pip freeze` (from an environment you know works, e.g. after
+# Day 3/4 ran successfully) differs, prefer YOUR working versions over these —
+# these are a known-good baseline, not a hard requirement.
+
+# --- Day 2: data cleaning & visualization ---
+pandas>=3.0.2
+numpy>=2.4.4
+matplotlib>=3.10.8
+
+# --- Day 3: ML models ---
+scikit-learn>=1.8.0
+joblib>=1.5.3
+tensorflow-cpu>=2.21.0   # use `tensorflow` instead if you have a GPU set up
+
+# --- Day 4: NLP + anomaly detection ---
+transformers>=4.40.0
+torch>=2.2.0             # backend for the Hugging Face pipelines
+
+# --- Day 5: API + serving ---
+fastapi>=0.141.1
+uvicorn>=0.52.3

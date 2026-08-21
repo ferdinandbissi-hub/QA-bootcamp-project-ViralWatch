@@ -1,0 +1,3933 @@
+[
+  {
+    "bulletin": "DON602_2026-05-17",
+    "locations_mentioned": [
+      "##che bio",
+      "##hasa",
+      "##ib",
+      "##ns",
+      "Bundibug",
+      "DRC",
+      "Democratic Republic of the Congo",
+      "I",
+      "INRB",
+      "Institut national de re",
+      "Ituri Province",
+      "Kampala",
+      "Ki",
+      "Ministry of Public Health, Hygiene and Social Welfare",
+      "Mongbwalu Health Zone",
+      "P",
+      "Rwampara Health Zone",
+      "States Parties",
+      "Uganda",
+      "Uganda Ministry of Health",
+      "WHO",
+      "World Health Organization"
+    ],
+    "case_death_counts": [
+      {
+        "value": 246,
+        "type": "cases",
+        "context": "...died at a medical centre in Bunia. As of 15 May, a total of 246 suspected cases and 80 deaths (four..."
+      },
+      {
+        "value": 64,
+        "type": "cases",
+        "context": "...the country was declared on 4 September 2025 with total of 64 cases (53 confirmed, 11 p..."
+      },
+      {
+        "value": 59,
+        "type": "cases",
+        "context": "...e DRC Ministry of Health in Province Orientale.  A total of 59 cases, 38 confirmed and 2..."
+      },
+      {
+        "value": 80,
+        "type": "deaths",
+        "context": "...in Bunia. As of 15 May, a total of 246 suspected cases and 80 deaths (four deaths among..."
+      },
+      {
+        "value": 45,
+        "type": "deaths",
+        "context": "...th total of 64 cases (53 confirmed, 11 probable), including 45 deaths (CFR 70.3%), report..."
+      },
+      {
+        "value": 34,
+        "type": "deaths",
+        "context": "...of 59 cases, 38 confirmed and 21 probable cases, including 34 deaths were reported. The..."
+      }
+    ],
+    "paragraph_severity": [
+      {
+        "paragraph": "On 5 May 2026, the World Health Organization (WHO) was alerted of a high-mortality outbreak of unknown illness in Mongbwalu Health Zone, Ituri Provinc...",
+        "label": "concerning escalation",
+        "confidence": 0.525
+      },
+      {
+        "paragraph": "On 14 May 2026, the Institut national de recherche biomédicale (INRB) Kinshasa analyzed 13 blood samples from Rwampara Health Zone, Ituri Province. La...",
+        "label": "concerning escalation",
+        "confidence": 0.644
+      },
+      {
+        "paragraph": "The case fatality rates in the past two BVD outbreaks have ranged from 30% to 50%. Unlike Ebola virus disease, there is no licensed vaccine or specifi...",
+        "label": "emergency-level crisis",
+        "confidence": 0.616
+      },
+      {
+        "paragraph": "On 15 May 2026, the Ministry of Public Health, Hygiene and Social Welfare, DRC, officially declared the 17th Ebola Disease outbreak in DRC. Concurrent...",
+        "label": "concerning escalation",
+        "confidence": 0.77
+      },
+      {
+        "paragraph": "On 17 May 2026, WHO Director-General, after having consulted the States Parties where the event is known to be currently occurring, determined that th...",
+        "label": "emergency-level crisis",
+        "confidence": 0.96
+      },
+      {
+        "paragraph": "Response measures include deployment of rapid response teams, delivery of medical supplies, strengthened surveillance, laboratory confirmation, infect...",
+        "label": "emergency-level crisis",
+        "confidence": 0.653
+      },
+      {
+        "paragraph": "On 5 May 2026, WHO received an alert regarding an unknown illness with high mortality reported in Mongbwalu Health Zone, Ituri Province, including fou...",
+        "label": "concerning escalation",
+        "confidence": 0.573
+      },
+      {
+        "paragraph": "On 15 May 2026, the Ministry of Public Health, Hygiene and Social Welfare officially declared the 17",
+        "label": "concerning escalation",
+        "confidence": 0.587
+      },
+      {
+        "paragraph": "Ebola Disease outbreak in the DRC, occurring in Rwampara, Mongwalu and Bunia HZ.",
+        "label": "emergency-level crisis",
+        "confidence": 0.538
+      },
+      {
+        "paragraph": "The first currently known suspected case, a health worker, reported onset of symptoms including fever, hemorrhaging, vomiting and intense malaise on 2...",
+        "label": "emergency-level crisis",
+        "confidence": 0.512
+      },
+      {
+        "paragraph": "As of 15 May, a total of 246 suspected cases and 80 deaths (four deaths among confirmed cases) have been reported from three HZ: Rwampara (six health ...",
+        "label": "emergency-level crisis",
+        "confidence": 0.481
+      },
+      {
+        "paragraph": "A further case reported on 16 May, an individual returning from Ituri to Kinshasa, has tested NEGATIVE for Bundibugyo virus on confirmatory testing by...",
+        "label": "concerning escalation",
+        "confidence": 0.735
+      },
+      {
+        "paragraph": "Most of the suspected cases are between 20 and 39 years old, with females accounting for over 60%, suggesting significant risks associated with househ...",
+        "label": "concerning escalation",
+        "confidence": 0.841
+      },
+      {
+        "paragraph": "Initial testing of 20 samples collected in Rwampara HZ and analysed at the Provincial Public Health Laboratory in Bunia using standard Ebola Xpert wer...",
+        "label": "concerning escalation",
+        "confidence": 0.432
+      },
+      {
+        "paragraph": "by polymerase chain reaction (PCR) on 15 May. Genomic sequencing confirmed the virus species as Bundibugyo virus (BDBV).",
+        "label": "concerning escalation",
+        "confidence": 0.653
+      },
+      {
+        "paragraph": "As of 15 May, 65 contacts have been listed, with 15 identified as high-risk. However, follow-up remains weak due to insecurity and movement restrictio...",
+        "label": "concerning escalation",
+        "confidence": 0.517
+      },
+      {
+        "paragraph": "On 15 May 2026, the Ministry of Health of Uganda confirmed an outbreak of BVD following the identification of an imported case from the DRC. The case ...",
+        "label": "emergency-level crisis",
+        "confidence": 0.525
+      },
+      {
+        "paragraph": "On 17 May 2026, the Director-General of WHO, after having consulted the States Parties where the event is known to be currently occurring as defined i...",
+        "label": "emergency-level crisis",
+        "confidence": 0.841
+      },
+      {
+        "paragraph": "It is currently thought that the event originated in the Mongbwalu HZ, DRC, a high-traffic mining area, with cases subsequently migrating to Rwampara ...",
+        "label": "concerning escalation",
+        "confidence": 0.587
+      },
+      {
+        "paragraph": "Ituri’s role as a commercial and migratory hub and proximity to Uganda and South Sudan increases the risk of regional exportation and cross-border tra...",
+        "label": "concerning escalation",
+        "confidence": 0.965
+      },
+      {
+        "paragraph": "Figure 1. Health Zones affected by Bundibugyo virus disease in Democratic Republic of Congo, as of 16 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.544
+      },
+      {
+        "paragraph": "Bundibugyo virus disease (BVD) is a severe and often fatal form of Ebola disease caused by the Bundibugyo virus, one of the",
+        "label": "concerning escalation",
+        "confidence": 0.685
+      },
+      {
+        "paragraph": "species. It is a zoonotic disease, with fruit bats suspected to be the natural reservoir. Human infection occurs through close contact with the blood ...",
+        "label": "concerning escalation",
+        "confidence": 0.763
+      },
+      {
+        "paragraph": "The incubation period for BVD ranges from 2 to 21 days, and individuals are usually not infectious until symptom onset. Early symptoms are non-specifi...",
+        "label": "concerning escalation",
+        "confidence": 0.803
+      },
+      {
+        "paragraph": "Differentiating BVD from other endemic febrile illnesses such as malaria is challenging without laboratory confirmation using PCR or antigen/antibody-...",
+        "label": "concerning escalation",
+        "confidence": 0.513
+      },
+      {
+        "paragraph": "Health authorities in DRC are implementing public health measures, including but not limited to the following:",
+        "label": "routine update",
+        "confidence": 0.454
+      },
+      {
+        "paragraph": "Rapid response teams have been deployed to Rwampara and Mongbwalu HZ.",
+        "label": "emergency-level crisis",
+        "confidence": 0.538
+      },
+      {
+        "paragraph": "emergency meetings by le centre d’operation des urgences en sante publique (COUSP) have been held.",
+        "label": "emergency-level crisis",
+        "confidence": 0.868
+      },
+      {
+        "paragraph": "Surveillance for suspected and probable cases is ongoing (including at relevant Points of Entry and borders).",
+        "label": "concerning escalation",
+        "confidence": 0.508
+      },
+      {
+        "paragraph": "Sequencing confirmed Bundibugyo virus in positive RT-PCR samples.",
+        "label": "concerning escalation",
+        "confidence": 0.671
+      },
+      {
+        "paragraph": "Social mobilization meeting was held with community leaders in the Rural commune of Mongbwalu under the leadership of the Mayor.",
+        "label": "concerning escalation",
+        "confidence": 0.712
+      },
+      {
+        "paragraph": "IPC assessment in key health facilities is ongoing: Bunia Hospital Centre of the Evangelical Medical Centre (CME), Mongbwalu General Referral Hospital...",
+        "label": "concerning escalation",
+        "confidence": 0.495
+      },
+      {
+        "paragraph": "CME Bunia is maintaining isolation protocols. Healthcare workers have been briefed on the specific diagnostic profile of this strain.",
+        "label": "concerning escalation",
+        "confidence": 0.411
+      },
+      {
+        "paragraph": "Logistical support has been provided for investigations in Mongbwalu and Rwampara Health Zones.",
+        "label": "concerning escalation",
+        "confidence": 0.513
+      },
+      {
+        "paragraph": "Support has been provided for the transportation of samples to INRB Kinshasa.",
+        "label": "concerning escalation",
+        "confidence": 0.641
+      },
+      {
+        "paragraph": "Health authorities in Uganda are implementing public health measures, including but not limited to the following:",
+        "label": "routine update",
+        "confidence": 0.489
+      },
+      {
+        "paragraph": "Activating national and district-level emergency measures, including enhanced surveillance, screening at borders, deployment of rapid response teams, ...",
+        "label": "emergency-level crisis",
+        "confidence": 0.619
+      },
+      {
+        "paragraph": "Strengthening of preparedness activities such as mobile laboratory deployment, infection prevention, and risk communication.",
+        "label": "concerning escalation",
+        "confidence": 0.488
+      },
+      {
+        "paragraph": "Rapid response readiness teams have been deployed at all official and informal points of entry along the western border, major transit routes, and pil...",
+        "label": "concerning escalation",
+        "confidence": 0.563
+      },
+      {
+        "paragraph": "Advising health workers to remain vigilant and adhere strictly to infection prevention measures.",
+        "label": "concerning escalation",
+        "confidence": 0.464
+      },
+      {
+        "paragraph": "WHO is supporting the national authorities, including through:",
+        "label": "emergency-level crisis",
+        "confidence": 0.469
+      },
+      {
+        "paragraph": "Deployment of technical expertise and rapid response teams to support response efforts.",
+        "label": "concerning escalation",
+        "confidence": 0.432
+      },
+      {
+        "paragraph": "Deployment of IPC, clinical management and sample collection kits.",
+        "label": "routine update",
+        "confidence": 0.459
+      },
+      {
+        "paragraph": "Identification of isolation facilities for case management in Bunia, Rwampara, and Mongbwalu HZ .",
+        "label": "emergency-level crisis",
+        "confidence": 0.422
+      },
+      {
+        "paragraph": "In-depth investigations and listing of contacts of suspected/probable cases.",
+        "label": "concerning escalation",
+        "confidence": 0.5
+      },
+      {
+        "paragraph": "Strengthening epidemiological surveillance, IPC and RCCE at all points of entry.",
+        "label": "concerning escalation",
+        "confidence": 0.613
+      },
+      {
+        "paragraph": "Strengthening Point of Entry (PoE) screening and cross border coordination, including mass gatherings.",
+        "label": "concerning escalation",
+        "confidence": 0.608
+      },
+      {
+        "paragraph": "Supporting the Ministry of Health in implementation of the Response Plan and WHO internal Response Plan.",
+        "label": "emergency-level crisis",
+        "confidence": 0.473
+      },
+      {
+        "paragraph": "Following up with the IHR National Focal Points (IHR NFP) in DRC and Uganda on the official IHR notification while concurrently managing communication...",
+        "label": "routine update",
+        "confidence": 0.59
+      },
+      {
+        "paragraph": "On 17 May 2026, WHO Director-General, after having consulted the States Parties where the event is known to be currently occurring, determined that th...",
+        "label": "emergency-level crisis",
+        "confidence": 0.955
+      },
+      {
+        "paragraph": "This is the 17th Ebola disease outbreak in the DRC since 1976. The last Ebola disease outbreak in the country was declared on 4 September 2025 with to...",
+        "label": "concerning escalation",
+        "confidence": 0.527
+      },
+      {
+        "paragraph": "This outbreak is occurring in a complex epidemiological and humanitarian context. A critical four-week detection gap between the onset of symptoms of ...",
+        "label": "concerning escalation",
+        "confidence": 0.736
+      },
+      {
+        "paragraph": "Ongoing conflict in Ituri province restricts the movement of surveillance teams, limits the deployment of Rapid Response Teams, and hinders the secure...",
+        "label": "concerning escalation",
+        "confidence": 0.599
+      },
+      {
+        "paragraph": "Ituri’s role as a commercial and migratory hub increases the risk of regional exportation. The proximity to Uganda and South Sudan increases the risk ...",
+        "label": "concerning escalation",
+        "confidence": 0.789
+      },
+      {
+        "paragraph": "Humanitarian needs in the area are dire. Ituri has 273 403 displaced people, with a total of 1.9 million people in need according to the Humanitarian ...",
+        "label": "emergency-level crisis",
+        "confidence": 0.845
+      },
+      {
+        "paragraph": "Unlike Ebola virus disease, there is no licensed vaccine or specific therapeutics against BDBV. Research and development activities are activated to c...",
+        "label": "emergency-level crisis",
+        "confidence": 0.489
+      },
+      {
+        "paragraph": "For countries where the event is occurring (the Democratic Republic of the Congo and Uganda)",
+        "label": "emergency-level crisis",
+        "confidence": 0.539
+      },
+      {
+        "paragraph": "Activate their national disaster/emergency management mechanisms and establish an emergency operation centre, under the authority of the Head of State...",
+        "label": "emergency-level crisis",
+        "confidence": 0.928
+      },
+      {
+        "paragraph": "Should national capacities be overwhelmed, collaboration with partners should be enhanced to strengthen operations and ensure the ability to implement...",
+        "label": "concerning escalation",
+        "confidence": 0.714
+      },
+      {
+        "paragraph": "Ensure that there is a large-scale and sustained effort to fully engage the community – through local, religious and traditional leaders and healers –...",
+        "label": "concerning escalation",
+        "confidence": 0.668
+      },
+      {
+        "paragraph": "Strengthen community awareness, engagement, and participation in particular to identify and address cultural norms and beliefs that serve as barriers ...",
+        "label": "emergency-level crisis",
+        "confidence": 0.602
+      },
+      {
+        "paragraph": "Strengthening surveillance and laboratory capacity across affected provinces and neighbouring provinces, through the establishment of (1) dedicated su...",
+        "label": "concerning escalation",
+        "confidence": 0.616
+      },
+      {
+        "paragraph": "Infection prevention and control in health facilities and in the context of care",
+        "label": "routine update",
+        "confidence": 0.511
+      },
+      {
+        "paragraph": "Strengthen measures to prevent nosocomial infections, including systematic mapping of health facilities, triage, targeted IPC interventions and sustai...",
+        "label": "concerning escalation",
+        "confidence": 0.499
+      },
+      {
+        "paragraph": "Ensure healthcare workers receive adequate training on IPC, including the proper use of PPE, and that health facilities have appropriate equipment to ...",
+        "label": "emergency-level crisis",
+        "confidence": 0.37
+      },
+      {
+        "paragraph": "Patients’ referral pathway and access to safe and optimized intensive care.",
+        "label": "concerning escalation",
+        "confidence": 0.594
+      },
+      {
+        "paragraph": "Ensure that suspected cases can be safely transferred to specialized clinical units for their isolation and management in a human and patient-centred ...",
+        "label": "concerning escalation",
+        "confidence": 0.549
+      },
+      {
+        "paragraph": "Establish specialized treatment centers or units, located close to outbreak epicenter(s), with staff trained and equipped to implement optimized inten...",
+        "label": "emergency-level crisis",
+        "confidence": 0.592
+      },
+      {
+        "paragraph": "Implement clinical trials to advance the development and use of candidate therapeutics and vaccine, supported by partners.",
+        "label": "concerning escalation",
+        "confidence": 0.822
+      },
+      {
+        "paragraph": "Undertake cross-border screening and screening at main internal roads to ensure that no suspected case is missed and enhance the quality of screening ...",
+        "label": "concerning escalation",
+        "confidence": 0.426
+      },
+      {
+        "paragraph": "There should be no international travel of Bundibugyo virus disease contacts or cases, unless the travel is part of an appropriate medical evacuation....",
+        "label": "concerning escalation",
+        "confidence": 0.533
+      },
+      {
+        "paragraph": "Confirmed cases should immediately be isolated and treated in a Bundibugyo virus disease Treatment Centre with no national or international travel unt...",
+        "label": "emergency-level crisis",
+        "confidence": 0.609
+      },
+      {
+        "paragraph": "Contacts (which do not include properly protected health workers and laboratory staff who have had no unprotected exposure) should be monitored daily,...",
+        "label": "concerning escalation",
+        "confidence": 0.523
+      },
+      {
+        "paragraph": "Probable and suspect cases should immediately be isolated and their travel should be restricted in accordance with their classification as either a co...",
+        "label": "concerning escalation",
+        "confidence": 0.55
+      },
+      {
+        "paragraph": "Implement exit screening of all persons at international airports, seaports and major land crossings, for unexplained febrile illness consistent with ...",
+        "label": "concerning escalation",
+        "confidence": 0.467
+      },
+      {
+        "paragraph": "Consider postponing mass gatherings until BVD transmission is interrupted.",
+        "label": "concerning escalation",
+        "confidence": 0.785
+      },
+      {
+        "paragraph": "Ensure funerals and burials are conducted by well-trained personnel, with provision made for the presence of the family and cultural practices, and in...",
+        "label": "concerning escalation",
+        "confidence": 0.566
+      },
+      {
+        "paragraph": "Strong supply pipeline needs to be established to ensure that sufficient medical and laboratory commodities and other critical items, especially perso...",
+        "label": "emergency-level crisis",
+        "confidence": 0.678
+      },
+      {
+        "paragraph": "For countries with land borders adjoining countries with documented Bundibugyo virus disease",
+        "label": "concerning escalation",
+        "confidence": 0.636
+      },
+      {
+        "paragraph": "Unaffected States Parties with land borders adjoining States Parties with documented Bundibugyo virus disease  transmission should urgently enhance th...",
+        "label": "emergency-level crisis",
+        "confidence": 0.513
+      },
+      {
+        "paragraph": "Dedicated coordination mechanisms should be in place at national and subnational level in all Unaffected States Parties with land borders adjoining St...",
+        "label": "emergency-level crisis",
+        "confidence": 0.477
+      },
+      {
+        "paragraph": "Any State Parties newly detecting a suspected or confirmed Bundibugyo virus disease case or contact, or clusters of unexplained deaths should treat th...",
+        "label": "emergency-level crisis",
+        "confidence": 0.924
+      },
+      {
+        "paragraph": "If Bundibugyo virus disease is confirmed to be occurring in the State Party, the full recommendations for State Parties with Bundibugyo virus disease ...",
+        "label": "concerning escalation",
+        "confidence": 0.57
+      },
+      {
+        "paragraph": "Risk communications and community engagement, especially at points of entry, should be increased.",
+        "label": "concerning escalation",
+        "confidence": 0.908
+      },
+      {
+        "paragraph": "At-risk countries should put in place approvals for investigational therapeutics as an immediate priority for preparedness.",
+        "label": "concerning escalation",
+        "confidence": 0.623
+      },
+      {
+        "paragraph": "No country should close its borders or place any restrictions on travel and trade. Such measures are usually implemented out of fear and have no basis...",
+        "label": "concerning escalation",
+        "confidence": 0.872
+      },
+      {
+        "paragraph": "National authorities should work with airlines and other transport and tourism industries to ensure that they do not exceed WHO’s advice on internatio...",
+        "label": "concerning escalation",
+        "confidence": 0.76
+      },
+      {
+        "paragraph": "States Parties should provide travelers to Bundibugyo virus disease affected and at-risk areas with relevant information on risks, measures to minimiz...",
+        "label": "concerning escalation",
+        "confidence": 0.597
+      },
+      {
+        "paragraph": "The general public should be provided with accurate and relevant information on the Bundibugyo virus disease outbreak and measures to reduce the risk ...",
+        "label": "emergency-level crisis",
+        "confidence": 0.478
+      },
+      {
+        "paragraph": "State Parties should be prepared to facilitate the evacuation and repatriation of nationals (e.g. health workers) who have been exposed to Bundibugyo ...",
+        "label": "concerning escalation",
+        "confidence": 0.545
+      },
+      {
+        "paragraph": "Entry screening at airports or other ports of entry outside the affected region are not considered needed for passengers returning from areas at risk.",
+        "label": "concerning escalation",
+        "confidence": 0.52
+      },
+      {
+        "paragraph": "Epidemic of Ebola      Disease caused by Bundibugyo virus in the Democratic Republic of the Congo      and Uganda determined a public health emergency...",
+        "label": "emergency-level crisis",
+        "confidence": 0.88
+      },
+      {
+        "paragraph": "https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emerg...",
+        "label": "emergency-level crisis",
+        "confidence": 0.935
+      },
+      {
+        "paragraph": "The Ministry of Public Health, Hygiene      and Social Welfare, DRC, officially declares the 17",
+        "label": "emergency-level crisis",
+        "confidence": 0.585
+      },
+      {
+        "paragraph": "https://administration.sante.gouv.cd/wp-content/uploads/2026/05/Declaration-de-la-17e-Epidemie-de-la-maladie-a-virus-Ebola-dans-les-zones-de-sante-de-...",
+        "label": "emergency-level crisis",
+        "confidence": 0.703
+      },
+      {
+        "paragraph": "WHO Democratic Republic      of Congo confirms new Ebola outbreak.",
+        "label": "emergency-level crisis",
+        "confidence": 0.611
+      },
+      {
+        "paragraph": "https://www.afro.who.int/countries/democratic-republic-of-congo/news/democratic-republic-congo-confirms-new-ebola-outbreak-who-scales-upsupport",
+        "label": "concerning escalation",
+        "confidence": 0.857
+      },
+      {
+        "paragraph": "http://www.who.int/en/news-room/fact-sheets/detail/ebola-virus-disease",
+        "label": "emergency-level crisis",
+        "confidence": 0.518
+      },
+      {
+        "paragraph": "Disease Outbreak      News. Ebola outbreak in Democratic Republic of Congo – update. WHO. 14      September 2012:",
+        "label": "emergency-level crisis",
+        "confidence": 0.498
+      },
+      {
+        "paragraph": "Disease Outbreak      News. Ebola outbreak in Democratic Republic of Congo – update. WHO. 26      October 2012:",
+        "label": "emergency-level crisis",
+        "confidence": 0.505
+      },
+      {
+        "paragraph": "WHO Launches Online      Training to Strengthen Filovirus Outbreak Response.",
+        "label": "concerning escalation",
+        "confidence": 0.677
+      },
+      {
+        "paragraph": "https://www.who.int/news/item/26-03-2025-who-launches-online-training-to-strengthen-filovirus-outbreak-response#",
+        "label": "emergency-level crisis",
+        "confidence": 0.582
+      },
+      {
+        "paragraph": "Infection prevention and      control guideline for Ebola and Marburg disease. WHO. August 2023:",
+        "label": "emergency-level crisis",
+        "confidence": 0.343
+      },
+      {
+        "paragraph": "https://www.who.int/publications/i/item/WHO-WPE-CRS-HCR-2023.1",
+        "label": "concerning escalation",
+        "confidence": 0.417
+      },
+      {
+        "paragraph": "Infection prevention and      control and water, sanitation and hygiene in health facilities during      Ebola or Marburg disease outbreaks: rapid ass...",
+        "label": "emergency-level crisis",
+        "confidence": 0.626
+      },
+      {
+        "paragraph": "Assessment and management      of health and care workers with possible occupational exposures to      Orthoebolavirus or Orthomarburgvirus: implement...",
+        "label": "concerning escalation",
+        "confidence": 0.442
+      },
+      {
+        "paragraph": "Optimized Supportive Care      for Ebola Virus Disease. Clinical management standard operating      procedures. WHO. 2019.",
+        "label": "concerning escalation",
+        "confidence": 0.496
+      },
+      {
+        "paragraph": "https://www.who.int/teams/health-care-readiness/ebola-clinical-management",
+        "label": "emergency-level crisis",
+        "confidence": 0.488
+      },
+      {
+        "paragraph": "Framework and      toolkit for infection prevention and control in outbreak preparedness,      readiness and response at the national level.",
+        "label": "routine update",
+        "confidence": 0.48
+      },
+      {
+        "paragraph": "https://www.who.int/publications/i/item/framework-and-toolkit-for-infection-prevention-and-control-in-outbreak-preparedness--readiness-and-response-at...",
+        "label": "emergency-level crisis",
+        "confidence": 0.518
+      },
+      {
+        "paragraph": "Considerations for border health and points of entry      for filovirus disease outbreaks:",
+        "label": "concerning escalation",
+        "confidence": 0.686
+      },
+      {
+        "paragraph": "https://www.who.int/publications/m/item/considerations-for-border-health-and-points-of-entry-for-filovirus-disease-outbreaks",
+        "label": "concerning escalation",
+        "confidence": 0.541
+      },
+      {
+        "paragraph": "Diagnostic testing for Ebola and Marburg virus      diseases: interim guidance, 20 December 2024:",
+        "label": "concerning escalation",
+        "confidence": 0.428
+      },
+      {
+        "paragraph": "World Health Organization (17 May 2026). Disease Outbreak News; Bundibugyo Virus Disease, Democratic Republic of the Congo (The) and Uganda. Available...",
+        "label": "concerning escalation",
+        "confidence": 0.498
+      },
+      {
+        "paragraph": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602",
+        "label": "emergency-level crisis",
+        "confidence": 0.834
+      },
+      {
+        "paragraph": "Corrigendum: This Disease Outbreak News was revised on 26 May 2026 to amend the declaration date of the public health emergency of international conce...",
+        "label": "emergency-level crisis",
+        "confidence": 0.805
+      }
+    ]
+  },
+  {
+    "bulletin": "DON603_2026-05-21",
+    "locations_mentioned": [
+      "##undib",
+      "##undibug",
+      "Congo",
+      "DR",
+      "DRC",
+      "Democratic Republic of",
+      "E",
+      "Germany",
+      "IHR",
+      "IHR Emergency Committee",
+      "Ituri",
+      "Ministry of Health of Uganda",
+      "Ministry of Public Health, Hygiene and Social",
+      "Ministry of Public Health, Hygiene and Social Welfare",
+      "North Kivu",
+      "P",
+      "Republic",
+      "South Kivu",
+      "States",
+      "Uganda",
+      "WHO",
+      "World Health Organization",
+      "the"
+    ],
+    "case_death_counts": [
+      {
+        "value": 746,
+        "type": "cases",
+        "context": "...recommendations were issued to State Parties. As of 21 May, 746 suspected cases and 176 deaths amon..."
+      },
+      {
+        "value": 85,
+        "type": "cases",
+        "context": "...6 deaths among suspected cases were reported in DRC. So far 85 confirmed cases, including two in U..."
+      },
+      {
+        "value": 746,
+        "type": "cases",
+        "context": "...aphical expansion into North Kivu and South Kivu. In total, 746 suspected cases, including 176 deat..."
+      },
+      {
+        "value": 85,
+        "type": "cases",
+        "context": "...ed cases have been reported from DRC as of 21 May 2026; and 85 confirmed cases (two in Uganda), in..."
+      },
+      {
+        "value": 83,
+        "type": "cases",
+        "context": "...ocratic Republic of the Congo As of 21 May 2026, a total of 83 confirmed cases including nine deat..."
+      },
+      {
+        "value": 746,
+        "type": "cases",
+        "context": "...of 83 confirmed cases including nine deaths (CFR 11%); and 746 suspected cases including 176 death..."
+      },
+      {
+        "value": 64,
+        "type": "cases",
+        "context": "...isease which was declared on 4 September 2025 with total of 64 cases (53 confirmed, 11 p..."
+      },
+      {
+        "value": 59,
+        "type": "cases",
+        "context": "...e DRC Ministry of Health in Province Orientale.  A total of 59 cases, 38 confirmed and 2..."
+      },
+      {
+        "value": 176,
+        "type": "deaths",
+        "context": "...ued to State Parties. As of 21 May, 746 suspected cases and 176 deaths among suspected cas..."
+      },
+      {
+        "value": 176,
+        "type": "deaths",
+        "context": "...vu and South Kivu. In total, 746 suspected cases, including 176 deaths among suspected cas..."
+      },
+      {
+        "value": 176,
+        "type": "deaths",
+        "context": "...ng nine deaths (CFR 11%); and 746 suspected cases including 176 deaths have been reported..."
+      },
+      {
+        "value": 45,
+        "type": "deaths",
+        "context": "...th total of 64 cases (53 confirmed, 11 probable), including 45 deaths (CFR 70.3%), report..."
+      },
+      {
+        "value": 34,
+        "type": "deaths",
+        "context": "...of 59 cases, 38 confirmed and 21 probable cases, including 34 deaths were reported. The..."
+      }
+    ],
+    "paragraph_severity": [
+      {
+        "paragraph": "On 15 May 2026, the Ministry of Public Health, Hygiene and Social Welfare, Democratic Republic of the Congo (DRC), and the Ministry of Health of Ugand...",
+        "label": "concerning escalation",
+        "confidence": 0.514
+      },
+      {
+        "paragraph": "On 17 May 2026, the World Health Organization (WHO) Director-General determined that the Ebola disease caused by Bundibugyo virus in DRC and Uganda co...",
+        "label": "emergency-level crisis",
+        "confidence": 0.937
+      },
+      {
+        "paragraph": "On 19 May 2026, the Director-General of WHO convened the first meeting of the IHR Emergency Committee, and temporary recommendations were issued to St...",
+        "label": "emergency-level crisis",
+        "confidence": 0.805
+      },
+      {
+        "paragraph": "As of 21 May, 746 suspected cases and 176 deaths among suspected cases were reported in DRC. So far 85 confirmed cases, including two in Uganda, and t...",
+        "label": "emergency-level crisis",
+        "confidence": 0.669
+      },
+      {
+        "paragraph": "National authorities, in collaboration with WHO and partners, are implementing response measures including deployment of rapid response teams, deliver...",
+        "label": "emergency-level crisis",
+        "confidence": 0.459
+      },
+      {
+        "paragraph": "On 15 May 2026, the Ministry of Public Health, Hygiene and Social Welfare of Democratic Republic of the Congo (DRC) officially declared the 17",
+        "label": "concerning escalation",
+        "confidence": 0.499
+      },
+      {
+        "paragraph": "Ebola disease outbreak following the laboratory confirmation of Bundibugyo virus disease (BVD) in eight samples. Concurrently, on 15 May 2026, the Min...",
+        "label": "concerning escalation",
+        "confidence": 0.631
+      },
+      {
+        "paragraph": "On 17 May 2026, the WHO Director-General, after having consulted the States Parties where the event is known to be currently occurring, determined tha...",
+        "label": "emergency-level crisis",
+        "confidence": 0.963
+      },
+      {
+        "paragraph": "was published on 16 May 2026, the number of suspected and confirmed cases has increased rapidly in DRC, with geographical expansion into North Kivu an...",
+        "label": "concerning escalation",
+        "confidence": 0.893
+      },
+      {
+        "paragraph": "Figure 1. Distribution of suspected and confirmed cases of Bundibugyo virus disease in Democratic Republic of Congo and Uganda, as of 21 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.5
+      },
+      {
+        "paragraph": "As of 21 May 2026, a total of 83 confirmed cases including nine deaths (CFR 11%); and 746 suspected cases including 176 deaths have been reported from...",
+        "label": "concerning escalation",
+        "confidence": 0.474
+      },
+      {
+        "paragraph": "The most affected HZ are Mongbwalu, Rwampara and Bunia, which all account for 96% of suspected cases and 79% of confirmed cases.",
+        "label": "concerning escalation",
+        "confidence": 0.548
+      },
+      {
+        "paragraph": "As of 21 May, 1603 contacts have been listed in Ituri province and one contact became a suspected case. However, follow-up remains weak due to insecur...",
+        "label": "concerning escalation",
+        "confidence": 0.506
+      },
+      {
+        "paragraph": "An American national, who was working in DRC as a surgeon, has also been identified as a confirmed case. Exposure is thought to have occurred during a...",
+        "label": "concerning escalation",
+        "confidence": 0.558
+      },
+      {
+        "paragraph": "Figure 2 Risk mapping of Health Zones in DRC as of 21 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.535
+      },
+      {
+        "paragraph": "Response efforts continue to face a number of challenges, including:",
+        "label": "concerning escalation",
+        "confidence": 0.529
+      },
+      {
+        "paragraph": "absence of standardized isolation and treatment facilities and weak screening and referral pathways;",
+        "label": "emergency-level crisis",
+        "confidence": 0.447
+      },
+      {
+        "paragraph": "inconsistent implementation of safe and dignified burial measures further underscores the significant risk of healthcare-associated transmission;",
+        "label": "concerning escalation",
+        "confidence": 0.906
+      },
+      {
+        "paragraph": "cross-border transmission risks remain elevated due to insecurity, humanitarian crises, high population mobility, urban/semi-urban transmission hotspo...",
+        "label": "concerning escalation",
+        "confidence": 0.705
+      },
+      {
+        "paragraph": "deeply challenging situation for affected communities, with growing concerns over access to free and supportive healthcare services, the ability to en...",
+        "label": "concerning escalation",
+        "confidence": 0.793
+      },
+      {
+        "paragraph": "ongoing conflict in Ituri province restricting the movement of surveillance teams, the deployment of Rapid Response Teams, and the transporting of lab...",
+        "label": "concerning escalation",
+        "confidence": 0.809
+      },
+      {
+        "paragraph": "It is currently thought that the event originated in the Mongbwalu HZ, DRC, a high-traffic mining area, with cases subsequently migrating to Rwampara ...",
+        "label": "concerning escalation",
+        "confidence": 0.547
+      },
+      {
+        "paragraph": "Ituri’s role as a commercial and migratory hub and proximity to Uganda and South Sudan increases the risk of regional exportation and cross-border tra...",
+        "label": "concerning escalation",
+        "confidence": 0.965
+      },
+      {
+        "paragraph": "As of 20 May 2026, a total of two confirmed cases including one death have been reported in Kampala, Uganda. Both cases were imported from the DRC. Th...",
+        "label": "concerning escalation",
+        "confidence": 0.641
+      },
+      {
+        "paragraph": "As of 18 May, a total of 127 contacts, linked to both confirmed imported cases, have been identified and under follow-up. These include close househol...",
+        "label": "concerning escalation",
+        "confidence": 0.437
+      },
+      {
+        "paragraph": "Exposure risks are associated with healthcare settings and cross-border movements. Eighteen alerts were reported on 18 May and investigated. Four acti...",
+        "label": "concerning escalation",
+        "confidence": 0.644
+      },
+      {
+        "paragraph": "Bundibugyo virus disease (BVD) is a severe and often fatal form of Ebola disease caused by the Bundibugyo virus, one of the",
+        "label": "concerning escalation",
+        "confidence": 0.685
+      },
+      {
+        "paragraph": "species. It is a zoonotic disease, with fruit bats suspected to be the natural reservoir. Human infection occurs through close contact with the blood ...",
+        "label": "concerning escalation",
+        "confidence": 0.764
+      },
+      {
+        "paragraph": "The incubation period for BVD ranges from 2 to 21 days, and individuals are usually not infectious until symptom onset. Early symptoms are non-specifi...",
+        "label": "concerning escalation",
+        "confidence": 0.803
+      },
+      {
+        "paragraph": "Differentiating BVD from other endemic febrile illnesses such as malaria is challenging without laboratory confirmation using PCR or antigen/antibody-...",
+        "label": "concerning escalation",
+        "confidence": 0.513
+      },
+      {
+        "paragraph": ", in collaboration with WHO and partners are implementing public health measures, including but not limited to the following:",
+        "label": "concerning escalation",
+        "confidence": 0.396
+      },
+      {
+        "paragraph": "The Incident Management System has been activated to coordinate response to the outbreak, with technical support from WHO and health partners",
+        "label": "emergency-level crisis",
+        "confidence": 0.779
+      },
+      {
+        "paragraph": "Subnational coordination structures are being activated at the provincial and health zones level to coordinate operational activities. Daily provincia...",
+        "label": "routine update",
+        "confidence": 0.42
+      },
+      {
+        "paragraph": "Rapid response teams from MoH and WHO have been deployed to Bunia, Mongbwalu, and Rwampara HZ.",
+        "label": "emergency-level crisis",
+        "confidence": 0.616
+      },
+      {
+        "paragraph": "Surveillance for suspected and probable cases is ongoing (including at relevant Points of Entry and borders).",
+        "label": "concerning escalation",
+        "confidence": 0.508
+      },
+      {
+        "paragraph": "Alert management and case investigations are being scaled up. Investigation teams have been deployed to Bunia and Rwampara, with alerts under investig...",
+        "label": "concerning escalation",
+        "confidence": 0.982
+      },
+      {
+        "paragraph": "Contact tracing has been initiated with 541 contacts identified, although major operational challenges persist due to insecurity.",
+        "label": "concerning escalation",
+        "confidence": 0.651
+      },
+      {
+        "paragraph": "Data managers have been trained on the DHIS2 tracker, and a surveillance and digital health coordination meeting is being implemented to improve harmo...",
+        "label": "concerning escalation",
+        "confidence": 0.681
+      },
+      {
+        "paragraph": "The International Organization for Migration (IOM) is supporting points-of-entry (PoEs) surveillance; however, informal crossings and weak alert manag...",
+        "label": "concerning escalation",
+        "confidence": 0.593
+      },
+      {
+        "paragraph": "WHO and partners are supporting the ongoing establishment and operationalization of isolation and treatment facilities in affected areas",
+        "label": "emergency-level crisis",
+        "confidence": 0.562
+      },
+      {
+        "paragraph": "WHO and partners are working to maintain access to essential health and other services.",
+        "label": "emergency-level crisis",
+        "confidence": 0.359
+      },
+      {
+        "paragraph": "Laboratory surge capacity is being scaled-up. The Institut National de la Recherche Biomédicale (INRB) teams are deploying to Bunia to establish and s...",
+        "label": "concerning escalation",
+        "confidence": 0.983
+      },
+      {
+        "paragraph": "PCR kits have been sourced, while WHO Regional Emergency Hub in Dakar is deploying reagents, Piccolo machines, and cold-chain modules to strengthen fi...",
+        "label": "concerning escalation",
+        "confidence": 0.545
+      },
+      {
+        "paragraph": "Genomic and epidemiological analyses are underway, and sequences have been uploaded through a joint publication (by DRC and Uganda) on virological.org...",
+        "label": "concerning escalation",
+        "confidence": 0.553
+      },
+      {
+        "paragraph": "Community mobilization has started in Mongbwalu, while social listening activities and deployment of UNICEF digital platforms (U-Report and I-Hear-You...",
+        "label": "concerning escalation",
+        "confidence": 0.509
+      },
+      {
+        "paragraph": "WHO is supporting engagement interventions with community and religious leaders",
+        "label": "concerning escalation",
+        "confidence": 0.492
+      },
+      {
+        "paragraph": "WHO shared a multi-country infodemic management report providing an initial analysis of community perceptions, including key questions, concerns, rumo...",
+        "label": "emergency-level crisis",
+        "confidence": 0.505
+      },
+      {
+        "paragraph": "WHO and partners have developed a shared RCCE message repository to harmonize risk communication content",
+        "label": "emergency-level crisis",
+        "confidence": 0.35
+      },
+      {
+        "paragraph": "Coordination mechanism for IPC response is being established under the leadership of the Division of Provincial Health  and the Public Health Emergenc...",
+        "label": "emergency-level crisis",
+        "confidence": 0.626
+      },
+      {
+        "paragraph": "Local human resources are being scaled-up to enable required key intervention.",
+        "label": "concerning escalation",
+        "confidence": 0.736
+      },
+      {
+        "paragraph": "More than 150 health workers have been trained on basic IPC and Ebola-specific measures, with an ongoing cascade training plan targeting an additional...",
+        "label": "concerning escalation",
+        "confidence": 0.716
+      },
+      {
+        "paragraph": "Operational teams are being established and briefed for decontamination, safe and dignified burials and health facility assessments.",
+        "label": "emergency-level crisis",
+        "confidence": 0.375
+      },
+      {
+        "paragraph": "IPC supplies including PPE are being donated to priority health facilities.",
+        "label": "concerning escalation",
+        "confidence": 0.46
+      },
+      {
+        "paragraph": "Over 17 tons of emergency supplies were shipped to DRC, including personal protective equipment (PPE), Viral Haemorrhagic Fever supplies, tents, body ...",
+        "label": "emergency-level crisis",
+        "confidence": 0.802
+      },
+      {
+        "paragraph": "Deployment of EpiShuttle patient isolation transport systems, vehicles, telecommunications equipment, laboratory consumables, portable point-of-care d...",
+        "label": "concerning escalation",
+        "confidence": 0.488
+      },
+      {
+        "paragraph": "Coordination is underway to mobilize one helicopter, three ambulances, and two armored vehicles to support cargo and personnel movement. Human resourc...",
+        "label": "emergency-level crisis",
+        "confidence": 0.518
+      },
+      {
+        "paragraph": "Global Logistics Cluster partners briefed on situation and work is under way for planning WFP/Logistics Cluster support for common partner services.",
+        "label": "concerning escalation",
+        "confidence": 0.387
+      },
+      {
+        "paragraph": "Efforts are ongoing with partners to provide subsidized air cargo into the region, and into Bunia",
+        "label": "concerning escalation",
+        "confidence": 0.664
+      },
+      {
+        "paragraph": "A four-week forecast of critical PPE requirements across case management, infection, prevention and control, and burial operations has been finalized ...",
+        "label": "concerning escalation",
+        "confidence": 0.474
+      },
+      {
+        "paragraph": "A high priority items list has been finalized to facilitate collective monitoring. Item-needs calculator being finalized for sharing.",
+        "label": "concerning escalation",
+        "confidence": 0.446
+      },
+      {
+        "paragraph": "WHO travel and border health guidance has been disseminated across countries and transport sectors, emphasizing that suspected, probable and confirmed...",
+        "label": "emergency-level crisis",
+        "confidence": 0.427
+      },
+      {
+        "paragraph": "Affected and neighbouring countries are strengthening their preparedness to detect, investigate, refer, isolate and care for any suspected cases, incl...",
+        "label": "emergency-level crisis",
+        "confidence": 0.52
+      },
+      {
+        "paragraph": ", in collaboration with WHO and partners, are implementing public health measures, including but not limited to the following:",
+        "label": "concerning escalation",
+        "confidence": 0.372
+      },
+      {
+        "paragraph": "The Incident Management System has been activated to coordinate response to the outbreak, with technical support from WHO and health partners",
+        "label": "emergency-level crisis",
+        "confidence": 0.779
+      },
+      {
+        "paragraph": "The National Public Health Emergency Operations Centre and regional Emergency Operations Centres (EOCs) were activated in Fort Portal, Arua, Yumbe, Ka...",
+        "label": "emergency-level crisis",
+        "confidence": 0.846
+      },
+      {
+        "paragraph": "Field teams are utilizing Go.Data for contact tracing, benefiting from experience in implementing the tool during previous mpox, cholera and Sudan vir...",
+        "label": "concerning escalation",
+        "confidence": 0.511
+      },
+      {
+        "paragraph": "Screening is being strengthened at official and informal border crossings, major transit routes, and pilgrimage corridors.",
+        "label": "concerning escalation",
+        "confidence": 0.533
+      },
+      {
+        "paragraph": "Isolation facilities in high-risk districts have been activated and the Uganda National Emergency Medical Team deployed to support clinical management...",
+        "label": "concerning escalation",
+        "confidence": 0.495
+      },
+      {
+        "paragraph": "Sequencing and sample transport systems are being strengthened",
+        "label": "concerning escalation",
+        "confidence": 0.523
+      },
+      {
+        "paragraph": "A mobile laboratory is being deployed to Kasese near the DRC border, with a virtual diagnostics coordination meeting supporting cross-country laborato...",
+        "label": "concerning escalation",
+        "confidence": 0.6
+      },
+      {
+        "paragraph": "Risk communication systems have been activated with community messaging and public awareness campaigns ongoing through District Health Officer network...",
+        "label": "routine update",
+        "confidence": 0.438
+      },
+      {
+        "paragraph": "Advising health workers to remain vigilant and adhere strictly to infection prevention measures.",
+        "label": "concerning escalation",
+        "confidence": 0.464
+      },
+      {
+        "paragraph": "On 17 May 2026, WHO Director-General, after having consulted the States Parties where the event is known to be currently occurring, determined that th...",
+        "label": "emergency-level crisis",
+        "confidence": 0.962
+      },
+      {
+        "paragraph": "Ebola disease outbreak in the DRC since 1976. The last Ebola disease outbreak in the country was an outbreak and Ebola virus disease which was declare...",
+        "label": "concerning escalation",
+        "confidence": 0.545
+      },
+      {
+        "paragraph": "This outbreak is occurring in a complex epidemiological and humanitarian context. A critical four-week detection gap between the onset of symptoms of ...",
+        "label": "concerning escalation",
+        "confidence": 0.736
+      },
+      {
+        "paragraph": "Ongoing conflict in Ituri province restricts the movement of surveillance teams, limits the deployment of Rapid Response Teams, and hinders the secure...",
+        "label": "concerning escalation",
+        "confidence": 0.596
+      },
+      {
+        "paragraph": "Ituri’s role as a commercial and migratory hub increases the risk of regional exportation. The proximity to Uganda and South Sudan increases the risk ...",
+        "label": "concerning escalation",
+        "confidence": 0.789
+      },
+      {
+        "paragraph": "Humanitarian needs in the area are dire. Ituri has 273 403 displaced people, with a total of 1.9 million people in need according to the Humanitarian ...",
+        "label": "emergency-level crisis",
+        "confidence": 0.845
+      },
+      {
+        "paragraph": "Unlike Ebola virus disease, there is no licensed vaccine or specific therapeutics against BDBV. Research and development activities are activated to c...",
+        "label": "emergency-level crisis",
+        "confidence": 0.489
+      },
+      {
+        "paragraph": "WHO assessed the risk of the outbreak of BVD to be very high at the national level in DRC, high at the regional level, and low at the global level.",
+        "label": "concerning escalation",
+        "confidence": 0.597
+      },
+      {
+        "paragraph": "On 19 May 2026, the Director-General of WHO convened the first meeting of the IHR Emergency Committee who issued the following temporary recommendatio...",
+        "label": "emergency-level crisis",
+        "confidence": 0.78
+      },
+      {
+        "paragraph": "For countries with documented detection of Bundibugyo virus (the Democratic Republic of the Congo and Uganda)",
+        "label": "concerning escalation",
+        "confidence": 0.621
+      },
+      {
+        "paragraph": "Declare the Bundibugyo virus disease (BVD) epidemic a health emergency, at national or sub-national level, in accordance with domestic laws, and as ap...",
+        "label": "emergency-level crisis",
+        "confidence": 0.961
+      },
+      {
+        "paragraph": "Activate national disaster or health emergency management mechanisms and activate or establish an emergency operation centre, under the authority of t...",
+        "label": "emergency-level crisis",
+        "confidence": 0.887
+      },
+      {
+        "paragraph": "Establish and maintain up to date a register of signals consistent with BVD (“alerts”), including status of their investigation.",
+        "label": "routine update",
+        "confidence": 0.763
+      },
+      {
+        "paragraph": "Establish and maintain up to date a line list of suspected cases – including identified through syndromic surveillance, probable cases, and confirmed ...",
+        "label": "routine update",
+        "confidence": 0.719
+      },
+      {
+        "paragraph": "Establish and maintain up to date the list of contacts of all confirmed and probable BVD cases; monitor each contact for 21 days after the date of las...",
+        "label": "concerning escalation",
+        "confidence": 0.647
+      },
+      {
+        "paragraph": "Negotiate, as applicable, and establish security corridors, including cross-border, to allow responders to safely reach affected communities, as well ...",
+        "label": "concerning escalation",
+        "confidence": 0.496
+      },
+      {
+        "paragraph": "Notify WHO, through the relevant WHO IHR Contact Point in the WHO Regional Office, the detection of suspected, probable and confirmed BVD cases daily,...",
+        "label": "routine update",
+        "confidence": 0.713
+      },
+      {
+        "paragraph": "Implement large-scale trust building and community engagement interventions - using all trusted available communication channels, and working closely ...",
+        "label": "concerning escalation",
+        "confidence": 0.624
+      },
+      {
+        "paragraph": "Strengthen community awareness, engagement and participation, to establish and strengthen trust, including by identifying and addressing cultural norm...",
+        "label": "emergency-level crisis",
+        "confidence": 0.474
+      },
+      {
+        "paragraph": "Train community leaders on the rationale underpinning public health measures, including the isolation of cases, monitoring of contacts, and safe buria...",
+        "label": "routine update",
+        "confidence": 0.552
+      },
+      {
+        "paragraph": "Activate local networks, including community health workers, Red Cross volunteers, and other trusted community actors to promote protective behaviours...",
+        "label": "concerning escalation",
+        "confidence": 0.566
+      },
+      {
+        "paragraph": "Enable adherence to movement restrictions, associated with the application of control measures, by providing food, water, communication, financial and...",
+        "label": "emergency-level crisis",
+        "confidence": 0.45
+      },
+      {
+        "paragraph": "Strengthen surveillance and laboratory capacity, decentralized across first sub-national administrative levels (e.g., provinces) with documented BDBV ...",
+        "label": "concerning escalation",
+        "confidence": 0.537
+      },
+      {
+        "paragraph": "Dedicated surveillance and response teams within each health zone and and in neighbouring health zones determined to be at high-risk for the introduct...",
+        "label": "concerning escalation",
+        "confidence": 0.713
+      },
+      {
+        "paragraph": "Active case finding and enhanced community surveillance for clusters of unexplained illness or deaths;",
+        "label": "concerning escalation",
+        "confidence": 0.756
+      },
+      {
+        "paragraph": "The investigation of “alerts” within 24 hours from detection;",
+        "label": "concerning escalation",
+        "confidence": 0.526
+      },
+      {
+        "paragraph": "The scale-up and strengthen RT-PCR laboratory capacities for timely testing for BDBV, including the establishment of protocols for safe sample collect...",
+        "label": "concerning escalation",
+        "confidence": 0.788
+      },
+      {
+        "paragraph": "The decentralization of the laboratory capacities should be considered to allow for quick turn-around time and support patient care, as well as any cl...",
+        "label": "concerning escalation",
+        "confidence": 0.463
+      },
+      {
+        "paragraph": "NB: The GeneXpert platform cannot detect Bundibugyo virus (BDBV).",
+        "label": "concerning escalation",
+        "confidence": 0.734
+      },
+      {
+        "paragraph": "Identify and monitor, for 21 days after the date of last known exposure, the health of contacts of suspected probable, and confirmed BVD cases. The he...",
+        "label": "concerning escalation",
+        "confidence": 0.473
+      },
+      {
+        "paragraph": "Establish a mechanism to monitor the evolution of indicators related to the performance of contact tracing activities.",
+        "label": "concerning escalation",
+        "confidence": 0.411
+      },
+      {
+        "paragraph": "Infection prevention and control in health facilities and in the context of care",
+        "label": "routine update",
+        "confidence": 0.511
+      },
+      {
+        "paragraph": "Strengthen measures to prevent nosocomial infections, including systematic mapping of health facilities, the establishment and dissemination of protoc...",
+        "label": "concerning escalation",
+        "confidence": 0.464
+      },
+      {
+        "paragraph": "Provide continuous IPC training to health care workers, including the proper use of personal protective equipment (PPE).",
+        "label": "routine update",
+        "confidence": 0.669
+      },
+      {
+        "paragraph": "Provide health facilities with sufficient supplies of appropriate PPE equipment to ensure the safety and protection of their staff, resources for time...",
+        "label": "emergency-level crisis",
+        "confidence": 0.38
+      },
+      {
+        "paragraph": "Establish channels for health workers to report and be assessed following exposures, and have access to psychosocial support and, when possible post-e...",
+        "label": "concerning escalation",
+        "confidence": 0.381
+      },
+      {
+        "paragraph": "Consider building community IPC capacity by training community leaders, and emphasizing that hand hygiene not only contributes to bringing the BVD epi...",
+        "label": "concerning escalation",
+        "confidence": 0.716
+      },
+      {
+        "paragraph": "Patient referral pathway and access to safe and optimized intensive care",
+        "label": "concerning escalation",
+        "confidence": 0.508
+      },
+      {
+        "paragraph": "Establish dedicated BVD isolation and treatment centers or units for suspected, probable, and confirmed cases, located within, or close to, areas with...",
+        "label": "concerning escalation",
+        "confidence": 0.517
+      },
+      {
+        "paragraph": "Establish protocols for transferring suspected BVD patients safely to dedicated health care facilities for their isolation, assessment and treatment i...",
+        "label": "concerning escalation",
+        "confidence": 0.466
+      },
+      {
+        "paragraph": "Establish protocols for the handling and disposal of medical waste, in accordance with biosafety principles.",
+        "label": "routine update",
+        "confidence": 0.415
+      },
+      {
+        "paragraph": "Establish survivor follow-up programmes, including clinical care, counselling, semen testing and sexual health advice and condoms where appropriate, a...",
+        "label": "concerning escalation",
+        "confidence": 0.617
+      },
+      {
+        "paragraph": "Maintain the package of essential health services, including providing IPC equipment for them to operate safely. This includes, at minimum, malaria di...",
+        "label": "routine update",
+        "confidence": 0.69
+      },
+      {
+        "paragraph": "Establish protocols ensuring funerals and burials are conducted by well-trained personnel, with provision made for the presence of the family and cult...",
+        "label": "concerning escalation",
+        "confidence": 0.509
+      },
+      {
+        "paragraph": "Establish logistics support to maintain a robust supply pipeline for PPE, diagnostics, therapeutics, and other medical commodities, IPC materials, inc...",
+        "label": "concerning escalation",
+        "confidence": 0.529
+      },
+      {
+        "paragraph": "Border health, international travel and mass-gathering events",
+        "label": "concerning escalation",
+        "confidence": 0.61
+      },
+      {
+        "paragraph": "Enhance, through arrangements between countries sharing borders, surveillance at ground crossings and border areas.",
+        "label": "routine update",
+        "confidence": 0.6
+      },
+      {
+        "paragraph": "Implement measures, in accordance with national laws and regulations, to prevent suspected, probable, and confirmed BVD cases, as well as their contac...",
+        "label": "emergency-level crisis",
+        "confidence": 0.46
+      },
+      {
+        "paragraph": "Prevent the cross-border movement of the human remains of deceased suspected, probable or confirmed BVD cases, unless authorized through bilateral arr...",
+        "label": "concerning escalation",
+        "confidence": 0.507
+      },
+      {
+        "paragraph": "Implement exit screening at all points of entry - airports, ports and ground crossings -, consisting of, at a minimum, a questionnaire encompassing hi...",
+        "label": "concerning escalation",
+        "confidence": 0.423
+      },
+      {
+        "paragraph": "Report to WHO, through the relevant WHO IHR Contact Point in the WHO Regional Office, the implementation of any international traffic related measure ...",
+        "label": "routine update",
+        "confidence": 0.59
+      },
+      {
+        "paragraph": "Consider postponing mass gatherings until BVD transmission is interrupted.",
+        "label": "concerning escalation",
+        "confidence": 0.785
+      },
+      {
+        "paragraph": "Engage, when feasible, with research partners and international institutions to:",
+        "label": "concerning escalation",
+        "confidence": 0.571
+      },
+      {
+        "paragraph": "Define a robust laboratory strategy, urgently implement head-to-head comparison studies of PCR diagnostics to validate or invalidate the PCR platform ...",
+        "label": "emergency-level crisis",
+        "confidence": 0.656
+      },
+      {
+        "paragraph": "Implement ethically approved, scientifically robust clinical trials to advance the development and use of candidate therapeutics for treatment and pos...",
+        "label": "concerning escalation",
+        "confidence": 0.633
+      },
+      {
+        "paragraph": "Establish, with a view to support research, expedited and efficient national regulatory and ethics reviews, community engagement, pharmacovigilance (w...",
+        "label": "concerning escalation",
+        "confidence": 0.584
+      },
+      {
+        "paragraph": "For countries with land borders adjoining countries with documented Bundibugyo virus disease",
+        "label": "concerning escalation",
+        "confidence": 0.636
+      },
+      {
+        "paragraph": "Establish a national coordination mechanism articulated with subnational levels.",
+        "label": "concerning escalation",
+        "confidence": 0.618
+      },
+      {
+        "paragraph": "Enhance rapidly the status of readiness to respond to BVD cases, including establishing active surveillance across health facilities, with zero report...",
+        "label": "concerning escalation",
+        "confidence": 0.577
+      },
+      {
+        "paragraph": "Establish the capacity at national reference laboratory(ies) to timely and safely perform testing for BDBV along with relevant differential testing. C...",
+        "label": "concerning escalation",
+        "confidence": 0.487
+      },
+      {
+        "paragraph": "Conduct international contact tracing operations as necessary, including obtaining information from airlines and other conveyances operations; identif...",
+        "label": "routine update",
+        "confidence": 0.498
+      },
+      {
+        "paragraph": "Intensify risk communication and community engagement activities, in communities residing in border areas and at points of entry, including airports a...",
+        "label": "concerning escalation",
+        "confidence": 0.939
+      },
+      {
+        "paragraph": "Exercise arrangements in place to respond to BVD through simulation exercises relating to management of BVD ”alerts”, including cross-border; sample r...",
+        "label": "emergency-level crisis",
+        "confidence": 0.502
+      },
+      {
+        "paragraph": "Establish, with a view to support research, expedited and efficient national regulatory and ethics reviews, community engagement, pharmacovigilance (w...",
+        "label": "concerning escalation",
+        "confidence": 0.584
+      },
+      {
+        "paragraph": "Provide travelers with accurate and up to date information regarding the BVD epidemic and measures to reduce the risk of exposure, including discourag...",
+        "label": "emergency-level crisis",
+        "confidence": 0.335
+      },
+      {
+        "paragraph": "Enhance, through arrangements between countries sharing borders, surveillance at ground crossings. This includes establishing coordination mechanisms ...",
+        "label": "concerning escalation",
+        "confidence": 0.536
+      },
+      {
+        "paragraph": "Pre-position PPE, other IPC materials, sample collection kits, case investigation forms, and safe burial supplies in border areas adjacent to those wi...",
+        "label": "emergency-level crisis",
+        "confidence": 0.433
+      },
+      {
+        "paragraph": "Activate health contingency plans at airport and ports, involving conveyance operators, to detect, assess, and manage travellers from States Parties w...",
+        "label": "emergency-level crisis",
+        "confidence": 0.392
+      },
+      {
+        "paragraph": "Coordinate with conveyance operators to facilitate timely communication, prior to arrival and to relevant authorities, of any suspected BVD cases on b...",
+        "label": "concerning escalation",
+        "confidence": 0.543
+      },
+      {
+        "paragraph": "At the time these temporary recommendations are issued, neither the suspension of flights or waterways routes with States Parties with documented BDBV...",
+        "label": "routine update",
+        "confidence": 0.511
+      },
+      {
+        "paragraph": "Report to WHO, through the relevant WHO IHR Contact Point, the implementation of any international traffic related measure adopted.",
+        "label": "routine update",
+        "confidence": 0.571
+      },
+      {
+        "paragraph": "Treat as a health emergency, including through a formal declaration according to domestic laws, the detection of a suspected or confirmed BVD case, of...",
+        "label": "emergency-level crisis",
+        "confidence": 0.953
+      },
+      {
+        "paragraph": "Notify to WHO immediately, through the relevant WHO IHR Contact Point in the WHO Regional Offices, any suspected, probable or confirmed BVD case, as p...",
+        "label": "emergency-level crisis",
+        "confidence": 0.446
+      },
+      {
+        "paragraph": "In the presence of a BVD case, temporary recommendations for State Parties States Parties with documented BDBV detection apply.",
+        "label": "concerning escalation",
+        "confidence": 0.43
+      },
+      {
+        "paragraph": "Make arrangements to detect, assess, report and manage travelers with unexplained febrile illness arriving from areas with documented BDBV detection. ...",
+        "label": "concerning escalation",
+        "confidence": 0.55
+      },
+      {
+        "paragraph": "Provide non-governmental organizations and other entities deploying personnel internationally to respond to the BVD epidemic with information on risk,...",
+        "label": "emergency-level crisis",
+        "confidence": 0.638
+      },
+      {
+        "paragraph": "Prepare to facilitate the evacuation and repatriation of nationals (e.g., health workers) who have been exposed to BVD cases.",
+        "label": "concerning escalation",
+        "confidence": 0.462
+      },
+      {
+        "paragraph": "Provide the general public with accurate and up to date information regarding the BVD epidemic and measures to reduce the risk of exposure, including ...",
+        "label": "routine update",
+        "confidence": 0.416
+      },
+      {
+        "paragraph": "Provide accurate and up to date information regarding the BVD epidemic to travel clinics, other health facilities and professionals, and discourage tr...",
+        "label": "concerning escalation",
+        "confidence": 0.409
+      },
+      {
+        "paragraph": "Provide incoming travelers, at points of entry, with information about measures to take should they develop symptoms compatible with BVD within 21 day...",
+        "label": "concerning escalation",
+        "confidence": 0.558
+      },
+      {
+        "paragraph": "Coordinate with the transport sector, including conveyance and points of entry operators, for the timely management of suspected BVD cases, including ...",
+        "label": "concerning escalation",
+        "confidence": 0.459
+      },
+      {
+        "paragraph": "At the time these temporary recommendations are issued, neither the suspension of flights from States Parties with documented BDBV detection, nor deni...",
+        "label": "routine update",
+        "confidence": 0.429
+      },
+      {
+        "paragraph": "Report to WHO, through the relevant WHO IHR Contact Point, the implementation of any international traffic related measure adopted.",
+        "label": "routine update",
+        "confidence": 0.571
+      },
+      {
+        "paragraph": "Notify to WHO immediately, through the relevant WHO IHR Contact Point in the WHO Regional Offices, any suspected, probable or confirmed BVD case, as p...",
+        "label": "emergency-level crisis",
+        "confidence": 0.446
+      },
+      {
+        "paragraph": "In the presence of a BVD case, temporary recommendations for States Parties with documented BDBV detection apply.",
+        "label": "emergency-level crisis",
+        "confidence": 0.431
+      },
+      {
+        "paragraph": "Weekly External Situation Report on Ebola Bundibugyo Virus Disease Outbreak, Democratic Republic of the Congo | Uganda",
+        "label": "routine update",
+        "confidence": 0.913
+      },
+      {
+        "paragraph": "Disease Outbreak News | All Hazards Public Health Events, Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo",
+        "label": "concerning escalation",
+        "confidence": 0.593
+      },
+      {
+        "paragraph": "Epidemic of Ebola Disease caused by Bundibugyo virus in the Democratic Republic of      the Congo and Uganda determined a public health emergency of i...",
+        "label": "emergency-level crisis",
+        "confidence": 0.904
+      },
+      {
+        "paragraph": "The Ministry of Public      Health, Hygiene and Social Welfare, DRC, officially declares the 17",
+        "label": "emergency-level crisis",
+        "confidence": 0.553
+      },
+      {
+        "paragraph": "Weekly External Situation Report. EBOLA BUNDIBUGYO VIRUS DISEASE OUTBREAK      Democratic Republic of the Congo | Uganda.",
+        "label": "routine update",
+        "confidence": 0.883
+      },
+      {
+        "paragraph": "http://www.who.int/en/news-room/fact-sheets/detail/ebola-virus-disease",
+        "label": "emergency-level crisis",
+        "confidence": 0.518
+      },
+      {
+        "paragraph": "Disease Outbreak News.      Ebola outbreak in Democratic Republic of Congo – update. WHO. 14 September      2012:",
+        "label": "emergency-level crisis",
+        "confidence": 0.491
+      },
+      {
+        "paragraph": "Disease Outbreak News.      Ebola outbreak in Democratic Republic of Congo – update. WHO. 26 October      2012:",
+        "label": "emergency-level crisis",
+        "confidence": 0.49
+      },
+      {
+        "paragraph": "WHO Launches Online Training to Strengthen Filovirus      Outbreak Response",
+        "label": "concerning escalation",
+        "confidence": 0.713
+      },
+      {
+        "paragraph": "Infection prevention and      control guideline for Ebola and Marburg disease. WHO. August 2023:",
+        "label": "emergency-level crisis",
+        "confidence": 0.343
+      },
+      {
+        "paragraph": "https://www.who.int/publications/i/item/WHO-WPE-CRS-HCR-2023.1",
+        "label": "concerning escalation",
+        "confidence": 0.417
+      },
+      {
+        "paragraph": "Infection prevention and control and water, sanitation and hygiene in health      facilities during Ebola or Marburg disease outbreaks: rapid assessme...",
+        "label": "emergency-level crisis",
+        "confidence": 0.71
+      },
+      {
+        "paragraph": "Assessment and management of      health and care workers with possible occupational exposures to      Orthoebolavirus or Orthomarburgvirus: implement...",
+        "label": "concerning escalation",
+        "confidence": 0.431
+      },
+      {
+        "paragraph": "Optimized Supportive Care for Ebola Virus Disease. Clinical management standard operating procedures. WHO. 2019.",
+        "label": "concerning escalation",
+        "confidence": 0.463
+      },
+      {
+        "paragraph": "https://www.who.int/csr/resources/publications/optimized-supportive-care/en/",
+        "label": "concerning escalation",
+        "confidence": 0.411
+      },
+      {
+        "paragraph": "Ebola: technical guidance documents for medical staff (2014-2016).",
+        "label": "emergency-level crisis",
+        "confidence": 0.716
+      },
+      {
+        "paragraph": "https://www.who.int/csr/disease/ebola/protective-measures-staff/en/",
+        "label": "emergency-level crisis",
+        "confidence": 0.439
+      },
+      {
+        "paragraph": "Framework and      toolkit for infection prevention and control in outbreak preparedness, readiness      and response at the national level",
+        "label": "routine update",
+        "confidence": 0.45
+      },
+      {
+        "paragraph": "https://www.who.int/publications/i/item/framework-and-toolkit-for-infection-prevention-and-control-in-outbreak-preparedness--readiness-and-response-at...",
+        "label": "emergency-level crisis",
+        "confidence": 0.518
+      },
+      {
+        "paragraph": "Considerations for border health and points of entry for filovirus disease outbreaks:",
+        "label": "concerning escalation",
+        "confidence": 0.667
+      },
+      {
+        "paragraph": "https://www.who.int/publications/m/item/considerations-for-border-health-and-points-of-entry-for-filovirus-disease-outbreaks",
+        "label": "concerning escalation",
+        "confidence": 0.541
+      },
+      {
+        "paragraph": "Diagnostic testing for Ebola and Marburg virus diseases: interim guidance, 20      December 2024:",
+        "label": "concerning escalation",
+        "confidence": 0.482
+      },
+      {
+        "paragraph": "World Health Organization (22 May 2026). Disease Outbreak News; Bundibugyo Virus Disease, Democratic Republic of the Congo. Available at:",
+        "label": "concerning escalation",
+        "confidence": 0.607
+      },
+      {
+        "paragraph": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603",
+        "label": "emergency-level crisis",
+        "confidence": 0.821
+      },
+      {
+        "paragraph": "This Disease Outbreak News was revised on 25 May 2026 to correct the year of the last Sudan ebolavirus in Uganda and the distance between Bunia HZ and...",
+        "label": "concerning escalation",
+        "confidence": 0.662
+      },
+      {
+        "paragraph": "Corrigendum: This Disease Outbreak News was revised on 26 May 2026 to amend the declaration date of the public health emergency of international conce...",
+        "label": "emergency-level crisis",
+        "confidence": 0.783
+      }
+    ]
+  },
+  {
+    "bulletin": "DON605_2026-05-29",
+    "locations_mentioned": [
+      "##undib",
+      "America",
+      "B",
+      "Congo",
+      "Democratic",
+      "Democratic Republic of the Congo",
+      "Germany",
+      "Ituri",
+      "North Kivu",
+      "Republic",
+      "South Kivu",
+      "Uganda",
+      "United States",
+      "United States of America",
+      "WHO"
+    ],
+    "case_death_counts": [
+      {
+        "value": 906,
+        "type": "cases",
+        "context": "...ongoing cross-border transmission. As of 27 May, a total of 906 suspected cases and 223 deaths amon..."
+      },
+      {
+        "value": 134,
+        "type": "cases",
+        "context": "...Democratic Republic of the Congo. As of 29 May, a total of 134 confirmed cases, including nine in..."
+      },
+      {
+        "value": 49,
+        "type": "cases",
+        "context": "...been reported across both countries. This is an additional 49 confirmed cases, eight confirmed de..."
+      },
+      {
+        "value": 160,
+        "type": "cases",
+        "context": "...s an additional 49 confirmed cases, eight confirmed deaths, 160 suspected cases and 47 suspected de..."
+      },
+      {
+        "value": 906,
+        "type": "cases",
+        "context": "...rapidly in the Democratic Republic of the Congo. In total, 906 suspected cases, including 223 deat..."
+      },
+      {
+        "value": 134,
+        "type": "cases",
+        "context": "...ve been reported from Democratic Republic of the Congo; and 134 confirmed cases (nine in Uganda), i..."
+      },
+      {
+        "value": 42,
+        "type": "cases",
+        "context": "...the Congo Since the last update dated 21 May, an additional 42 confirmed cases including eight dea..."
+      },
+      {
+        "value": 160,
+        "type": "cases",
+        "context": "...an additional 42 confirmed cases including eight deaths and 160 suspected cases including 47 deaths..."
+      },
+      {
+        "value": 125,
+        "type": "cases",
+        "context": "...cratic Republic of the Congo. As of 27 May 2026, a total of 125 confirmed cases including 17 deaths..."
+      },
+      {
+        "value": 906,
+        "type": "cases",
+        "context": "...l of 125 confirmed cases including 17 deaths (CFR 14%); and 906 suspected cases including 223 death..."
+      },
+      {
+        "value": 37,
+        "type": "cases",
+        "context": "...med case numbers in Ituri Province are reported from Bunia (37 cases), Rwampara (33 case..."
+      },
+      {
+        "value": 33,
+        "type": "cases",
+        "context": "...turi Province are reported from Bunia (37 cases), Rwampara (33 cases), Mongbwalu (20 cas..."
+      },
+      {
+        "value": 20,
+        "type": "cases",
+        "context": "...rted from Bunia (37 cases), Rwampara (33 cases), Mongbwalu (20 cases), and Nyankunde (10..."
+      },
+      {
+        "value": 10,
+        "type": "cases",
+        "context": "..., Rwampara (33 cases), Mongbwalu (20 cases), and Nyankunde (10 cases) HZ. Of the 17 deat..."
+      },
+      {
+        "value": 223,
+        "type": "deaths",
+        "context": "...nsmission. As of 27 May, a total of 906 suspected cases and 223 deaths among suspected cas..."
+      },
+      {
+        "value": 18,
+        "type": "deaths",
+        "context": "...otal of 134 confirmed cases, including nine in Uganda, with 18 deaths among the confirmed..."
+      },
+      {
+        "value": 223,
+        "type": "deaths",
+        "context": "...blic of the Congo. In total, 906 suspected cases, including 223 deaths among suspected cas..."
+      },
+      {
+        "value": 18,
+        "type": "deaths",
+        "context": "...Congo; and 134 confirmed cases (nine in Uganda), including 18 deaths (one in Uganda) (CF..."
+      },
+      {
+        "value": 47,
+        "type": "deaths",
+        "context": "...es including eight deaths and 160 suspected cases including 47 deaths have been reported..."
+      },
+      {
+        "value": 17,
+        "type": "deaths",
+        "context": "...As of 27 May 2026, a total of 125 confirmed cases including 17 deaths (CFR 14%); and 906..."
+      },
+      {
+        "value": 223,
+        "type": "deaths",
+        "context": "...ding 17 deaths (CFR 14%); and 906 suspected cases including 223 deaths have been reported..."
+      },
+      {
+        "value": 17,
+        "type": "deaths",
+        "context": "..., Mongbwalu (20 cases), and Nyankunde (10 cases) HZ. Of the 17 deaths among confirmed cas..."
+      }
+    ],
+    "paragraph_severity": [
+      {
+        "paragraph": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo and Uganda continues to evolve rapidly, with increasing case numbe...",
+        "label": "concerning escalation",
+        "confidence": 0.936
+      },
+      {
+        "paragraph": "In the Democratic Republic of the Congo, transmission is concentrated in Ituri, as well as North Kivu and South Kivu provinces, with challenges in con...",
+        "label": "concerning escalation",
+        "confidence": 0.497
+      },
+      {
+        "paragraph": "National authorities, in collaboration with WHO and partners, are implementing response measures including deployment of rapid response teams, deliver...",
+        "label": "emergency-level crisis",
+        "confidence": 0.498
+      },
+      {
+        "paragraph": "was published on 21 May 2026, the number of suspected and confirmed cases has increased rapidly in the Democratic Republic of the Congo. In total, 906...",
+        "label": "concerning escalation",
+        "confidence": 0.767
+      },
+      {
+        "paragraph": "Figure 1. Distribution of suspected and confirmed cases of Bundibugyo virus disease in Democratic Republic of the Congo and Uganda, as of 29 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.501
+      },
+      {
+        "paragraph": "Since the last update dated 21 May, an additional 42 confirmed cases including eight deaths and 160 suspected cases including 47 deaths have been repo...",
+        "label": "concerning escalation",
+        "confidence": 0.723
+      },
+      {
+        "paragraph": ". Sixteen confirmed cases have been reported among health and care workers to date. Epidemiological and laboratory investigations are ongoing to recla...",
+        "label": "concerning escalation",
+        "confidence": 0.51
+      },
+      {
+        "paragraph": "The outbreak remains concentrated in Ituri Province, which accounts for 88% (110) of confirmed cases. The highest confirmed case numbers in Ituri Prov...",
+        "label": "emergency-level crisis",
+        "confidence": 0.536
+      },
+      {
+        "paragraph": "A total of 774 samples have been collected as of 27 May. Of these, 648 samples (84%) have been analyzed, with 125 testing positive, representing a tes...",
+        "label": "concerning escalation",
+        "confidence": 0.601
+      },
+      {
+        "paragraph": "As of 27 May, 2635 contacts have been listed in Ituri and North Kivu provinces.",
+        "label": "concerning escalation",
+        "confidence": 0.621
+      },
+      {
+        "paragraph": "Security incidents against health facilities, and community resistance, have recently emerged as major operational challenges in Ituri Province, with ...",
+        "label": "concerning escalation",
+        "confidence": 0.901
+      },
+      {
+        "paragraph": "Figure 2: Number of confirmed cases (n=125) and deaths (n=17) by date of reporting in the Democratic Republic of the Congo as of 27 May 2026",
+        "label": "emergency-level crisis",
+        "confidence": 0.524
+      },
+      {
+        "paragraph": "NB: Newly reported confirmed cases/deaths may be part of the back log of samples waiting to be tested and therefore not necessarily newly acquired inf...",
+        "label": "concerning escalation",
+        "confidence": 0.699
+      },
+      {
+        "paragraph": "Since the last update dated 21 May, an additional seven confirmed cases have been reported from Uganda. As of 29 May 2026, a total of nine confirmed c...",
+        "label": "concerning escalation",
+        "confidence": 0.586
+      },
+      {
+        "paragraph": "As of 26 May, a total of 436 contacts linked to the cases have been identified and are under follow-up. These include close household contacts and hos...",
+        "label": "concerning escalation",
+        "confidence": 0.451
+      },
+      {
+        "paragraph": "Exposure risks are associated with healthcare settings and cross-border movements.",
+        "label": "concerning escalation",
+        "confidence": 0.727
+      },
+      {
+        "paragraph": "Figure 3: Number of confirmed cases (n=9) and deaths (n=1) by date of reporting in Uganda as of 29 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.5
+      },
+      {
+        "paragraph": "Bundibugyo virus disease (BVD) is a severe and often fatal form of Ebola disease caused by the Bundibugyo virus, one of the",
+        "label": "concerning escalation",
+        "confidence": 0.685
+      },
+      {
+        "paragraph": "species. It is a zoonotic disease, with fruit bats suspected to be the natural reservoir. Human infection is thought to occur through close contact wi...",
+        "label": "concerning escalation",
+        "confidence": 0.71
+      },
+      {
+        "paragraph": "The incubation period for BVD ranges from 2 to 21 days, and individuals are not infectious until symptom onset. Early symptoms such as fever, fatigue,...",
+        "label": "concerning escalation",
+        "confidence": 0.811
+      },
+      {
+        "paragraph": "Differentiating BVD from other endemic febrile illnesses such as malaria is challenging without laboratory confirmation using PCR or antigen/antibody-...",
+        "label": "concerning escalation",
+        "confidence": 0.513
+      },
+      {
+        "paragraph": "Health authorities in the Democratic Republic of the Congo and Uganda, in collaboration with WHO and partners, are implementing comprehensive public h...",
+        "label": "emergency-level crisis",
+        "confidence": 0.445
+      },
+      {
+        "paragraph": "For further information about public health response actions by the respective Ministry of Health, WHO, and partners, please refer to the latest situa...",
+        "label": "emergency-level crisis",
+        "confidence": 0.465
+      },
+      {
+        "paragraph": "Weekly External Situation Report 02, Data as of 24 May 2026 - DRC and Uganda",
+        "label": "routine update",
+        "confidence": 0.901
+      },
+      {
+        "paragraph": "On 22 May 2026, WHO assessed the risk of the outbreak of BVD to be very high at the national level in the Democratic Republic of the Congo, high at th...",
+        "label": "emergency-level crisis",
+        "confidence": 0.438
+      },
+      {
+        "paragraph": "WHO Rapid Risk Assessment-Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo and Uganda v2",
+        "label": "concerning escalation",
+        "confidence": 0.54
+      },
+      {
+        "paragraph": "On 19 May 2026, the Director-General of WHO convened the first meeting of the IHR Emergency Committee, which issued the",
+        "label": "emergency-level crisis",
+        "confidence": 0.63
+      },
+      {
+        "paragraph": "on 22 May 2026 to States Parties. These recommendations underscore the importance of coordinated outbreak control, enhanced cross‑border collaboration...",
+        "label": "concerning escalation",
+        "confidence": 0.719
+      },
+      {
+        "paragraph": "WHO advises against any restriction of travel to, or trade with, the Democratic Republic of the Congo or Uganda based on the currently available infor...",
+        "label": "concerning escalation",
+        "confidence": 0.426
+      },
+      {
+        "paragraph": "For further information on the considerations for implementing border health and international travel-related temporary recommendations, please see th...",
+        "label": "emergency-level crisis",
+        "confidence": 0.406
+      },
+      {
+        "paragraph": "Epidemiological update on BVD outbreak in Democratic Republic of the Congo and Uganda",
+        "label": "concerning escalation",
+        "confidence": 0.546
+      },
+      {
+        "paragraph": "Weekly External Situation Report on Ebola Bundibugyo Virus Disease Outbreak, Democratic Republic of the Congo | Uganda",
+        "label": "routine update",
+        "confidence": 0.913
+      },
+      {
+        "paragraph": "Disease Outbreak News | All Hazards Public Health Events, Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo",
+        "label": "concerning escalation",
+        "confidence": 0.593
+      },
+      {
+        "paragraph": "Epidemic of Ebola Disease caused by Bundibugyo virus      in the Democratic Republic of the Congo and Uganda determined a public      health emergency...",
+        "label": "emergency-level crisis",
+        "confidence": 0.882
+      },
+      {
+        "paragraph": "The Ministry of Public Health, Hygiene and Social      Welfare, DRC, officially declares the 17",
+        "label": "emergency-level crisis",
+        "confidence": 0.612
+      },
+      {
+        "paragraph": "Message by the WHO Director-General to the people of the Democratic Republic of      the Congo",
+        "label": "emergency-level crisis",
+        "confidence": 0.467
+      },
+      {
+        "paragraph": "WHO Democratic Republic of Congo confirms      new Ebola outbreak",
+        "label": "emergency-level crisis",
+        "confidence": 0.571
+      },
+      {
+        "paragraph": "Weekly External Situation Report. EBOLA BUNDIBUGYO      VIRUS DISEASE OUTBREAK Democratic Republic of the Congo | Uganda.",
+        "label": "routine update",
+        "confidence": 0.895
+      },
+      {
+        "paragraph": "Disease Outbreak News. Ebola outbreak in Democratic Republic of Congo –      update. WHO. 14 September 2012",
+        "label": "emergency-level crisis",
+        "confidence": 0.521
+      },
+      {
+        "paragraph": "Disease Outbreak News. Ebola outbreak in Democratic Republic of Congo – update.      WHO. 26 October 2012",
+        "label": "emergency-level crisis",
+        "confidence": 0.539
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo. 21 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.504
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo and Uganda 16 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.502
+      },
+      {
+        "paragraph": "WHO Launches Online Training to Strengthen Filovirus      Outbreak Response",
+        "label": "concerning escalation",
+        "confidence": 0.713
+      },
+      {
+        "paragraph": "Infection prevention and control guideline for Ebola and Marburg disease.      WHO.17 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.352
+      },
+      {
+        "paragraph": "Infection prevention      and control and water, sanitation and hygiene in health      facilities during Ebola or Marburg disease outbreaks: rapid ass...",
+        "label": "emergency-level crisis",
+        "confidence": 0.69
+      },
+      {
+        "paragraph": "Assessment and management of health and care workers with possible occupational      exposures to Orthoebolavirus or Orthomarburgvirus:      implement...",
+        "label": "concerning escalation",
+        "confidence": 0.45
+      },
+      {
+        "paragraph": "Optimized Supportive      Care for Ebola Virus Disease. Clinical management standard operating      procedures. WHO. 2019",
+        "label": "concerning escalation",
+        "confidence": 0.453
+      },
+      {
+        "paragraph": "Framework and toolkit for infection prevention and      control in outbreak preparedness, readiness and response at the national      level",
+        "label": "routine update",
+        "confidence": 0.472
+      },
+      {
+        "paragraph": "Considerations for border health and points of entry for filovirus disease outbreaks",
+        "label": "concerning escalation",
+        "confidence": 0.689
+      },
+      {
+        "paragraph": "Diagnostic testing for Ebola and Marburg virus diseases: interim guidance, 20      December 2024",
+        "label": "concerning escalation",
+        "confidence": 0.455
+      },
+      {
+        "paragraph": "#Data source: Centre des opérations d'urgences de sante publique (COUSP-DRC) available at :",
+        "label": "emergency-level crisis",
+        "confidence": 0.483
+      },
+      {
+        "paragraph": "Citable reference: World Health Organization (29 May 2026). Disease Outbreak News; Bundibugyo Virus Disease, Democratic Republic of the Congo and Ugan...",
+        "label": "concerning escalation",
+        "confidence": 0.465
+      },
+      {
+        "paragraph": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON605",
+        "label": "emergency-level crisis",
+        "confidence": 0.832
+      },
+      {
+        "paragraph": "Corrigendum: This Disease Outbreak News was revised on 3 June 2026 to correct the date of the first reported case in Figure 3.",
+        "label": "concerning escalation",
+        "confidence": 0.627
+      }
+    ]
+  },
+  {
+    "bulletin": "DON606_2026-06-08",
+    "locations_mentioned": [
+      "##undib",
+      "Africa CDC",
+      "Africa Centres for Disease Control and Prevention",
+      "Congo",
+      "Democratic Republic of the Congo",
+      "Republic",
+      "Uganda",
+      "WHO"
+    ],
+    "case_death_counts": [
+      {
+        "value": 515,
+        "type": "cases",
+        "context": "...oss-border transmission to Uganda. As of 6 June, a total of 515 confirmed cases, with 91 deaths amo..."
+      },
+      {
+        "value": 19,
+        "type": "cases",
+        "context": "...m the Democratic Republic of the Congo; Uganda has reported 19 confirmed cases including two death..."
+      },
+      {
+        "value": 534,
+        "type": "cases",
+        "context": "...the Democratic Republic of the Congo and Uganda. In total, 534 confirmed cases including 93 deaths..."
+      },
+      {
+        "value": 390,
+        "type": "cases",
+        "context": "...emocratic Republic of the Congo Since 29 May, an additional 390 confirmed cases including 74 confir..."
+      },
+      {
+        "value": 515,
+        "type": "cases",
+        "context": "...previously collected samples. As of 6 June 2026, a total of 515 confirmed cases including 91 deaths..."
+      },
+      {
+        "value": 142,
+        "type": "cases",
+        "context": "...med case numbers in Ituri Province are reported from Bunia (142 cases), Rwampara (98 case..."
+      },
+      {
+        "value": 98,
+        "type": "cases",
+        "context": "...uri Province are reported from Bunia (142 cases), Rwampara (98 cases), Mongbwalu (92 cas..."
+      },
+      {
+        "value": 92,
+        "type": "cases",
+        "context": "...ted from Bunia (142 cases), Rwampara (98 cases), Mongbwalu (92 cases), and Nyankunde (24..."
+      },
+      {
+        "value": 24,
+        "type": "cases",
+        "context": "..., Rwampara (98 cases), Mongbwalu (92 cases), and Nyankunde (24 cases) HZ. As of 6 June,..."
+      },
+      {
+        "value": 10,
+        "type": "cases",
+        "context": "...s. Uganda Since the last update dated 29 May, an additional 10 confirmed cases and one death have..."
+      },
+      {
+        "value": 19,
+        "type": "cases",
+        "context": "...ve been reported from Uganda. As of 6 June 2026, a total of 19 confirmed cases including two death..."
+      },
+      {
+        "value": 14,
+        "type": "cases",
+        "context": "...ed. Five recoveries have been reported. Of the total cases, 14 cases are imported and fi..."
+      },
+      {
+        "value": 91,
+        "type": "deaths",
+        "context": "...Uganda. As of 6 June, a total of 515 confirmed cases, with 91 deaths among these confirm..."
+      },
+      {
+        "value": 93,
+        "type": "deaths",
+        "context": "...e Congo and Uganda. In total, 534 confirmed cases including 93 deaths (case fatality rate..."
+      },
+      {
+        "value": 91,
+        "type": "deaths",
+        "context": "...As of 6 June 2026, a total of 515 confirmed cases including 91 deaths (CFR 17.7%) have be..."
+      }
+    ],
+    "paragraph_severity": [
+      {
+        "paragraph": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with increasing case numbers, geograp...",
+        "label": "concerning escalation",
+        "confidence": 0.968
+      },
+      {
+        "paragraph": "In Uganda, the outbreak remains epidemiologically linked to transmission originating in the Democratic Republic of the Congo, with evidence of both im...",
+        "label": "emergency-level crisis",
+        "confidence": 0.498
+      },
+      {
+        "paragraph": "National authorities, in collaboration with WHO and partners, are undertaking a wide-ranging package of response measures.",
+        "label": "concerning escalation",
+        "confidence": 0.446
+      },
+      {
+        "paragraph": "On 5 June, the Africa Centres for Disease Control and Prevention (Africa CDC) and WHO, together with partners, launched a joint Ebola continental prep...",
+        "label": "emergency-level crisis",
+        "confidence": 0.695
+      },
+      {
+        "paragraph": "was published on 29 May 2026, the number of confirmed cases and deaths have increased rapidly in the Democratic Republic of the Congo and Uganda. In t...",
+        "label": "concerning escalation",
+        "confidence": 0.896
+      },
+      {
+        "paragraph": "Figure 1. Distribution of confirmed cases of Bundibugyo virus disease in the Democratic Republic of the Congo and Uganda, as of 6 June 2026",
+        "label": "concerning escalation",
+        "confidence": 0.499
+      },
+      {
+        "paragraph": "Since 29 May, an additional 390 confirmed cases including 74 confirmed deaths have been reported from the Democratic Republic of the Congo. The increa...",
+        "label": "concerning escalation",
+        "confidence": 0.685
+      },
+      {
+        "paragraph": "The outbreak remains concentrated in Ituri Province, which accounts for 94% (487) of confirmed cases. The CFR in Ituri is 15% (74/487); significantly ...",
+        "label": "emergency-level crisis",
+        "confidence": 0.612
+      },
+      {
+        "paragraph": "As of 6 June, 5040 contacts had been identified and were under follow-up across Ituri (4118), North Kivu (699), and South Kivu (223) provinces. Of the...",
+        "label": "concerning escalation",
+        "confidence": 0.51
+      },
+      {
+        "paragraph": "Increasing security-related incidents affecting health facilities have posed additional operational challenges in affected provinces. These conditions...",
+        "label": "concerning escalation",
+        "confidence": 0.988
+      },
+      {
+        "paragraph": "Figure 2: Number of confirmed cases (n = 515), including deaths,  in the Democratic Republic of the Congo, by date of reporting and as of 6 June 2026",
+        "label": "emergency-level crisis",
+        "confidence": 0.481
+      },
+      {
+        "paragraph": "NB: Newly reported confirmed cases/deaths may be part of the back log of samples and therefore not necessarily newly acquired infections.",
+        "label": "concerning escalation",
+        "confidence": 0.656
+      },
+      {
+        "paragraph": "Since the last update dated 29 May, an additional 10 confirmed cases and one death have been reported from Uganda. As of 6 June 2026, a total of 19 co...",
+        "label": "concerning escalation",
+        "confidence": 0.768
+      },
+      {
+        "paragraph": "About 70% of the cases are Congolese nationals who came to Uganda to seek medical care. This includes a Congolese national who travelled from the Demo...",
+        "label": "concerning escalation",
+        "confidence": 0.601
+      },
+      {
+        "paragraph": "As of 2 June, a total of 668 contacts linked to the cases have been identified and are under follow-up. These include close residential contacts and h...",
+        "label": "concerning escalation",
+        "confidence": 0.525
+      },
+      {
+        "paragraph": "Figure 3: Number of confirmed cases (n = 19), including deaths, in Uganda by date of reporting and as of 6 June 2026",
+        "label": "concerning escalation",
+        "confidence": 0.521
+      },
+      {
+        "paragraph": "Bundibugyo virus disease (BVD) is a severe and often fatal form of Ebola disease caused by the Bundibugyo virus, one of the",
+        "label": "concerning escalation",
+        "confidence": 0.685
+      },
+      {
+        "paragraph": "species. It is a zoonotic disease, with fruit bats suspected to be the natural reservoir. Human infection is thought to occur through close contact wi...",
+        "label": "concerning escalation",
+        "confidence": 0.71
+      },
+      {
+        "paragraph": "The incubation period for BVD ranges from two to 21 days, and individuals are not infectious until symptom onset. Early symptoms such as fever, fatigu...",
+        "label": "concerning escalation",
+        "confidence": 0.79
+      },
+      {
+        "paragraph": "Differentiating BVD from other endemic febrile illnesses such as malaria is challenging without laboratory confirmation using PCR or antigen/antibody-...",
+        "label": "concerning escalation",
+        "confidence": 0.513
+      },
+      {
+        "paragraph": "Health authorities in the Democratic Republic of the Congo and Uganda, in collaboration with WHO and partners, are implementing comprehensive public h...",
+        "label": "emergency-level crisis",
+        "confidence": 0.579
+      },
+      {
+        "paragraph": "Key response activities also include interagency coordination and deployment of field teams, delivery of medical supplies, strengthening surveillance,...",
+        "label": "emergency-level crisis",
+        "confidence": 0.508
+      },
+      {
+        "paragraph": "For further information about public health response actions by the respective Ministry of Health, WHO, and partners, please refer to the latest situa...",
+        "label": "emergency-level crisis",
+        "confidence": 0.465
+      },
+      {
+        "paragraph": "Ebola Bundibugyo Virus Disease Outbreak Democratic Republic of the Congo | Uganda Weekly External Situation Report 03, Data as of 31 May 2026 | WHO | ...",
+        "label": "emergency-level crisis",
+        "confidence": 0.599
+      },
+      {
+        "paragraph": "On 6 June 2026, WHO reassessed the risk of the outbreak of BVD to incorporate newly available information and the WHO Temporary Recommendations. The r...",
+        "label": "routine update",
+        "confidence": 0.416
+      },
+      {
+        "paragraph": "The risk in the Democratic Republic of the Congo remains assessed as very high due to ongoing transmission and the continued expansion of the outbreak...",
+        "label": "concerning escalation",
+        "confidence": 0.925
+      },
+      {
+        "paragraph": "The risk in Uganda is still assessed as high due to confirmed cross-border spread through imported cases and ongoing epidemiological links along the e...",
+        "label": "concerning escalation",
+        "confidence": 0.803
+      },
+      {
+        "paragraph": "The risk for countries with land borders adjoining countries with documented BDBV detection, is assessed as high due to sustained population mobility ...",
+        "label": "concerning escalation",
+        "confidence": 0.55
+      },
+      {
+        "paragraph": "The risk for the rest of the Africa region and at the global level is assessed as low.",
+        "label": "routine update",
+        "confidence": 0.422
+      },
+      {
+        "paragraph": "WHO advises against any restriction of travel to, or trade with, the Democratic Republic of the Congo or Uganda based on the currently available infor...",
+        "label": "concerning escalation",
+        "confidence": 0.426
+      },
+      {
+        "paragraph": "For further information on the considerations for implementing border health and international travel-related temporary recommendations, please see th...",
+        "label": "emergency-level crisis",
+        "confidence": 0.406
+      },
+      {
+        "paragraph": "issued to State Parties on 22 May 2026 underscore the importance of coordinated outbreak control, enhanced cross‑border collaboration, and sustained s...",
+        "label": "concerning escalation",
+        "confidence": 0.69
+      },
+      {
+        "paragraph": "WHO has convened several technical advisory groups, including the Strategic Advisory group of Experts (SAGE) to assess candidate vaccines and therapeu...",
+        "label": "emergency-level crisis",
+        "confidence": 0.483
+      },
+      {
+        "paragraph": "Epidemiological update on BVD outbreak in Democratic Republic of the Congo and Uganda",
+        "label": "concerning escalation",
+        "confidence": 0.546
+      },
+      {
+        "paragraph": "Weekly External Situation Report on Ebola Bundibugyo Virus Disease Outbreak, Democratic Republic of the Congo | Uganda",
+        "label": "routine update",
+        "confidence": 0.913
+      },
+      {
+        "paragraph": "Disease Outbreak News | All Hazards Public Health Events, Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo",
+        "label": "concerning escalation",
+        "confidence": 0.593
+      },
+      {
+        "paragraph": "Africa CDC and WHO launch joint continental Ebola response plan",
+        "label": "emergency-level crisis",
+        "confidence": 0.652
+      },
+      {
+        "paragraph": "Bundibugyo Ebola virus | Continental preparedness and response plan: June-November      2026",
+        "label": "emergency-level crisis",
+        "confidence": 0.666
+      },
+      {
+        "paragraph": "Epidemic of Ebola Disease caused by Bundibugyo virus in the Democratic Republic of      the Congo and Uganda determined a public health emergency of i...",
+        "label": "emergency-level crisis",
+        "confidence": 0.904
+      },
+      {
+        "paragraph": "The Ministry of Public Health, Hygiene and Social Welfare, DRC, officially      declares the 17th Ebola Disease outbreak",
+        "label": "concerning escalation",
+        "confidence": 0.585
+      },
+      {
+        "paragraph": "Message by the WHO Director-General to the people of the Democratic Republic of      the Congo",
+        "label": "emergency-level crisis",
+        "confidence": 0.467
+      },
+      {
+        "paragraph": "Weekly External Situation Report. EBOLA BUNDIBUGYO VIRUS DISEASE OUTBREAK      Democratic Republic of the Congo | Uganda.",
+        "label": "routine update",
+        "confidence": 0.883
+      },
+      {
+        "paragraph": "Daily situation report, Ministry of Health, Democratic Republic of the Congo.",
+        "label": "routine update",
+        "confidence": 0.95
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo and Uganda 16 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.502
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo. 21 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.504
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo. 29 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.499
+      },
+      {
+        "paragraph": "Infection prevention and control guideline for Ebola and Marburg disease. WHO.17 May      2026",
+        "label": "concerning escalation",
+        "confidence": 0.374
+      },
+      {
+        "paragraph": "Infection prevention and control and water, sanitation and hygiene in health      facilities during Ebola or Marburg disease outbreaks: rapid assessme...",
+        "label": "emergency-level crisis",
+        "confidence": 0.708
+      },
+      {
+        "paragraph": "Assessment and management of health and care workers with possible occupational      exposures to Orthoebolavirus or Orthomarburgvirus: implementation...",
+        "label": "concerning escalation",
+        "confidence": 0.397
+      },
+      {
+        "paragraph": "Optimized Supportive Care for Ebola Virus Disease. Clinical management standard      operating procedures. WHO. 2019",
+        "label": "routine update",
+        "confidence": 0.567
+      },
+      {
+        "paragraph": "Framework and toolkit for infection prevention and control in outbreak preparedness,      readiness and response at the national level",
+        "label": "routine update",
+        "confidence": 0.433
+      },
+      {
+        "paragraph": "Diagnostic testing for Ebola and Marburg virus diseases: interim guidance, 20      December 2024",
+        "label": "concerning escalation",
+        "confidence": 0.455
+      },
+      {
+        "paragraph": "Considerations for border health and points of entry for filovirus disease outbreaks",
+        "label": "concerning escalation",
+        "confidence": 0.689
+      },
+      {
+        "paragraph": "WHO Launches Online Training to Strengthen Filovirus Outbreak Response",
+        "label": "concerning escalation",
+        "confidence": 0.692
+      },
+      {
+        "paragraph": "Disease Outbreak News. Ebola outbreak in Democratic Republic of Congo – update.      WHO. 14 September 2012",
+        "label": "emergency-level crisis",
+        "confidence": 0.539
+      },
+      {
+        "paragraph": "Disease Outbreak News. Ebola outbreak in Democratic Republic of Congo – update.      WHO. 26 October 2012",
+        "label": "emergency-level crisis",
+        "confidence": 0.539
+      },
+      {
+        "paragraph": "#Data source: Centre des opérations d'urgences de sante publique (COUSP-DRC)",
+        "label": "emergency-level crisis",
+        "confidence": 0.464
+      },
+      {
+        "paragraph": "World Health Organization (8 June 2026). Disease Outbreak News; Bundibugyo Virus Disease, Democratic Republic of the Congo and Uganda. Available at",
+        "label": "concerning escalation",
+        "confidence": 0.605
+      },
+      {
+        "paragraph": "https://www.who.int/emergencies/disease-outbreak/news/item/2026-DON606",
+        "label": "emergency-level crisis",
+        "confidence": 0.863
+      }
+    ]
+  },
+  {
+    "bulletin": "DON612_2026-07-03",
+    "locations_mentioned": [
+      "##ib",
+      "##und",
+      "##undib",
+      "African Region",
+      "Congo",
+      "DRC",
+      "Democratic Republic",
+      "Democratic Republic of the Congo",
+      "France",
+      "Uganda",
+      "WHO"
+    ],
+    "case_death_counts": [
+      {
+        "value": 1460,
+        "type": "cases",
+        "context": "...ng numbers of reported cases. As of 1 July, a cumulative of 1460 confirmed cases, including 452 deat..."
+      },
+      {
+        "value": 20,
+        "type": "cases",
+        "context": "...ic Republic of the Congo. As of 2 July, Uganda has reported 20 confirmed cases including two death..."
+      },
+      {
+        "value": 1481,
+        "type": "cases",
+        "context": "...rapidly in the Democratic Republic of the Congo. In total, 1481 confirmed cases; 1460 from the Demo..."
+      },
+      {
+        "value": 564,
+        "type": "cases",
+        "context": "...the last Disease Outbreak News was published, an additional 564 confirmed cases, including 220 conf..."
+      },
+      {
+        "value": 1460,
+        "type": "cases",
+        "context": "...ng and diagnostic capacities. As of 1 July 2026, a total of 1460 confirmed cases including 452 death..."
+      },
+      {
+        "value": 102,
+        "type": "cases",
+        "context": "...(11/35 HZ) and South Kivu provinces (1/34 HZ).[1] To date, 102 confirmed cases including 25 deaths..."
+      },
+      {
+        "value": 838,
+        "type": "cases",
+        "context": "...rted any new cases during this period. In the past 21 days, 838 confirmed cases, including 314 conf..."
+      },
+      {
+        "value": 416,
+        "type": "cases",
+        "context": "...st number of confirmed cases have been reported from Bunia (416 cases), Rwampara (308 cas..."
+      },
+      {
+        "value": 308,
+        "type": "cases",
+        "context": "...cases have been reported from Bunia (416 cases), Rwampara (308 cases), Mongbwalu (270 ca..."
+      },
+      {
+        "value": 270,
+        "type": "cases",
+        "context": "...ed from Bunia (416 cases), Rwampara (308 cases), Mongbwalu (270 cases), Nyankunde (95 cas..."
+      },
+      {
+        "value": 95,
+        "type": "cases",
+        "context": "...s), Rwampara (308 cases), Mongbwalu (270 cases), Nyankunde (95 cases), and Nizi (65 case..."
+      },
+      {
+        "value": 65,
+        "type": "cases",
+        "context": "...es), Mongbwalu (270 cases), Nyankunde (95 cases), and Nizi (65 cases) health zones. As o..."
+      },
+      {
+        "value": 20,
+        "type": "cases",
+        "context": "...tified on 21 June 2026.  As of 2 July 2026, a cumulative of 20 confirmed cases including two death..."
+      },
+      {
+        "value": 452,
+        "type": "deaths",
+        "context": "...of 1 July, a cumulative of 1460 confirmed cases, including 452 deaths, have been reported..."
+      },
+      {
+        "value": 454,
+        "type": "deaths",
+        "context": "...go, 20 from Uganda and one from France (linked to DRC); and 454 deaths including two from..."
+      },
+      {
+        "value": 452,
+        "type": "deaths",
+        "context": "...s of 1 July 2026, a total of 1460 confirmed cases including 452 deaths (crude case fatalit..."
+      },
+      {
+        "value": 25,
+        "type": "deaths",
+        "context": "...vinces (1/34 HZ).[1] To date, 102 confirmed cases including 25 deaths have been reported..."
+      }
+    ],
+    "paragraph_severity": [
+      {
+        "paragraph": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with sustained transmission and incre...",
+        "label": "concerning escalation",
+        "confidence": 0.845
+      },
+      {
+        "paragraph": "In Uganda, the outbreak remains epidemiologically linked to transmission originating in the Democratic Republic of the Congo, with evidence of both im...",
+        "label": "emergency-level crisis",
+        "confidence": 0.45
+      },
+      {
+        "paragraph": "National authorities in the two affected countries, in collaboration with WHO and partners, are implementing an extensive set of response measures. A ...",
+        "label": "emergency-level crisis",
+        "confidence": 0.831
+      },
+      {
+        "paragraph": "was published on 19 June 2026, the number of confirmed cases and deaths have increased rapidly in the Democratic Republic of the Congo. In total, 1481...",
+        "label": "concerning escalation",
+        "confidence": 0.933
+      },
+      {
+        "paragraph": "Figure 1. Distribution of confirmed cases of Bundibugyo virus disease in the Democratic Republic of the Congo as of 1 July and Uganda as of 2 July",
+        "label": "concerning escalation",
+        "confidence": 0.506
+      },
+      {
+        "paragraph": "Since 19 June when the last Disease Outbreak News was published, an additional 564 confirmed cases, including 220 confirmed deaths, have been reported...",
+        "label": "concerning escalation",
+        "confidence": 0.786
+      },
+      {
+        "paragraph": "As of 1 July 2026, a total of 1460 confirmed cases including 452 deaths (crude case fatality ratio [CFR] 30.9%) have been reported from the Democratic...",
+        "label": "concerning escalation",
+        "confidence": 0.587
+      },
+      {
+        "paragraph": "Of the 36 affected health zones, the outbreak remains active in 21 health zones from where cases have been reported in the past 21 days. The remaining...",
+        "label": "emergency-level crisis",
+        "confidence": 0.475
+      },
+      {
+        "paragraph": "Ituri Province remains the most affected, accounting for 91.3% (1333/1460) of all confirmed cases and 84% (380/452) of all reported deaths nationwide....",
+        "label": "emergency-level crisis",
+        "confidence": 0.498
+      },
+      {
+        "paragraph": "spread to three additional health zones in the province. Following epidemiological investigations, three confirmed cases with travel history from Nia ...",
+        "label": "concerning escalation",
+        "confidence": 0.835
+      },
+      {
+        "paragraph": "As of 1 July, 10 821 contacts have been identified and are under follow-up across Ituri (8376), and North Kivu (2445). Of these, 8954 contacts have be...",
+        "label": "concerning escalation",
+        "confidence": 0.465
+      },
+      {
+        "paragraph": "The outbreak is unfolding in a complex humanitarian and conflict-affected environment, characterized by highly mobile and often displaced populations,...",
+        "label": "concerning escalation",
+        "confidence": 0.697
+      },
+      {
+        "paragraph": "Figure 2: Number of confirmed cases (n = 1460), in the Democratic Republic of the Congo, by date of reporting, as of 1 July 2026",
+        "label": "emergency-level crisis",
+        "confidence": 0.479
+      },
+      {
+        "paragraph": "Figure 3: Number of deaths among confirmed cases (n = 452), in the Democratic Republic of the Congo, by date of reporting, as of 1 July 2026.",
+        "label": "concerning escalation",
+        "confidence": 0.475
+      },
+      {
+        "paragraph": "NB: Newly reported confirmed cases/deaths may be part of the backlog of samples and therefore not necessarily newly acquired infections.",
+        "label": "concerning escalation",
+        "confidence": 0.67
+      },
+      {
+        "paragraph": "The last confirmed case was reported to be identified on 21 June 2026.  As of 2 July 2026, a cumulative of 20 confirmed cases including two deaths in ...",
+        "label": "concerning escalation",
+        "confidence": 0.468
+      },
+      {
+        "paragraph": "Of the 831 contacts listed as of 28 June, 821 contacts have completed their 21-day follow-up period as of 2 July.",
+        "label": "concerning escalation",
+        "confidence": 0.591
+      },
+      {
+        "paragraph": "Figure 4: Number of confirmed cases (n = 20), in Uganda by date of reporting, as of 2 July 2026",
+        "label": "concerning escalation",
+        "confidence": 0.466
+      },
+      {
+        "paragraph": "On 24 June 2026, French authorities notified WHO of a laboratory-confirmed case of Ebola disease caused by Bundibugyo virus in a middle-aged male medi...",
+        "label": "emergency-level crisis",
+        "confidence": 0.529
+      },
+      {
+        "paragraph": "At the time of reporting, the patient was clinically stable and had no fever, with no reported vomiting, diarrhoea, or haemorrhagic manifestations dur...",
+        "label": "concerning escalation",
+        "confidence": 0.508
+      },
+      {
+        "paragraph": "Bundibugyo virus disease (BVD) is a severe Ebola disease caused by the Bundibugyo virus, one of the",
+        "label": "concerning escalation",
+        "confidence": 0.711
+      },
+      {
+        "paragraph": "species. It is a zoonotic disease, with fruit bats suspected to be the natural reservoir. Human infection is thought to occur through close contact wi...",
+        "label": "concerning escalation",
+        "confidence": 0.71
+      },
+      {
+        "paragraph": "The incubation period for BVD ranges from two to 21 days, and individuals are not infectious until symptom onset. Early symptoms such as fever, fatigu...",
+        "label": "concerning escalation",
+        "confidence": 0.793
+      },
+      {
+        "paragraph": "Differentiating BVD from other endemic febrile illnesses such as malaria is challenging without laboratory confirmation using PCR or antigen/antibody-...",
+        "label": "concerning escalation",
+        "confidence": 0.511
+      },
+      {
+        "paragraph": "Health authorities in the Democratic Republic of the Congo and Uganda, in collaboration with WHO and partners, are implementing extensive public healt...",
+        "label": "emergency-level crisis",
+        "confidence": 0.584
+      },
+      {
+        "paragraph": "For further information about public health response actions by the respective Ministry of Health, WHO, and partners, please refer to the latest situa...",
+        "label": "emergency-level crisis",
+        "confidence": 0.47
+      },
+      {
+        "paragraph": "Ebola Bundibugyo Virus Disease Outbreak Democratic Republic of the Congo | Uganda Weekly External Situation Report | WHO | Regional Office for Africa",
+        "label": "emergency-level crisis",
+        "confidence": 0.57
+      },
+      {
+        "paragraph": "On 6 June 2026, WHO reassessed the risk of the outbreak of BVD to incorporate newly available information and align with the WHO",
+        "label": "concerning escalation",
+        "confidence": 0.623
+      },
+      {
+        "paragraph": ". The risk for countries sharing land borders with countries with documented Bundibugyo virus (BVDV) detection, currently the Democratic Republic of t...",
+        "label": "concerning escalation",
+        "confidence": 0.381
+      },
+      {
+        "paragraph": "The risk in the Democratic Republic of the Congo remains assessed as very high due to ongoing transmission and the continued expansion of the outbreak...",
+        "label": "concerning escalation",
+        "confidence": 0.925
+      },
+      {
+        "paragraph": "The risk in Uganda is assessed as high due to confirmed cross-border spread through imported cases and ongoing epidemiological links along the eastern...",
+        "label": "concerning escalation",
+        "confidence": 0.799
+      },
+      {
+        "paragraph": "The risk for countries with land borders adjoining countries with documented BDBV detection is assessed as high due to sustained population mobility l...",
+        "label": "concerning escalation",
+        "confidence": 0.537
+      },
+      {
+        "paragraph": "The risk for the rest of the Africa region and at the global level is assessed as low.",
+        "label": "routine update",
+        "confidence": 0.422
+      },
+      {
+        "paragraph": "WHO Rapid Risk Assessment – Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Uganda and countries with land borders adjoini...",
+        "label": "concerning escalation",
+        "confidence": 0.525
+      },
+      {
+        "paragraph": "WHO advises against any restriction of travel to, or trade with, the Democratic Republic of the Congo or Uganda based on the currently available infor...",
+        "label": "concerning escalation",
+        "confidence": 0.426
+      },
+      {
+        "paragraph": "For further information on the considerations for implementing border health and international travel-related temporary recommendations, please see th...",
+        "label": "emergency-level crisis",
+        "confidence": 0.406
+      },
+      {
+        "paragraph": "issued to State Parties on 22 May 2026 underscore the importance of coordinated outbreak control, enhanced cross‑border collaboration, and sustained s...",
+        "label": "concerning escalation",
+        "confidence": 0.69
+      },
+      {
+        "paragraph": "WHO has convened several technical advisory groups, including the Strategic Advisory Group of Experts on Immunization (SAGE) to assess candidate vacci...",
+        "label": "concerning escalation",
+        "confidence": 0.408
+      },
+      {
+        "paragraph": "Regular Information products on the outbreak of BVD in the Democratic Republic of the Congo and Uganda",
+        "label": "routine update",
+        "confidence": 0.981
+      },
+      {
+        "paragraph": "Epidemiological update on BVD outbreak in Democratic Republic of the Congo and Uganda",
+        "label": "concerning escalation",
+        "confidence": 0.546
+      },
+      {
+        "paragraph": "Weekly External Situation Report on Ebola Bundibugyo Virus Disease Outbreak, Democratic Republic of the Congo | Uganda",
+        "label": "routine update",
+        "confidence": 0.913
+      },
+      {
+        "paragraph": "Disease Outbreak News | All Hazards Public Health Events, Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo",
+        "label": "concerning escalation",
+        "confidence": 0.593
+      },
+      {
+        "paragraph": "Africa CDC and WHO launch joint continental Ebola response plan",
+        "label": "emergency-level crisis",
+        "confidence": 0.652
+      },
+      {
+        "paragraph": "Bundibugyo Ebola virus | Continental preparedness and response plan: June-November      2026",
+        "label": "emergency-level crisis",
+        "confidence": 0.666
+      },
+      {
+        "paragraph": "Epidemic of Ebola Disease caused by Bundibugyo virus in the Democratic Republic of      the Congo and Uganda determined a public health emergency of i...",
+        "label": "emergency-level crisis",
+        "confidence": 0.904
+      },
+      {
+        "paragraph": "The Ministry of Public Health, Hygiene and Social Welfare, DRC, officially      declares the 17th Ebola Disease outbreak",
+        "label": "concerning escalation",
+        "confidence": 0.585
+      },
+      {
+        "paragraph": "Message by the WHO Director-General to the people of the Democratic Republic of      the Congo",
+        "label": "emergency-level crisis",
+        "confidence": 0.467
+      },
+      {
+        "paragraph": "At the frontline of trust: a day with Julienne Anoko WHO's Ebola Community      Engagement Officer in DRC",
+        "label": "emergency-level crisis",
+        "confidence": 0.523
+      },
+      {
+        "paragraph": "Decentralized testing speeds up Ebola response in the Democratic Republic of the Congo",
+        "label": "emergency-level crisis",
+        "confidence": 0.686
+      },
+      {
+        "paragraph": "Weekly External Situation Report. EBOLA BUNDIBUGYO VIRUS DISEASE OUTBREAK      Democratic Republic of the Congo | Uganda.",
+        "label": "routine update",
+        "confidence": 0.883
+      },
+      {
+        "paragraph": "Daily situation report, Ministry of Health, Democratic Republic of the Congo.",
+        "label": "routine update",
+        "confidence": 0.95
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo and Uganda 16 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.502
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo. 21 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.504
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo. 29 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.499
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo and Uganda 8 June 2026",
+        "label": "concerning escalation",
+        "confidence": 0.508
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo and Uganda 13 June 2026",
+        "label": "concerning escalation",
+        "confidence": 0.511
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo and Uganda 19 June 2026",
+        "label": "concerning escalation",
+        "confidence": 0.515
+      },
+      {
+        "paragraph": "WHO guidelines for the clinical management of filovirus disease",
+        "label": "concerning escalation",
+        "confidence": 0.494
+      },
+      {
+        "paragraph": "Infection prevention and control guideline for Ebola and Marburg disease. WHO.17 May      2026",
+        "label": "concerning escalation",
+        "confidence": 0.374
+      },
+      {
+        "paragraph": "Infection prevention and control and water, sanitation and hygiene in health      facilities during Ebola or Marburg disease outbreaks: rapid assessme...",
+        "label": "emergency-level crisis",
+        "confidence": 0.708
+      },
+      {
+        "paragraph": "Assessment and management of health and care workers with possible occupational      exposures to Orthoebolavirus or Orthomarburgvirus: implementation...",
+        "label": "concerning escalation",
+        "confidence": 0.397
+      },
+      {
+        "paragraph": "Optimized Supportive Care for Ebola Virus Disease. Clinical management standard      operating procedures. WHO. 2019",
+        "label": "routine update",
+        "confidence": 0.567
+      },
+      {
+        "paragraph": "Framework and toolkit for infection prevention and control in outbreak preparedness,      readiness and response at the national level",
+        "label": "routine update",
+        "confidence": 0.433
+      },
+      {
+        "paragraph": "Diagnostic testing for Ebola and Marburg virus diseases: interim guidance, 20      December 2024",
+        "label": "concerning escalation",
+        "confidence": 0.455
+      },
+      {
+        "paragraph": "Considerations for border health and points of entry for filovirus disease outbreaks",
+        "label": "concerning escalation",
+        "confidence": 0.689
+      },
+      {
+        "paragraph": "WHO Launches Online Training to Strengthen Filovirus Outbreak Response",
+        "label": "concerning escalation",
+        "confidence": 0.692
+      },
+      {
+        "paragraph": "Disease Outbreak News. Ebola outbreak in Democratic Republic of Congo – update.      WHO. 14 September 2012",
+        "label": "emergency-level crisis",
+        "confidence": 0.539
+      },
+      {
+        "paragraph": "Disease Outbreak News. Ebola outbreak in Democratic Republic of Congo – update.      WHO. 26 October 2012",
+        "label": "emergency-level crisis",
+        "confidence": 0.539
+      },
+      {
+        "paragraph": "World Health Organization (3 July 2026). Disease Outbreak News; Bundibugyo Virus Disease, Democratic Republic of the Congo and Uganda. Available at",
+        "label": "concerning escalation",
+        "confidence": 0.598
+      },
+      {
+        "paragraph": "https://www/who.int/emergencies/disease-outbreak/news/item/2026-DON612",
+        "label": "emergency-level crisis",
+        "confidence": 0.856
+      },
+      {
+        "paragraph": "[1] #Data source: Centre des opérations d'urgences de sante publique (COUSP-DRC)",
+        "label": "emergency-level crisis",
+        "confidence": 0.478
+      }
+    ]
+  },
+  {
+    "bulletin": "DON613_2026-07-17",
+    "locations_mentioned": [
+      "##undib",
+      "##undibug",
+      "African Region",
+      "Congo",
+      "Democratic Republic",
+      "Democratic Republic of the Congo",
+      "France",
+      "Germany",
+      "Uganda",
+      "United States",
+      "United States of America",
+      "WHO"
+    ],
+    "case_death_counts": [
+      {
+        "value": 2124,
+        "type": "cases",
+        "context": "...cases and deaths. As of 15 July 2026, a cumulative total of 2124 confirmed cases, including 828 deat..."
+      },
+      {
+        "value": 2145,
+        "type": "cases",
+        "context": "...antially in the Democratic Republic of the Congo. In total, 2145 confirmed cases have been reported:..."
+      },
+      {
+        "value": 664,
+        "type": "cases",
+        "context": "...atic Republic of the Congo Since 3 July 2026, an additional 664 confirmed cases, including 376 conf..."
+      },
+      {
+        "value": 2124,
+        "type": "cases",
+        "context": "..., and diagnostic capacities. As of 15 July 2026, a total of 2124 confirmed cases, including 828 deat..."
+      },
+      {
+        "value": 969,
+        "type": "cases",
+        "context": "...rted any new cases during this period. In the past 21 days, 969 confirmed cases, including 524 conf..."
+      },
+      {
+        "value": 570,
+        "type": "cases",
+        "context": "...st number of confirmed cases have been reported from Bunia (570 cases), Rwampara (418 cas..."
+      },
+      {
+        "value": 418,
+        "type": "cases",
+        "context": "...cases have been reported from Bunia (570 cases), Rwampara (418 cases), Mongbwalu (347 ca..."
+      },
+      {
+        "value": 347,
+        "type": "cases",
+        "context": "...ed from Bunia (570 cases), Rwampara (418 cases), Mongbwalu (347 cases), Nizi (148 cases),..."
+      },
+      {
+        "value": 148,
+        "type": "cases",
+        "context": "...cases), Rwampara (418 cases), Mongbwalu (347 cases), Nizi (148 cases), and Nyankunde (99..."
+      },
+      {
+        "value": 99,
+        "type": "cases",
+        "context": "...s), Mongbwalu (347 cases), Nizi (148 cases), and Nyankunde (99 cases) health zones. As o..."
+      },
+      {
+        "value": 119,
+        "type": "cases",
+        "context": "...Infections among health workers continued to increase, with 119 confirmed cases, 61 recoveries and..."
+      },
+      {
+        "value": 20,
+        "type": "cases",
+        "context": "...on 21 June 2026.  As of 14 July 2026, a cumulative total of 20 confirmed cases have been reported,..."
+      },
+      {
+        "value": 828,
+        "type": "deaths",
+        "context": "...2026, a cumulative total of 2124 confirmed cases, including 828 deaths, have been reported..."
+      },
+      {
+        "value": 830,
+        "type": "deaths",
+        "context": "...ent in Germany), 20 in Uganda and one in France. A total of 830 deaths has been reported,..."
+      },
+      {
+        "value": 828,
+        "type": "deaths",
+        "context": "...of 15 July 2026, a total of 2124 confirmed cases, including 828 deaths (crude case fatalit..."
+      },
+      {
+        "value": 36,
+        "type": "deaths",
+        "context": "...ed to increase, with 119 confirmed cases, 61 recoveries and 36 deaths reported among heal..."
+      }
+    ],
+    "paragraph_severity": [
+      {
+        "paragraph": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo remains active, with sustained transmission driving increases in r...",
+        "label": "concerning escalation",
+        "confidence": 0.727
+      },
+      {
+        "paragraph": "In Uganda no new cases have been reported since 21 June 2026. The most recent case was discharged from the treatment centre on 16 July after two negat...",
+        "label": "emergency-level crisis",
+        "confidence": 0.443
+      },
+      {
+        "paragraph": "National authorities in Uganda and the Democratic Republic of the Congo, in collaboration with WHO and partners, continue to implement extensive respo...",
+        "label": "emergency-level crisis",
+        "confidence": 0.667
+      },
+      {
+        "paragraph": "was published on 3 July 2026, the number of confirmed cases and deaths has increased substantially in the Democratic Republic of the Congo. In total, ...",
+        "label": "concerning escalation",
+        "confidence": 0.947
+      },
+      {
+        "paragraph": "To date, at least 410 patients have recovered, including 390 in the Democratic Republic of the Congo, 18 in Uganda, one in France, and one in Germany.",
+        "label": "concerning escalation",
+        "confidence": 0.601
+      },
+      {
+        "paragraph": "Figure 1. Distribution of cumulative confirmed cases of Bundibugyo virus disease in the Democratic Republic of the Congo as of 15 July and Uganda as o...",
+        "label": "concerning escalation",
+        "confidence": 0.546
+      },
+      {
+        "paragraph": "Since 3 July 2026, an additional 664 confirmed cases, including 376 confirmed deaths, have been reported in the Democratic Republic of the Congo. The ...",
+        "label": "concerning escalation",
+        "confidence": 0.812
+      },
+      {
+        "paragraph": "As of 15 July 2026, a total of 2124 confirmed cases, including 828 deaths (crude case fatality ratio [CFR] 39%) have been reported in the Democratic R...",
+        "label": "concerning escalation",
+        "confidence": 0.533
+      },
+      {
+        "paragraph": "Cases have been reported from 46 health zones (HZ) across five provinces:  Ituri (27/36 HZ), North Kivu (11/34 HZ), South Kivu (1/34 HZ), Haut-Uele (4...",
+        "label": "concerning escalation",
+        "confidence": 0.527
+      },
+      {
+        "paragraph": "Of the 46 affected health zones, the outbreak remains active in 38 health zones, which have reported cases within the past 21 days. The remaining heal...",
+        "label": "concerning escalation",
+        "confidence": 0.449
+      },
+      {
+        "paragraph": "Ituri  remains the most affected province, accounting for 89.6% (1904/2124) of all confirmed cases and 83.6% (692/828) of all reported deaths nationwi...",
+        "label": "concerning escalation",
+        "confidence": 0.49
+      },
+      {
+        "paragraph": "As of 15 July, 12 693 contacts have been identified and are under follow-up across Ituri (10 183), North Kivu (2360) and Tshopo (150). Of these, 10 19...",
+        "label": "concerning escalation",
+        "confidence": 0.453
+      },
+      {
+        "paragraph": "Infections among health workers continued to increase, with 119 confirmed cases, 61 recoveries and 36 deaths reported among health workers, correspond...",
+        "label": "concerning escalation",
+        "confidence": 0.978
+      },
+      {
+        "paragraph": "The outbreak continues in a complex humanitarian and conflict-affected environment, characterized by highly mobile and often displaced populations, ma...",
+        "label": "concerning escalation",
+        "confidence": 0.759
+      },
+      {
+        "paragraph": "Figure 2: Number of confirmed cases (n = 2124), in the Democratic Republic of the Congo, by date of reporting and as of 15 July 2026",
+        "label": "emergency-level crisis",
+        "confidence": 0.495
+      },
+      {
+        "paragraph": "Figure 3: Number of deaths among confirmed cases (n = 828), in the Democratic Republic of the Congo, by date of reporting and as of 15 July 2026.",
+        "label": "concerning escalation",
+        "confidence": 0.465
+      },
+      {
+        "paragraph": "NB: Newly reported confirmed cases/deaths may be part of the backlog of samples and therefore not necessarily newly acquired infections.",
+        "label": "concerning escalation",
+        "confidence": 0.67
+      },
+      {
+        "paragraph": "The last confirmed case was reported to be identified on 21 June 2026.  As of 14 July 2026, a cumulative total of 20 confirmed cases have been reporte...",
+        "label": "concerning escalation",
+        "confidence": 0.637
+      },
+      {
+        "paragraph": "Of the confirmed cases, 15 were imported cases and five were secondary cases among contacts and health workers linked to imported cases from the Democ...",
+        "label": "concerning escalation",
+        "confidence": 0.469
+      },
+      {
+        "paragraph": "Following case reclassification, the number of affected healthcare workers was revised from five to four. In total, 18 recoveries have been reported.",
+        "label": "concerning escalation",
+        "confidence": 0.673
+      },
+      {
+        "paragraph": "Of the 831 contacts listed as of 28 June, 821 contacts have completed their 21-day follow-up period as of 14 July.",
+        "label": "concerning escalation",
+        "confidence": 0.607
+      },
+      {
+        "paragraph": "The most recent case was discharged from the treatment centre on 16 July after two negative tests results. This marks the start of the 42-day countdow...",
+        "label": "concerning escalation",
+        "confidence": 0.623
+      },
+      {
+        "paragraph": "Figure 4: Number of confirmed cases (n = 20), in Uganda by date of reporting and as of 17 July 2026",
+        "label": "concerning escalation",
+        "confidence": 0.461
+      },
+      {
+        "paragraph": "No additional BVD cases have been reported in France since the previous update.",
+        "label": "routine update",
+        "confidence": 0.627
+      },
+      {
+        "paragraph": "The imported confirmed BVD case reported on 24 June recovered and was discharged from the healthcare facility on 4 July after two negative PCR test re...",
+        "label": "concerning escalation",
+        "confidence": 0.65
+      },
+      {
+        "paragraph": "French authorities have been monitoring  these individuals in coordination with relevant regional public health authorities as well as with the Nation...",
+        "label": "concerning escalation",
+        "confidence": 0.521
+      },
+      {
+        "paragraph": "A  physician from the United States  working in the Democratic Republic of the Congo, was medically evacuated and treated in Germany in May 2026. The ...",
+        "label": "concerning escalation",
+        "confidence": 0.556
+      },
+      {
+        "paragraph": "A second United States citizen, a humanitarian worker, tested positive for Bundibugyo virus in the Democratic Republic of Congo in July 2026 and was m...",
+        "label": "concerning escalation",
+        "confidence": 0.702
+      },
+      {
+        "paragraph": "Bundibugyo virus disease (BVD) is a severe Ebola disease caused by the Bundibugyo virus, one of the Orthoebolavirus species. It is a zoonotic disease,...",
+        "label": "concerning escalation",
+        "confidence": 0.684
+      },
+      {
+        "paragraph": "Human infection is thought to occur through close contact with the blood or secretions of infected wildlife, such as bats or non-human primates, and i...",
+        "label": "concerning escalation",
+        "confidence": 0.771
+      },
+      {
+        "paragraph": "The incubation period for BVD ranges from 2 to 21 days, and infected individuals are not infectious until symptom onset. Early symptoms such as fever,...",
+        "label": "concerning escalation",
+        "confidence": 0.928
+      },
+      {
+        "paragraph": "CFRs in the past two BVD outbreaks, reported in Uganda and in the Democratic Republic of the Congo in 2007 and 2012 were 30% and 50%, respectively.",
+        "label": "concerning escalation",
+        "confidence": 0.639
+      },
+      {
+        "paragraph": "Differentiating BVD from other endemic febrile illnesses such as malaria is challenging without laboratory confirmation using PCR or antigen- or antib...",
+        "label": "concerning escalation",
+        "confidence": 0.52
+      },
+      {
+        "paragraph": "Health authorities in the Democratic Republic of the Congo and Uganda, in collaboration with WHO and partners, continue to implement extensive public ...",
+        "label": "emergency-level crisis",
+        "confidence": 0.525
+      },
+      {
+        "paragraph": "For further information about public health response actions by the respective Ministry of Health, WHO and partners, please refer to the latest situat...",
+        "label": "emergency-level crisis",
+        "confidence": 0.455
+      },
+      {
+        "paragraph": "Ebola Bundibugyo Virus Disease Outbreak Democratic Republic of the Congo | Uganda Weekly External Situation Report | WHO | Regional Office for Africa",
+        "label": "emergency-level crisis",
+        "confidence": 0.57
+      },
+      {
+        "paragraph": "On 6 June 2026, WHO reassessed the risk of the outbreak of BVD to incorporate newly available information and align with the WHO",
+        "label": "concerning escalation",
+        "confidence": 0.623
+      },
+      {
+        "paragraph": ". The risk for countries sharing land borders with countries with documented Bundibugyo virus detection, the Democratic Republic of the Congo and Ugan...",
+        "label": "emergency-level crisis",
+        "confidence": 0.387
+      },
+      {
+        "paragraph": "The risk in the Democratic Republic of the Congo remains assessed as very high due to ongoing transmission and the continued expansion of the outbreak...",
+        "label": "concerning escalation",
+        "confidence": 0.925
+      },
+      {
+        "paragraph": "The risk in Uganda is still assessed as high due to confirmed cross-border spread through imported cases and ongoing epidemiological links along the e...",
+        "label": "concerning escalation",
+        "confidence": 0.789
+      },
+      {
+        "paragraph": "The risk for countries sharing land borders with countries reporting BDBV detection is assessed as high due to sustained population mobility linked to...",
+        "label": "concerning escalation",
+        "confidence": 0.591
+      },
+      {
+        "paragraph": "The risk for the rest of the African region and at the global level is assessed as low.",
+        "label": "routine update",
+        "confidence": 0.408
+      },
+      {
+        "paragraph": "WHO Rapid Risk Assessment – Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Uganda and countries with land borders adjoini...",
+        "label": "concerning escalation",
+        "confidence": 0.509
+      },
+      {
+        "paragraph": "WHO advises against any restriction of travel to, or trade with, the Democratic Republic of the Congo or Uganda based on the currently available infor...",
+        "label": "concerning escalation",
+        "confidence": 0.426
+      },
+      {
+        "paragraph": "For further information on the considerations for implementing border health and international travel-related temporary recommendations, please see th...",
+        "label": "emergency-level crisis",
+        "confidence": 0.406
+      },
+      {
+        "paragraph": "issued to State Parties on 22 May 2026 underscore the importance of coordinated outbreak control, strengthened  cross‑border collaboration, and sustai...",
+        "label": "concerning escalation",
+        "confidence": 0.716
+      },
+      {
+        "paragraph": "Rapid recognition of cases, testing and optimized supportive care can reduce mortality, and improve community perceptions and acceptance of health car...",
+        "label": "concerning escalation",
+        "confidence": 0.55
+      },
+      {
+        "paragraph": "WHO has convened several technical advisory groups, including the Strategic Advisory Group of Experts on Immunization (SAGE) to assess candidate vacci...",
+        "label": "emergency-level crisis",
+        "confidence": 0.453
+      },
+      {
+        "paragraph": "Regular Information products on the outbreak of BVD in the Democratic Republic of the Congo and Uganda",
+        "label": "routine update",
+        "confidence": 0.981
+      },
+      {
+        "paragraph": "Epidemiological update on BVD outbreak in Democratic Republic of the Congo and Uganda",
+        "label": "concerning escalation",
+        "confidence": 0.546
+      },
+      {
+        "paragraph": "Weekly External Situation Report on Ebola Bundibugyo Virus Disease Outbreak, Democratic Republic of the Congo | Uganda",
+        "label": "routine update",
+        "confidence": 0.913
+      },
+      {
+        "paragraph": "Disease Outbreak News | All Hazards Public Health Events, Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo",
+        "label": "concerning escalation",
+        "confidence": 0.593
+      },
+      {
+        "paragraph": "Africa CDC and WHO launch joint continental Ebola response plan",
+        "label": "emergency-level crisis",
+        "confidence": 0.652
+      },
+      {
+        "paragraph": "Bundibugyo Ebola virus | Continental preparedness and response plan: June-November 2026",
+        "label": "emergency-level crisis",
+        "confidence": 0.642
+      },
+      {
+        "paragraph": "Epidemic of Ebola Disease caused by Bundibugyo virus in the Democratic Republic of the Congo and Uganda determined a public health emergency of intern...",
+        "label": "emergency-level crisis",
+        "confidence": 0.905
+      },
+      {
+        "paragraph": "The Ministry of Public Health, Hygiene and Social Welfare, DRC, officially declares the 17th Ebola Disease outbreak",
+        "label": "emergency-level crisis",
+        "confidence": 0.542
+      },
+      {
+        "paragraph": "Message by the WHO Director-General to the people of the Democratic Republic of the Congo",
+        "label": "emergency-level crisis",
+        "confidence": 0.508
+      },
+      {
+        "paragraph": "At the frontline of trust: a day with Julienne Anoko WHO's Ebola Community Engagement Officer in DRC",
+        "label": "emergency-level crisis",
+        "confidence": 0.523
+      },
+      {
+        "paragraph": "Decentralized testing speeds up Ebola response in the Democratic Republic of the Congo",
+        "label": "emergency-level crisis",
+        "confidence": 0.686
+      },
+      {
+        "paragraph": "Weekly External Situation Report. EBOLA BUNDIBUGYO VIRUS DISEASE OUTBREAK Democratic Republic of the Congo | Uganda.",
+        "label": "routine update",
+        "confidence": 0.89
+      },
+      {
+        "paragraph": "Daily situation report, Ministry of Health, Democratic Republic of the Congo.",
+        "label": "routine update",
+        "confidence": 0.95
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo and Uganda 16 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.517
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo. 21 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.497
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo. 29 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.491
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo and Uganda 8 June 2026",
+        "label": "concerning escalation",
+        "confidence": 0.524
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo and Uganda 13 June 2026",
+        "label": "concerning escalation",
+        "confidence": 0.526
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo and Uganda 19 June 2026",
+        "label": "concerning escalation",
+        "confidence": 0.533
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo and Uganda 3 July 2026",
+        "label": "concerning escalation",
+        "confidence": 0.513
+      },
+      {
+        "paragraph": "WHO guidelines for the clinical management of filovirus disease",
+        "label": "concerning escalation",
+        "confidence": 0.494
+      },
+      {
+        "paragraph": "Infection prevention and control guideline for Ebola and Marburg disease. WHO.17 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.411
+      },
+      {
+        "paragraph": "Infection prevention and control and water, sanitation and hygiene in health facilities during Ebola or Marburg disease outbreaks: rapid assessment to...",
+        "label": "emergency-level crisis",
+        "confidence": 0.637
+      },
+      {
+        "paragraph": "Assessment and management of health and care workers with possible occupational exposures to Orthoebolavirus or Orthomarburgvirus: implementation guid...",
+        "label": "routine update",
+        "confidence": 0.406
+      },
+      {
+        "paragraph": "Optimized Supportive Care for Ebola Virus Disease. Clinical management standard operating procedures. WHO. 2019",
+        "label": "routine update",
+        "confidence": 0.463
+      },
+      {
+        "paragraph": "Framework and toolkit for infection prevention and control in outbreak preparedness, readiness and response at the national level",
+        "label": "routine update",
+        "confidence": 0.416
+      },
+      {
+        "paragraph": "Diagnostic testing for Ebola disease and Marburg virus disease: interim guidance, 9 July 2026",
+        "label": "routine update",
+        "confidence": 0.435
+      },
+      {
+        "paragraph": "Considerations for border health and points of entry for filovirus disease outbreaks",
+        "label": "concerning escalation",
+        "confidence": 0.689
+      },
+      {
+        "paragraph": "WHO Launches Online Training to Strengthen Filovirus Outbreak Response",
+        "label": "concerning escalation",
+        "confidence": 0.692
+      },
+      {
+        "paragraph": "Disease Outbreak News. Ebola outbreak in Democratic Republic of Congo – update. WHO. 14 September 2012",
+        "label": "emergency-level crisis",
+        "confidence": 0.479
+      },
+      {
+        "paragraph": "Disease Outbreak News. Ebola outbreak in Democratic Republic of Congo – update. WHO. 26 October 2012",
+        "label": "emergency-level crisis",
+        "confidence": 0.483
+      },
+      {
+        "paragraph": "Citable reference: World Health Organization (17 July 2026). Disease Outbreak News; Bundibugyo Virus Disease, Democratic Republic of the Congo and Uga...",
+        "label": "concerning escalation",
+        "confidence": 0.466
+      },
+      {
+        "paragraph": "https://www/who.int/emergencies/disease-outbreak/news/item/2026-DON613",
+        "label": "emergency-level crisis",
+        "confidence": 0.839
+      }
+    ]
+  },
+  {
+    "bulletin": "DON614_2026-08-01",
+    "locations_mentioned": [
+      "##shopo",
+      "##und",
+      "##uri Province",
+      "##ut - Uélé",
+      "African Region",
+      "Congo",
+      "Democratic Republic of the Congo",
+      "France",
+      "Ha",
+      "It",
+      "Ituri",
+      "Mongbwalu",
+      "North Kivu",
+      "South Kivu",
+      "T",
+      "Uganda",
+      "WHO"
+    ],
+    "case_death_counts": [
+      {
+        "value": 3605,
+        "type": "cases",
+        "context": "...ratic Republic of the Congo. As of 30 July 2026, a total of 3605 confirmed cases, including 1587 dea..."
+      },
+      {
+        "value": 3626,
+        "type": "cases",
+        "context": "...only in the Democratic Republic of the Congo. Cumulatively, 3626 confirmed cases have been reported:..."
+      },
+      {
+        "value": 3317,
+        "type": "cases",
+        "context": "...outbreak, which occurred from 2018 to 2020, and resulted in 3317 confirmed cases. Figure 1. Distribu..."
+      },
+      {
+        "value": 1481,
+        "type": "cases",
+        "context": "...the last Disease Outbreak News was published, an additional 1481 confirmed cases, including 759 conf..."
+      },
+      {
+        "value": 3605,
+        "type": "cases",
+        "context": "...e expansion of the outbreak. As of 30 July 2026, a total of 3605 confirmed cases, including 1587 dea..."
+      },
+      {
+        "value": 641,
+        "type": "cases",
+        "context": "...es reported within the past seven days. During this period, 641 confirmed cases, including 282 conf..."
+      },
+      {
+        "value": 880,
+        "type": "cases",
+        "context": "...st number of confirmed cases have been reported from Bunia (880 cases), Rwampara (627 cas..."
+      },
+      {
+        "value": 627,
+        "type": "cases",
+        "context": "...cases have been reported from Bunia (880 cases), Rwampara (627 cases), Mongbwalu (541 ca..."
+      },
+      {
+        "value": 541,
+        "type": "cases",
+        "context": "...ed from Bunia (880 cases), Rwampara (627 cases), Mongbwalu (541 cases), Nizi (377 cases),..."
+      },
+      {
+        "value": 377,
+        "type": "cases",
+        "context": "...cases), Rwampara (627 cases), Mongbwalu (541 cases), Nizi (377 cases), Lita (131 cases),..."
+      },
+      {
+        "value": 131,
+        "type": "cases",
+        "context": "...(627 cases), Mongbwalu (541 cases), Nizi (377 cases), Lita (131 cases), and Nyankunde (11..."
+      },
+      {
+        "value": 114,
+        "type": "cases",
+        "context": "...cases), Nizi (377 cases), Lita (131 cases), and Nyankunde (114 cases) health zones. As o..."
+      },
+      {
+        "value": 151,
+        "type": "cases",
+        "context": "...w-up period. Infections among health workers continue, with 151 confirmed cases, including 44 death..."
+      },
+      {
+        "value": 1587,
+        "type": "deaths",
+        "context": "...of 30 July 2026, a total of 3605 confirmed cases, including 1587 deaths, have been reported..."
+      },
+      {
+        "value": 1589,
+        "type": "deaths",
+        "context": "...ted in Germany), 20 in Uganda and one in France. A total of 1589 deaths have been reported,..."
+      },
+      {
+        "value": 1587,
+        "type": "deaths",
+        "context": "...of 30 July 2026, a total of 3605 confirmed cases, including 1587 deaths (CFR 44%), have bee..."
+      },
+      {
+        "value": 44,
+        "type": "deaths",
+        "context": "...ealth workers continue, with 151 confirmed cases, including 44 deaths (CFR: 29%) and 68 r..."
+      }
+    ],
+    "paragraph_severity": [
+      {
+        "paragraph": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo is intensifying, with sustained transmission and continued increas...",
+        "label": "concerning escalation",
+        "confidence": 0.961
+      },
+      {
+        "paragraph": "The outbreak is now the largest Ebola outbreak ever reported in the Democratic Republic of the Congo. As of 30 July 2026, a total of 3605 confirmed ca...",
+        "label": "concerning escalation",
+        "confidence": 0.695
+      },
+      {
+        "paragraph": "The convergence of insecurity, population displacement and mobility, and cross-border movements complicate response operations and increase the risk o...",
+        "label": "concerning escalation",
+        "confidence": 0.894
+      },
+      {
+        "paragraph": "The confirmed BVD case reported in France on 24 June 2026 following deployment to support the outbreak in the Democratic Republic of the Congo recover...",
+        "label": "concerning escalation",
+        "confidence": 0.578
+      },
+      {
+        "paragraph": "On 28 July, the Ministry of Health of Uganda declared the end of the BVD outbreak in the country, following 42 days without a new confirmed locally tr...",
+        "label": "concerning escalation",
+        "confidence": 0.391
+      },
+      {
+        "paragraph": "was published on 17 July 2026, additional confirmed cases and deaths have been reported only in the Democratic Republic of the Congo.",
+        "label": "concerning escalation",
+        "confidence": 0.664
+      },
+      {
+        "paragraph": "Cumulatively, 3626 confirmed cases have been reported: 3605 in the Democratic Republic of the Congo (including two cases diagnosed in the Democratic R...",
+        "label": "concerning escalation",
+        "confidence": 0.603
+      },
+      {
+        "paragraph": "This outbreak is now the largest recorded Ebola disease outbreak in the country, surpassing the previous largest outbreak, which occurred from 2018 to...",
+        "label": "concerning escalation",
+        "confidence": 0.79
+      },
+      {
+        "paragraph": "Figure 1. Distribution of cumulative confirmed cases of Bundibugyo virus disease in the Democratic Republic of the Congo as of 30 July",
+        "label": "concerning escalation",
+        "confidence": 0.466
+      },
+      {
+        "paragraph": "Since 17 July 2026 when the last Disease Outbreak News was published, an additional 1481 confirmed cases, including 759 confirmed deaths, have been re...",
+        "label": "concerning escalation",
+        "confidence": 0.847
+      },
+      {
+        "paragraph": "As of 30 July 2026, a total of 3605 confirmed cases, including 1587 deaths (CFR 44%), have been reported in the Democratic Republic of the Congo. To d...",
+        "label": "concerning escalation",
+        "confidence": 0.472
+      },
+      {
+        "paragraph": "Cases have been reported from 49 health zones (HZ) across five provinces: Ituri (28/36 HZ), North Kivu (11/34 HZ), South Kivu (1/34 HZ), Haut- Uélé (5...",
+        "label": "concerning escalation",
+        "confidence": 0.591
+      },
+      {
+        "paragraph": "An additional HZ, Wanie-Rukula in Tshopo, is awaiting data harmonisation at the health province level.",
+        "label": "concerning escalation",
+        "confidence": 0.715
+      },
+      {
+        "paragraph": "Of the 49 affected health zones, the outbreak remains active in 33, with confirmed cases reported within the past seven days. During this period, 641 ...",
+        "label": "emergency-level crisis",
+        "confidence": 0.552
+      },
+      {
+        "paragraph": "Ituri remains the most affected province, accounting for 88% (3176/3605) of all confirmed cases and 82.6% (1311/1587) of reported deaths nationwide. W...",
+        "label": "emergency-level crisis",
+        "confidence": 0.524
+      },
+      {
+        "paragraph": "As of 30 July, 17 863 contacts have been identified and are under follow-up across Ituri (11 638), North Kivu (5667), Haut-Uélé (458) and 65 in Tshopo...",
+        "label": "concerning escalation",
+        "confidence": 0.435
+      },
+      {
+        "paragraph": "Infections among health workers continue, with 151 confirmed cases, including 44 deaths (CFR: 29%) and 68 recoveries. These infections highlight ongoi...",
+        "label": "concerning escalation",
+        "confidence": 0.843
+      },
+      {
+        "paragraph": "The outbreak is occurring in a complex humanitarian and conflict-affected setting, characterized by population displacement, high population mobility,...",
+        "label": "concerning escalation",
+        "confidence": 0.803
+      },
+      {
+        "paragraph": "Insecurity and attacks affecting health facilities have hampered response operations in affected provinces, by restricting access for response teams, ...",
+        "label": "concerning escalation",
+        "confidence": 0.691
+      },
+      {
+        "paragraph": "Figure 2: Number of confirmed cases (n = 3605), in the Democratic Republic of the Congo, by date of reporting, as of 30 July 2026",
+        "label": "emergency-level crisis",
+        "confidence": 0.5
+      },
+      {
+        "paragraph": "* Note that the large number of reported cases on 22 July represents the completion of a data reconciliation exercise, including cases that occurred e...",
+        "label": "concerning escalation",
+        "confidence": 0.673
+      },
+      {
+        "paragraph": "Figure 3: Number of deaths among confirmed cases (n = 1587), in the Democratic Republic of the Congo,",
+        "label": "concerning escalation",
+        "confidence": 0.483
+      },
+      {
+        "paragraph": "* Note that the large number of reported deaths on 22 July represents the completion of a data reconciliation exercise, including deaths that occurred...",
+        "label": "concerning escalation",
+        "confidence": 0.529
+      },
+      {
+        "paragraph": "Bundibugyo virus disease (BVD) is a severe Ebola disease caused by the Bundibugyo virus, one of the",
+        "label": "concerning escalation",
+        "confidence": 0.711
+      },
+      {
+        "paragraph": "species. It is a zoonotic disease, with fruit bats suspected to be the natural reservoir.",
+        "label": "concerning escalation",
+        "confidence": 0.828
+      },
+      {
+        "paragraph": "Human infection is thought to occur through close contact with the blood or secretions of infected wildlife, such as bats or non-human primates, and i...",
+        "label": "concerning escalation",
+        "confidence": 0.768
+      },
+      {
+        "paragraph": "The incubation period for BVD ranges from two to 21 days, and infected individuals are not infectious until symptom onset. Early symptoms such as feve...",
+        "label": "concerning escalation",
+        "confidence": 0.928
+      },
+      {
+        "paragraph": "CFRs in the past two BVD outbreaks, reported in Uganda and in the Democratic Republic of the Congo in 2007 and 2012, were 30% and 50%, respectively.",
+        "label": "concerning escalation",
+        "confidence": 0.627
+      },
+      {
+        "paragraph": "Differentiating BVD from other endemic febrile illnesses such as malaria is challenging without laboratory confirmation using PCR or antigen- or antib...",
+        "label": "concerning escalation",
+        "confidence": 0.622
+      },
+      {
+        "paragraph": "identification, isolation and care, contact tracing, safe burials and strong community engagement, as no approved vaccines or specific treatments curr...",
+        "label": "emergency-level crisis",
+        "confidence": 0.516
+      },
+      {
+        "paragraph": "Health authorities in the Democratic Republic of the Congo, in collaboration with WHO and partners, continue to implement extensive public health meas...",
+        "label": "emergency-level crisis",
+        "confidence": 0.636
+      },
+      {
+        "paragraph": "For further information about public health response actions by the respective Ministry of Health, WHO and partners, please refer to the latest situat...",
+        "label": "emergency-level crisis",
+        "confidence": 0.455
+      },
+      {
+        "paragraph": "Ebola Bundibugyo Virus Disease Outbreak Democratic Republic of the Congo | Uganda Weekly External Situation Report | WHO | Regional Office for Africa",
+        "label": "emergency-level crisis",
+        "confidence": 0.57
+      },
+      {
+        "paragraph": "On 6 June 2026, WHO reassessed the risk of the outbreak of BVD to incorporate newly available information and align with the WHO",
+        "label": "concerning escalation",
+        "confidence": 0.623
+      },
+      {
+        "paragraph": ". The risk for countries sharing land borders with countries with documented Bundibugyo virus detection, the Democratic Republic of the Congo and Ugan...",
+        "label": "emergency-level crisis",
+        "confidence": 0.452
+      },
+      {
+        "paragraph": "The risk in the Democratic Republic of the Congo was assessed as very high due to ongoing transmission and the continued expansion of the outbreak int...",
+        "label": "concerning escalation",
+        "confidence": 0.928
+      },
+      {
+        "paragraph": "The risk in Uganda was assessed as high due to confirmed cross-border spread through imported cases and ongoing epidemiological links along the easter...",
+        "label": "concerning escalation",
+        "confidence": 0.812
+      },
+      {
+        "paragraph": "The risk for countries sharing land borders with countries reporting BDBV detection was assessed as high due to sustained population mobility linked t...",
+        "label": "concerning escalation",
+        "confidence": 0.612
+      },
+      {
+        "paragraph": "The risk for the rest of the African region and at the global level was assessed as low.",
+        "label": "routine update",
+        "confidence": 0.398
+      },
+      {
+        "paragraph": "WHO Rapid Risk Assessment – Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Uganda and countries with land borders adjoini...",
+        "label": "concerning escalation",
+        "confidence": 0.525
+      },
+      {
+        "paragraph": "An updated Rapid Risk Assessment is currently being developed in advance of the upcoming IHR Emergency Committee meeting regarding the epidemic of Ebo...",
+        "label": "emergency-level crisis",
+        "confidence": 0.701
+      },
+      {
+        "paragraph": "Based on the currently available information, WHO advises against any restriction of travel to, or trade with, affected countries. WHO continues to cl...",
+        "label": "emergency-level crisis",
+        "confidence": 0.418
+      },
+      {
+        "paragraph": "For further information on the considerations for implementing border health and international travel-related temporary recommendations, please see th...",
+        "label": "emergency-level crisis",
+        "confidence": 0.406
+      },
+      {
+        "paragraph": "issued to States Parties on 22 May 2026 underscore the importance of coordinated outbreak control, strengthened cross‑border collaboration, and sustai...",
+        "label": "concerning escalation",
+        "confidence": 0.664
+      },
+      {
+        "paragraph": "Rapid recognition of cases, testing and optimized supportive care can reduce mortality, and improve community perceptions and acceptance of health car...",
+        "label": "concerning escalation",
+        "confidence": 0.55
+      },
+      {
+        "paragraph": "WHO has convened several technical advisory groups, including the Strategic Advisory Group of Experts on Immunization (SAGE) to assess candidate vacci...",
+        "label": "emergency-level crisis",
+        "confidence": 0.453
+      },
+      {
+        "paragraph": "Regular Information products on the outbreak of BVD in the Democratic Republic of the Congo and Uganda",
+        "label": "routine update",
+        "confidence": 0.981
+      },
+      {
+        "paragraph": "Epidemiological update on BVD outbreak in Democratic Republic of the Congo and Uganda",
+        "label": "concerning escalation",
+        "confidence": 0.546
+      },
+      {
+        "paragraph": "Weekly External Situation Report on Ebola Bundibugyo Virus Disease Outbreak, Democratic Republic of the Congo | Uganda",
+        "label": "routine update",
+        "confidence": 0.913
+      },
+      {
+        "paragraph": "Disease Outbreak News | All Hazards Public Health Events, Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo",
+        "label": "concerning escalation",
+        "confidence": 0.593
+      },
+      {
+        "paragraph": "Africa CDC and WHO launch joint continental Ebola response plan",
+        "label": "emergency-level crisis",
+        "confidence": 0.652
+      },
+      {
+        "paragraph": "Bundibugyo Ebola virus | Continental preparedness and response plan: June-November      2026",
+        "label": "emergency-level crisis",
+        "confidence": 0.666
+      },
+      {
+        "paragraph": "Epidemic of Ebola Disease caused by Bundibugyo virus in the Democratic Republic of      the Congo and Uganda determined a public health emergency of i...",
+        "label": "emergency-level crisis",
+        "confidence": 0.904
+      },
+      {
+        "paragraph": "The Ministry of Public Health, Hygiene and Social Welfare, DRC, officially      declares the 17th Ebola Disease outbreak",
+        "label": "concerning escalation",
+        "confidence": 0.585
+      },
+      {
+        "paragraph": "Message by the WHO Director-General to the people of the Democratic Republic of      the Congo",
+        "label": "emergency-level crisis",
+        "confidence": 0.467
+      },
+      {
+        "paragraph": "At the frontline of trust: a day with Julienne Anoko WHO's Ebola Community      Engagement Officer in DRC",
+        "label": "emergency-level crisis",
+        "confidence": 0.523
+      },
+      {
+        "paragraph": "Decentralized testing speeds up Ebola response in the Democratic Republic of the Congo",
+        "label": "emergency-level crisis",
+        "confidence": 0.686
+      },
+      {
+        "paragraph": "Weekly External Situation Report. EBOLA BUNDIBUGYO VIRUS DISEASE OUTBREAK      Democratic Republic of the Congo | Uganda.",
+        "label": "routine update",
+        "confidence": 0.883
+      },
+      {
+        "paragraph": "Daily situation report, Ministry of Health, Democratic Republic of the Congo.",
+        "label": "routine update",
+        "confidence": 0.95
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo and Uganda 16 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.502
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo. 21 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.504
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo. 29 May 2026",
+        "label": "concerning escalation",
+        "confidence": 0.499
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo and Uganda 8 June 2026",
+        "label": "concerning escalation",
+        "confidence": 0.508
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo and Uganda 13 June 2026",
+        "label": "concerning escalation",
+        "confidence": 0.511
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic      Republic of the Congo and Uganda 19 June 2026",
+        "label": "concerning escalation",
+        "confidence": 0.515
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo and Uganda 3 July 2026",
+        "label": "concerning escalation",
+        "confidence": 0.513
+      },
+      {
+        "paragraph": "Disease outbreak news. Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo and Uganda 17 July 2026",
+        "label": "concerning escalation",
+        "confidence": 0.512
+      },
+      {
+        "paragraph": "WHO guidelines for the clinical management of filovirus disease",
+        "label": "concerning escalation",
+        "confidence": 0.494
+      },
+      {
+        "paragraph": "Infection prevention and control guideline for Ebola and Marburg disease. WHO.17 May      2026",
+        "label": "concerning escalation",
+        "confidence": 0.374
+      },
+      {
+        "paragraph": "Infection prevention and control and water, sanitation and hygiene in health      facilities during Ebola or Marburg disease outbreaks: rapid assessme...",
+        "label": "emergency-level crisis",
+        "confidence": 0.708
+      },
+      {
+        "paragraph": "Assessment and management of health and care workers with possible occupational      exposures to Orthoebolavirus or Orthomarburgvirus: implementation...",
+        "label": "concerning escalation",
+        "confidence": 0.397
+      },
+      {
+        "paragraph": "Optimized Supportive Care for Ebola Virus Disease. Clinical management standard      operating procedures. WHO. 2019",
+        "label": "routine update",
+        "confidence": 0.567
+      },
+      {
+        "paragraph": "Framework and toolkit for infection prevention and control in outbreak preparedness,      readiness and response at the national level",
+        "label": "routine update",
+        "confidence": 0.433
+      },
+      {
+        "paragraph": "Diagnostic testing for Ebola and Marburg virus diseases: interim guidance, 20      December 2024",
+        "label": "concerning escalation",
+        "confidence": 0.455
+      },
+      {
+        "paragraph": "Considerations for border health and points of entry for filovirus disease outbreaks",
+        "label": "concerning escalation",
+        "confidence": 0.689
+      },
+      {
+        "paragraph": "WHO Launches Online Training to Strengthen Filovirus Outbreak Response",
+        "label": "concerning escalation",
+        "confidence": 0.692
+      },
+      {
+        "paragraph": "Disease Outbreak News. Ebola outbreak in Democratic Republic of Congo – update.      WHO. 14 September 2012",
+        "label": "emergency-level crisis",
+        "confidence": 0.539
+      },
+      {
+        "paragraph": "Disease Outbreak News. Ebola outbreak in Democratic Republic of Congo – update.      WHO. 26 October 2012",
+        "label": "emergency-level crisis",
+        "confidence": 0.539
+      },
+      {
+        "paragraph": "#Data source: Centre des opérations d'urgences de sante publique (COUSP-DRC)",
+        "label": "emergency-level crisis",
+        "confidence": 0.464
+      },
+      {
+        "paragraph": "Citable reference:  World Health Organization (1 August 2026). Disease Outbreak News; Bundibugyo Virus Disease, Democratic Republic of the Congo. Avai...",
+        "label": "concerning escalation",
+        "confidence": 0.489
+      },
+      {
+        "paragraph": "https://www/who.int/emergencies/disease-outbreak/news/item/2026-DON614",
+        "label": "emergency-level crisis",
+        "confidence": 0.852
+      },
+      {
+        "paragraph": "Corrigendum: This Disease Outbreak News was revised on 3 August to include an update regarding the patients recovered in France and Germany.",
+        "label": "concerning escalation",
+        "confidence": 0.793
+      }
+    ]
+  }
+]

@@ -156,7 +156,7 @@ ax1.set_ylabel("New confirmed cases")
 ax1.set_xlabel("Date")
 
 ax2 = ax1.twinx()
-ax2.plot(zdf["date"], zdf["anomaly_score"], color="#b3261e", marker="o", markersize=3,
+ax2.plot(zdf["date"].to_numpy(), zdf["anomaly_score"].to_numpy(), color="#b3261e", marker="o", markersize=3,
           label="Anomaly score")
 ax2.axvline(zdf.iloc[BASELINE_DAYS]["date"], color="black", linestyle="--", alpha=0.5)
 ax2.text(zdf.iloc[BASELINE_DAYS]["date"], ax2.get_ylim()[1] * 0.9,

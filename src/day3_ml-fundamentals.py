@@ -49,8 +49,7 @@ from sklearn.metrics import (
 # Paths — adjust RAW_DIR if your folder structure differs
 # -----------------------------------------------------------------------
 RAW_DIR = Path(
-    "/home/student25/Documents/Coop_program/Quantum Arise/Week1-Bootcamp/"
-    "ViralWatch/QA-bootcamp-project-ViralWatch/data/raw/Ebola_DRC_2026"
+    "/home/student25/Pictures/QA/Viral watch/QA-bootcamp-project-ViralWatch/data/raw/Ebola_DRC_2026"
 )
 IN_DIR = Path("data/processed")
 OUT_DIR = Path("data/processed")

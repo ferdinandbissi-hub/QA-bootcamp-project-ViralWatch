@@ -25,9 +25,9 @@ import json
 from pathlib import Path
 
 # -----------------------------------------------------------------------
-# Paths
+# Paths — adjust RAW_DIR if your folder structure differs
 # -----------------------------------------------------------------------
-RAW_DIR = Path("/home/student25/Documents/Coop_program/Quantum Arise/Week1-Bootcamp/ViralWatch/QA-bootcamp-project-ViralWatch/data/raw/Ebola_DRC_2026")
+RAW_DIR = Path("/home/student25/Pictures/QA/Viral watch/QA-bootcamp-project-ViralWatch/data/raw/Ebola_DRC_2026")
 OUT_DIR = Path("data/processed")
 PLOTS_DIR = Path("notebooks/plots")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
