@@ -2,23 +2,28 @@
   {
     "bulletin": "DON602_2026-05-17",
     "locations_mentioned": [
+      "##che bio",
+      "##hasa",
+      "##ib",
+      "##ns",
       "Bundibug",
       "DRC",
       "Democratic Republic of the Congo",
+      "I",
       "INRB",
       "Institut national de re",
       "Ituri Province",
       "Kampala",
+      "Ki",
       "Ministry of Public Health, Hygiene and Social Welfare",
       "Mongbwalu Health Zone",
+      "P",
       "Rwampara Health Zone",
       "States Parties",
       "Uganda",
       "Uganda Ministry of Health",
       "WHO",
-      "World Health Organization",
-      "che bio",
-      "hasa"
+      "World Health Organization"
     ],
     "case_death_counts": [
       {
@@ -638,9 +643,13 @@
   {
     "bulletin": "DON603_2026-05-21",
     "locations_mentioned": [
+      "##undib",
+      "##undibug",
       "Congo",
+      "DR",
       "DRC",
       "Democratic Republic of",
+      "E",
       "Germany",
       "IHR",
       "IHR Emergency Committee",
@@ -649,15 +658,14 @@
       "Ministry of Public Health, Hygiene and Social",
       "Ministry of Public Health, Hygiene and Social Welfare",
       "North Kivu",
+      "P",
       "Republic",
       "South Kivu",
       "States",
       "Uganda",
       "WHO",
       "World Health Organization",
-      "the",
-      "undib",
-      "undibug"
+      "the"
     ],
     "case_death_counts": [
       {
@@ -1647,7 +1655,9 @@
   {
     "bulletin": "DON605_2026-05-29",
     "locations_mentioned": [
+      "##undib",
       "America",
+      "B",
       "Congo",
       "Democratic",
       "Democratic Republic of the Congo",
@@ -1659,8 +1669,7 @@
       "Uganda",
       "United States",
       "United States of America",
-      "WHO",
-      "undib"
+      "WHO"
     ],
     "case_death_counts": [
       {
@@ -2050,14 +2059,14 @@
   {
     "bulletin": "DON606_2026-06-08",
     "locations_mentioned": [
+      "##undib",
       "Africa CDC",
       "Africa Centres for Disease Control and Prevention",
       "Congo",
       "Democratic Republic of the Congo",
       "Republic",
       "Uganda",
-      "WHO",
-      "undib"
+      "WHO"
     ],
     "case_death_counts": [
       {
@@ -2437,6 +2446,9 @@
   {
     "bulletin": "DON612_2026-07-03",
     "locations_mentioned": [
+      "##ib",
+      "##und",
+      "##undib",
       "African Region",
       "Congo",
       "DRC",
@@ -2444,9 +2456,7 @@
       "Democratic Republic of the Congo",
       "France",
       "Uganda",
-      "WHO",
-      "und",
-      "undib"
+      "WHO"
     ],
     "case_death_counts": [
       {
@@ -2896,6 +2906,8 @@
   {
     "bulletin": "DON613_2026-07-17",
     "locations_mentioned": [
+      "##undib",
+      "##undibug",
       "African Region",
       "Congo",
       "Democratic Republic",
@@ -2905,9 +2917,7 @@
       "Uganda",
       "United States",
       "United States of America",
-      "WHO",
-      "undib",
-      "undibug"
+      "WHO"
     ],
     "case_death_counts": [
       {
@@ -3402,20 +3412,23 @@
   {
     "bulletin": "DON614_2026-08-01",
     "locations_mentioned": [
+      "##shopo",
+      "##und",
+      "##uri Province",
+      "##ut - Uélé",
       "African Region",
       "Congo",
       "Democratic Republic of the Congo",
       "France",
+      "Ha",
+      "It",
       "Ituri",
       "Mongbwalu",
       "North Kivu",
       "South Kivu",
+      "T",
       "Uganda",
-      "WHO",
-      "shopo",
-      "und",
-      "uri Province",
-      "ut - Uélé"
+      "WHO"
     ],
     "case_death_counts": [
       {

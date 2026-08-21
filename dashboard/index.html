@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ViralWatch — Early-Warning Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #FFFFFF;
+    --panel: #F7F8FA;
+    --panel-alt: #EEF1F5;
+    --border: #DDE3EC;
+    --text: #16202E;
+    --text-dim: #5C6B82;
+    --text-faint: #93A0B4;
+    --cool: #0F9C8E;
+    --warm: #C97F1B;
+    --hot: #C7362D;
+    --watch: #4C63D6;
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    line-height: 1.5;
+    padding: 0 0 64px;
+  }
+
+  a { color: inherit; }
+
+  /* ---------- Header ---------- */
+  header {
+    padding: 28px clamp(16px, 4vw, 48px) 20px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .brand h1 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(20px, 2.4vw, 26px);
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+
+  .brand .sub {
+    color: var(--text-dim);
+    font-size: 13px;
+    font-family: var(--font-mono);
+  }
+
+  .status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+
+  .live-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--cool);
+    box-shadow: 0 0 0 0 rgba(15, 156, 142, 0.6);
+    animation: pulse 2.2s infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .live-dot, .scanline { animation: none !important; }
+  }
+
+  @keyframes pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(15, 156, 142, 0.55); }
+    70%  { box-shadow: 0 0 0 8px rgba(15, 156, 142, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(15, 156, 142, 0); }
+  }
+
+  main {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 clamp(16px, 4vw, 48px);
+  }
+
+  section { margin-top: 32px; }
+
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    margin: 0 0 10px;
+  }
+
+  h2 {
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 4px;
+  }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  /* ---------- Watchlist ---------- */
+  .watchlist-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .scanline {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--watch) 20%, var(--watch) 80%, transparent);
+    background-size: 200% 100%;
+    animation: sweep 3.4s linear infinite;
+    margin-bottom: 16px;
+    opacity: 0.6;
+  }
+
+  @keyframes sweep {
+    0%   { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  .chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .chip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--panel-alt);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 8px 14px 8px 10px;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    cursor: pointer;
+    transition: border-color 0.15s ease;
+  }
+
+  .chip:hover { border-color: var(--watch); }
+
+  .dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .chip .province {
+    color: var(--text-faint);
+    font-size: 11px;
+  }
+
+  /* ---------- Two-column layout ---------- */
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 20px;
+  }
+
+  @media (max-width: 860px) {
+    .grid-2 { grid-template-columns: 1fr; }
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--font-mono);
+    font-size: 13px;
+  }
+
+  th {
+    text-align: left;
+    color: var(--text-faint);
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 6px 8px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  td {
+    padding: 8px;
+    border-bottom: 1px solid rgba(34, 48, 74, 0.5);
+    vertical-align: middle;
+  }
+
+  tr:last-child td { border-bottom: none; }
+
+  .zone-name { font-family: var(--font-body); font-weight: 500; }
+
+  .badge-watch {
+    display: inline-block;
+    font-size: 10px;
+    font-family: var(--font-mono);
+    color: var(--watch);
+    border: 1px solid rgba(76, 99, 214, 0.4);
+    background: rgba(76, 99, 214, 0.08);
+    border-radius: 5px;
+    padding: 1px 5px;
+    margin-left: 6px;
+  }
+
+  .score-bar-bg {
+    width: 100%;
+    height: 6px;
+    background: var(--panel-alt);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .score-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+  }
+
+  .filter-toggle {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--text-dim);
+    background: var(--panel-alt);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+
+  .filter-toggle.active {
+    color: var(--watch);
+    border-color: var(--watch);
+  }
+
+  /* ---------- Predict panel ---------- */
+  .predict-form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  input[type="text"] {
+    flex: 1;
+    background: var(--panel-alt);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text);
+    font-family: var(--font-mono);
+    font-size: 13px;
+    padding: 9px 10px;
+  }
+
+  input[type="text"]:focus, .chip:focus-visible, button:focus-visible, .filter-toggle:focus-visible {
+    outline: 2px solid var(--watch);
+    outline-offset: 1px;
+  }
+
+  button.primary {
+    background: var(--watch);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 13px;
+    padding: 9px 16px;
+    cursor: pointer;
+  }
+
+  button.primary:hover { filter: brightness(1.08); }
+
+  .predict-result .zone-title {
+    font-family: var(--font-display);
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+
+  .predict-result .zone-meta {
+    color: var(--text-dim);
+    font-size: 12px;
+    font-family: var(--font-mono);
+    margin-bottom: 16px;
+  }
+
+  .model-row { margin-bottom: 14px; }
+
+  .model-row .label-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: var(--font-mono);
+    margin-bottom: 4px;
+    color: var(--text-dim);
+  }
+
+  .model-row .label-row strong { color: var(--text); }
+
+  .empty-state, .error-state {
+    color: var(--text-dim);
+    font-size: 13px;
+    padding: 10px 0;
+  }
+
+  .error-state { color: var(--warm); }
+
+  /* ---------- Briefing ---------- */
+  .briefing-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+
+  .severity-badge {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-radius: 5px;
+    padding: 3px 8px;
+  }
+
+  .sev-routine { background: rgba(15, 156, 142, 0.10); color: var(--cool); border: 1px solid rgba(15, 156, 142, 0.35); }
+  .sev-escalation { background: rgba(201, 127, 27, 0.10); color: var(--warm); border: 1px solid rgba(201, 127, 27, 0.35); }
+  .sev-crisis { background: rgba(199, 54, 45, 0.10); color: var(--hot); border: 1px solid rgba(199, 54, 45, 0.35); }
+
+  .stat-row {
+    display: flex;
+    gap: 24px;
+    margin: 14px 0 18px;
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    font-family: var(--font-mono);
+  }
+
+  .stat .n {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .stat .l {
+    font-size: 11px;
+    color: var(--text-faint);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .quote {
+    border-left: 2px solid var(--hot);
+    padding-left: 14px;
+    font-size: 14px;
+    color: var(--text-dim);
+    font-style: italic;
+  }
+
+  footer {
+    max-width: 1180px;
+    margin: 40px auto 0;
+    padding: 16px clamp(16px, 4vw, 48px);
+    color: var(--text-faint);
+    font-size: 12px;
+    font-family: var(--font-mono);
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <h1>ViralWatch</h1>
+    <span class="sub">Bundibugyo virus disease · DRC 2026</span>
+  </div>
+  <div class="status">
+    <span class="live-dot" aria-hidden="true"></span>
+    <span id="last-updated">Connecting to API…</span>
+    <button class="filter-toggle" id="refresh-btn" style="margin-left:8px;">Refresh</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===================== Cross-border watchlist ===================== -->
+  <section>
+    <div class="watchlist-head">
+      <div>
+        <p class="eyebrow">Cross-border watchlist</p>
+        <h2>Nord-Kivu &amp; Sud-Kivu — zones bordering Rwanda</h2>
+      </div>
+    </div>
+    <div class="scanline" aria-hidden="true"></div>
+    <div class="panel">
+      <div class="chip-row" id="watchlist-chips">
+        <span class="empty-state">Loading watchlist…</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Ranking + Predict ===================== -->
+  <section class="grid-2">
+    <div>
+      <p class="eyebrow">Anomaly ranking</p>
+      <h2>Early warning — all zones</h2>
+      <div class="panel" style="margin-top:14px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+          <span style="font-size:12px; color:var(--text-dim); font-family:var(--font-mono);">Ranked by One-Class SVM anomaly score</span>
+          <button class="filter-toggle" id="cb-filter">Cross-border only</button>
+        </div>
+        <table>
+          <thead>
+            <tr><th>#</th><th>Zone</th><th>Score</th></tr>
+          </thead>
+          <tbody id="ranking-body">
+            <tr><td colspan="3" class="empty-state">Loading rankings…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div>
+      <p class="eyebrow">Zone lookup</p>
+      <h2>Next-7-day onset probability</h2>
+      <div class="panel" style="margin-top:14px;">
+        <div class="predict-form">
+          <input type="text" id="zone-input" placeholder="e.g. Goma" autocomplete="off">
+          <button class="primary" id="predict-btn">Predict</button>
+        </div>
+        <div id="predict-result">
+          <p class="empty-state">Click a zone chip above, or type a zone name and press Predict.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Briefing ===================== -->
+  <section>
+    <p class="eyebrow">NLP briefing</p>
+    <h2>Latest WHO Disease Outbreak News</h2>
+    <div class="panel" style="margin-top:14px;" id="briefing-panel">
+      <p class="empty-state">Loading briefing…</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  ViralWatch — capstone early-warning system · data via INRB-UMIE / INSP SitReps · API at <span id="api-base-footer"></span>
+</footer>
+
+<script>
+// -----------------------------------------------------------------------
+// Point this at wherever `uvicorn api.main:app` is running.
+// -----------------------------------------------------------------------
+const API_BASE = "http://127.0.0.1:8000";
+document.getElementById("api-base-footer").textContent = API_BASE;
+
+let latestEarlyWarning = null;
+let crossBorderOnly = false;
+
+function setLastUpdated(ok) {
+  const el = document.getElementById("last-updated");
+  const now = new Date().toLocaleTimeString();
+  el.textContent = ok ? `Live · updated ${now}` : `Connection issue · ${now}`;
+  document.querySelector(".live-dot").style.background = ok ? "var(--cool)" : "var(--hot)";
+}
+
+function scoreColor(score, maxScore) {
+  const ratio = maxScore > 0 ? Math.min(score / maxScore, 1) : 0;
+  if (ratio > 0.66) return "var(--hot)";
+  if (ratio > 0.33) return "var(--warm)";
+  return "var(--cool)";
+}
+
+// ===================== Watchlist + Ranking (shared /earlywarning call) =====================
+async function loadEarlyWarning() {
+  const chipsEl = document.getElementById("watchlist-chips");
+  const bodyEl = document.getElementById("ranking-body");
+  try {
+    const res = await fetch(`${API_BASE}/earlywarning?limit=200`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    latestEarlyWarning = data;
+    setLastUpdated(true);
+
+    const maxScore = Math.max(...data.zones.map(z => z.anomaly_score), 0.0001);
+
+    // Watchlist chips: cross-border zones only, sorted by score desc (already ranked)
+    const cbZones = data.zones.filter(z => z.cross_border_watch);
+    chipsEl.innerHTML = "";
+    if (cbZones.length === 0) {
+      chipsEl.innerHTML = `<span class="empty-state">No Nord-Kivu / Sud-Kivu zones have scores yet.</span>`;
+    } else {
+      cbZones.forEach(z => {
+        const chip = document.createElement("button");
+        chip.className = "chip";
+        chip.setAttribute("aria-label", `Predict onset for ${z.zone}`);
+        chip.innerHTML = `<span class="dot" style="background:${scoreColor(z.anomaly_score, maxScore)}"></span>${z.zone} <span class="province">· ${z.province}</span>`;
+        chip.onclick = () => {
+          document.getElementById("zone-input").value = z.zone;
+          predictZone(z.zone);
+          window.scrollTo({ top: document.getElementById("ranking-body").closest("section").offsetTop - 20, behavior: "smooth" });
+        };
+        chipsEl.appendChild(chip);
+      });
+    }
+
+    renderRanking(data.zones, maxScore);
+  } catch (err) {
+    setLastUpdated(false);
+    chipsEl.innerHTML = `<span class="error-state">Couldn't reach the API at ${API_BASE}. Is uvicorn running?</span>`;
+    bodyEl.innerHTML = `<tr><td colspan="3" class="error-state">Couldn't load rankings — check the API server.</td></tr>`;
+  }
+}
+
+function renderRanking(zones, maxScore) {
+  const bodyEl = document.getElementById("ranking-body");
+  const shown = (crossBorderOnly ? zones.filter(z => z.cross_border_watch) : zones).slice(0, 15);
+
+  if (shown.length === 0) {
+    bodyEl.innerHTML = `<tr><td colspan="3" class="empty-state">No zones match this filter.</td></tr>`;
+    return;
+  }
+
+  bodyEl.innerHTML = shown.map((z, i) => {
+    const pct = maxScore > 0 ? Math.min((z.anomaly_score / maxScore) * 100, 100) : 0;
+    const color = scoreColor(z.anomaly_score, maxScore);
+    return `
+      <tr>
+        <td>${i + 1}</td>
+        <td class="zone-name">${z.zone}${z.cross_border_watch ? '<span class="badge-watch">BORDER</span>' : ""}</td>
+        <td>
+          <div style="display:flex; align-items:center; gap:8px;">
+            <div class="score-bar-bg" style="max-width:70px;">
+              <div class="score-bar-fill" style="width:${pct}%; background:${color};"></div>
+            </div>
+            <span>${z.anomaly_score.toFixed(2)}</span>
+          </div>
+        </td>
+      </tr>`;
+  }).join("");
+}
+
+document.getElementById("cb-filter").addEventListener("click", (e) => {
+  crossBorderOnly = !crossBorderOnly;
+  e.target.classList.toggle("active", crossBorderOnly);
+  e.target.textContent = crossBorderOnly ? "Showing cross-border" : "Cross-border only";
+  if (latestEarlyWarning) {
+    const maxScore = Math.max(...latestEarlyWarning.zones.map(z => z.anomaly_score), 0.0001);
+    renderRanking(latestEarlyWarning.zones, maxScore);
+  }
+});
+
+// ===================== Predict =====================
+async function predictZone(zoneName) {
+  const resultEl = document.getElementById("predict-result");
+  resultEl.innerHTML = `<p class="empty-state">Predicting…</p>`;
+  try {
+    const res = await fetch(`${API_BASE}/predict/${encodeURIComponent(zoneName)}`);
+    if (res.status === 404) {
+      resultEl.innerHTML = `<p class="error-state">"${zoneName}" isn't a recognized health zone. Check spelling against the official zone list.</p>`;
+      return;
+    }
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const d = await res.json();
+
+    resultEl.innerHTML = `
+      <div class="predict-result">
+        <div class="zone-title">${d.zone}${d.cross_border_watch ? '<span class="badge-watch">BORDER</span>' : ""}</div>
+        <div class="zone-meta">${d.province} · ${d.has_case_data ? `${d.cumulative_confirmed_cases.toFixed(0)} cumulative cases` : "no cases reported yet"} · pop. density ${d.population_density.toFixed(0)}/km²</div>
+
+        <div class="model-row">
+          <div class="label-row"><span>Keras network</span><strong>${(d.next_7d_onset_probability * 100).toFixed(1)}%</strong></div>
+          <div class="score-bar-bg"><div class="score-bar-fill" style="width:${d.next_7d_onset_probability * 100}%; background:var(--watch);"></div></div>
+        </div>
+        <div class="model-row">
+          <div class="label-row"><span>RandomForest baseline</span><strong>${(d.baseline_rf_probability * 100).toFixed(1)}%</strong></div>
+          <div class="score-bar-bg"><div class="score-bar-fill" style="width:${d.baseline_rf_probability * 100}%; background:var(--text-faint);"></div></div>
+        </div>
+      </div>`;
+  } catch (err) {
+    resultEl.innerHTML = `<p class="error-state">Couldn't reach the API. Is uvicorn running at ${API_BASE}?</p>`;
+  }
+}
+
+document.getElementById("predict-btn").addEventListener("click", () => {
+  const zone = document.getElementById("zone-input").value.trim();
+  if (zone) predictZone(zone);
+});
+document.getElementById("zone-input").addEventListener("keydown", (e) => {
+  if (e.key === "Enter") document.getElementById("predict-btn").click();
+});
+
+// ===================== Briefing =====================
+function severityClass(label) {
+  if (label === "emergency-level crisis") return "sev-crisis";
+  if (label === "concerning escalation") return "sev-escalation";
+  return "sev-routine";
+}
+
+async function loadBriefing() {
+  const panel = document.getElementById("briefing-panel");
+  try {
+    const res = await fetch(`${API_BASE}/briefing`);
+    if (res.status === 503) {
+      panel.innerHTML = `<p class="error-state">No bulletin extractions yet — run <code>src/day4_nlp_extraction.py</code> and restart the API.</p>`;
+      return;
+    }
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const d = await res.json();
+    const b = d.latest_bulletin;
+
+    const caseCounts = b.case_death_counts.filter(c => c.type === "cases");
+    const deathCounts = b.case_death_counts.filter(c => c.type === "deaths");
+    const biggestCase = caseCounts.length ? Math.max(...caseCounts.map(c => c.value)) : null;
+    const biggestDeath = deathCounts.length ? Math.max(...deathCounts.map(c => c.value)) : null;
+
+    panel.innerHTML = `
+      <div class="briefing-head">
+        <h2 style="margin:0;">${b.bulletin}</h2>
+        ${b.most_severe_paragraph ? `<span class="severity-badge ${severityClass(b.most_severe_paragraph.label)}">${b.most_severe_paragraph.label}</span>` : ""}
+      </div>
+      <div class="stat-row">
+        ${biggestCase !== null ? `<div class="stat"><div class="n">${biggestCase.toLocaleString()}</div><div class="l">Confirmed cases</div></div>` : ""}
+        ${biggestDeath !== null ? `<div class="stat"><div class="n">${biggestDeath.toLocaleString()}</div><div class="l">Deaths</div></div>` : ""}
+        <div class="stat"><div class="n">${b.locations_mentioned.length}</div><div class="l">Locations mentioned</div></div>
+        <div class="stat"><div class="n">${d.bulletin_count}</div><div class="l">Bulletins on file</div></div>
+      </div>
+      ${b.most_severe_paragraph ? `<p class="quote">"${b.most_severe_paragraph.paragraph}"</p>` : ""}
+    `;
+  } catch (err) {
+    panel.innerHTML = `<p class="error-state">Couldn't reach the API. Is uvicorn running at ${API_BASE}?</p>`;
+  }
+}
+
+// ===================== Init =====================
+function loadAll() {
+  loadEarlyWarning();
+  loadBriefing();
+}
+document.getElementById("refresh-btn").addEventListener("click", loadAll);
+loadAll();
+</script>
+
+</body>
+</html>
